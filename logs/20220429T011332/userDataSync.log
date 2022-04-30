@@ -235,3 +235,10 @@
 [2022-04-30 00:01:31.412] [userDataSync] [info] GlobalState: No changes found during synchronizing ui state.
 [2022-04-30 00:01:31.583] [userDataSync] [info] Extensions: No changes found during synchronizing extensions.
 [2022-04-30 00:01:31.584] [userDataSync] [info] Sync done. Took 213ms
+[2022-04-30 00:06:34.491] [userDataSync] [info] Auto Sync: Triggered by Interval
+[2022-04-30 00:06:34.739] [userDataSync] [info] Settings: No changes found during synchronizing settings.
+[2022-04-30 00:06:34.760] [userDataSync] [info] Keybindings: No changes found during synchronizing keybindings.
+[2022-04-30 00:06:34.762] [userDataSync] [info] Snippets: No changes found during synchronizing snippets.
+[2022-04-30 00:06:34.775] [userDataSync] [info] GlobalState: No changes found during synchronizing ui state.
+[2022-04-30 00:06:34.898] [userDataSync] [info] Extensions: No changes found during synchronizing extensions.
+[2022-04-30 00:06:34.899] [userDataSync] [info] Sync done. Took 168ms

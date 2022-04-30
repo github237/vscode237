@@ -1,0 +1,22 @@
+
+git init
+git add -A
+git commit -m 'Added my project'
+git remote add origin git@github.com:sammy/my-new-project.git
+git push -u -f origin master
+
+
+
+1370  git init
+ 1371  git log
+  1372  ls -as
+   1373  cat .git/config 
+    1374  rm -rf .git
+     1375  git init
+      1376  du -shx *
+       1377  git add  .
+        1378  git commit  -m "init vscode" -a
+         1379  git remote add origin git@github.com:github237/vscode237.git
+          1380  git push -u -f origin master
+           1381  vi git-int.pass
+
