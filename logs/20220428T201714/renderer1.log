@@ -1,0 +1,16 @@
+[2022-04-28 20:23:02.598] [renderer1] [warning] {}
+[2022-04-28 20:24:11.070] [renderer1] [error] The request (id: 252, method: 'textDocument/hover') has been cancelled: Error: The request (id: 252, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:24:22.691] [renderer1] [error] The request (id: 259, method: 'workspace/executeCommand') has been cancelled: Error: The request (id: 259, method: 'workspace/executeCommand') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:24:26.503] [renderer1] [error] The request (id: 271, method: 'textDocument/hover') has been cancelled: Error: The request (id: 271, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)

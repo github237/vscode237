@@ -1,0 +1,102 @@
+Looking for git in: git
+Using git 2.27.0 from git
+> git rev-parse --git-dir
+Open repository: /mnt/hgfs/georgezhang/leetcode
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :misc/0621.taskschedule.cc
+> git ls-files --stage -- /mnt/hgfs/georgezhang/leetcode/misc/0621.taskschedule.cc
+> git cat-file -s f0e00203fd681d701d3d1bbe08ef76690266de56
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :misc/.vscode/launch.json
+> git ls-files --stage -- /mnt/hgfs/georgezhang/leetcode/misc/.vscode/launch.json
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :misc/0621.taskschedule.cc
+> git ls-files --stage -- /mnt/hgfs/georgezhang/leetcode/misc/0621.taskschedule.cc
+> git cat-file -s f0e00203fd681d701d3d1bbe08ef76690266de56
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :misc/0045.jumpGame.cc
+> git ls-files --stage -- /mnt/hgfs/georgezhang/leetcode/misc/0045.jumpGame.cc
+> git cat-file -s 5d8e1710746fdf18b525e914f6ca582a7514ef99
+> git check-ignore -v -z --stdin
+> git show --textconv :misc/1970.grid.cross.cc
+> git ls-files --stage -- /mnt/hgfs/georgezhang/leetcode/misc/1970.grid.cross.cc
+> git cat-file -s 64c5ce0c6fc4f2100fa8bea1372c62dcbd9198b9
+> git show --textconv :misc/cc.lower_bound.cc
+> git ls-files --stage -- /mnt/hgfs/georgezhang/leetcode/misc/cc.lower_bound.cc
+> git cat-file -s 9c3d3f121c67d0e785b9f94991a878265cc3f07e
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /mnt/hgfs/georgezhang/leetcode/misc/cc.lower_bound.cc
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /mnt/hgfs/georgezhang/leetcode/misc/cc.lower_bound.cc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template

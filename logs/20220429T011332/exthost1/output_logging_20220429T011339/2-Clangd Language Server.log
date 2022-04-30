@@ -1,0 +1,2198 @@
+I[01:13:40.554] clangd version 11.0.1 (Red Hat 11.0.1-1.module_el8.4.0+966+2995ef20)
+I[01:13:40.554] PID: 29889
+I[01:13:40.554] Working directory: /home/georgezhang/Shared/leet
+I[01:13:40.554] argv[0]: /usr/bin/clangd
+I[01:13:40.554] Starting LSP over stdin/stdout
+I[01:13:40.556] <-- initialize(0)
+I[01:13:40.556] Client supports legacy semanticHighlights notification and standard semanticTokens request, choosing the latter (no notifications).
+I[01:13:40.587] --> reply:initialize(0) 30 ms
+I[01:13:40.657] <-- initialized
+I[01:13:40.657] <-- textDocument/didOpen
+I[01:13:40.793] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:13:40.794] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 1 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:13:40.813] --> textDocument/clangd.fileStatus
+I[01:13:40.954] --> textDocument/publishDiagnostics
+I[01:13:40.954] --> textDocument/clangd.fileStatus
+I[01:13:42.017] <-- textDocument/documentSymbol(1)
+I[01:13:42.017] <-- textDocument/codeAction(2)
+I[01:13:42.017] <-- textDocument/documentLink(3)
+I[01:13:42.017] <-- textDocument/hover(4)
+I[01:13:42.018] <-- $/cancelRequest
+I[01:13:42.018] <-- textDocument/documentSymbol(5)
+I[01:13:42.018] <-- $/cancelRequest
+I[01:13:42.018] <-- textDocument/codeAction(6)
+I[01:13:42.021] --> reply:textDocument/documentSymbol(1) 3 ms, error: Task was cancelled.
+I[01:13:42.021] --> reply:textDocument/codeAction(2) 3 ms, error: Task was cancelled.
+I[01:13:42.021] --> reply:textDocument/documentLink(3) 3 ms
+I[01:13:42.050] --> reply:textDocument/hover(4) 32 ms
+I[01:13:42.050] --> reply:textDocument/documentSymbol(5) 32 ms
+I[01:13:42.050] --> reply:textDocument/codeAction(6) 32 ms
+I[01:13:42.050] --> textDocument/clangd.fileStatus
+I[01:13:42.258] <-- textDocument/hover(7)
+I[01:13:42.295] --> reply:textDocument/hover(7) 36 ms
+I[01:13:42.295] --> textDocument/clangd.fileStatus
+I[01:13:43.405] <-- textDocument/documentLink(8)
+I[01:13:43.405] --> reply:textDocument/documentLink(8) 0 ms
+I[01:13:43.405] --> textDocument/clangd.fileStatus
+I[01:13:44.709] <-- textDocument/hover(9)
+I[01:13:44.709] <-- $/cancelRequest
+I[01:13:44.710] --> reply:textDocument/hover(9) 1 ms, error: Task was cancelled.
+I[01:13:44.710] --> textDocument/clangd.fileStatus
+I[01:13:44.858] <-- textDocument/hover(10)
+I[01:13:44.859] --> reply:textDocument/hover(10) 1 ms
+I[01:13:44.859] --> textDocument/clangd.fileStatus
+I[01:14:12.997] <-- textDocument/hover(11)
+I[01:14:13.015] --> reply:textDocument/hover(11) 17 ms
+I[01:14:13.015] --> textDocument/clangd.fileStatus
+I[01:14:13.023] <-- textDocument/documentHighlight(12)
+I[01:14:13.023] <-- $/cancelRequest
+I[01:14:13.023] --> reply:textDocument/documentHighlight(12) 0 ms
+I[01:14:13.023] --> textDocument/clangd.fileStatus
+I[01:14:13.263] <-- textDocument/codeAction(13)
+I[01:14:13.263] --> reply:textDocument/codeAction(13) 0 ms
+I[01:14:13.263] --> textDocument/clangd.fileStatus
+I[01:14:31.643] <-- textDocument/hover(14)
+I[01:14:31.656] --> reply:textDocument/hover(14) 12 ms
+I[01:14:31.656] --> textDocument/clangd.fileStatus
+I[01:14:32.035] <-- textDocument/hover(15)
+I[01:14:32.037] --> reply:textDocument/hover(15) 2 ms
+I[01:14:32.037] --> textDocument/clangd.fileStatus
+I[01:14:38.764] <-- textDocument/hover(16)
+I[01:14:38.766] --> reply:textDocument/hover(16) 2 ms
+I[01:14:38.767] --> textDocument/clangd.fileStatus
+I[01:14:39.196] <-- textDocument/didChange
+I[01:14:39.198] --> textDocument/clangd.fileStatus
+I[01:14:39.306] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:39.306] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 2 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:39.308] --> textDocument/clangd.fileStatus
+I[01:14:39.308] --> textDocument/clangd.fileStatus
+I[01:14:39.315] --> textDocument/clangd.fileStatus
+I[01:14:39.326] --> textDocument/publishDiagnostics
+I[01:14:39.326] --> textDocument/clangd.fileStatus
+I[01:14:39.591] <-- textDocument/codeAction(17)
+I[01:14:39.591] --> reply:textDocument/codeAction(17) 0 ms
+I[01:14:39.591] --> textDocument/clangd.fileStatus
+I[01:14:39.990] <-- textDocument/codeAction(18)
+I[01:14:39.991] --> reply:textDocument/codeAction(18) 0 ms
+I[01:14:39.991] --> textDocument/clangd.fileStatus
+I[01:14:40.190] <-- textDocument/documentLink(19)
+I[01:14:40.190] --> reply:textDocument/documentLink(19) 0 ms
+I[01:14:40.190] --> textDocument/clangd.fileStatus
+I[01:14:40.371] <-- textDocument/documentSymbol(20)
+I[01:14:40.371] --> reply:textDocument/documentSymbol(20) 0 ms
+I[01:14:40.371] --> textDocument/clangd.fileStatus
+I[01:14:40.602] <-- textDocument/didChange
+I[01:14:40.604] --> textDocument/clangd.fileStatus
+I[01:14:40.677] <-- textDocument/completion(21)
+I[01:14:40.700] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:14:40.700] Code complete: 7 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 7 returned.
+I[01:14:40.700] --> reply:textDocument/completion(21) 23 ms
+I[01:14:40.712] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:40.713] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 3 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:40.714] --> textDocument/clangd.fileStatus
+I[01:14:40.714] --> textDocument/clangd.fileStatus
+I[01:14:40.715] --> textDocument/clangd.fileStatus
+I[01:14:40.724] --> textDocument/publishDiagnostics
+I[01:14:40.724] --> textDocument/clangd.fileStatus
+I[01:14:40.872] <-- textDocument/didChange
+I[01:14:40.874] <-- textDocument/completion(22)
+I[01:14:40.874] --> textDocument/clangd.fileStatus
+I[01:14:40.914] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:14:40.914] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[01:14:40.914] --> reply:textDocument/completion(22) 40 ms
+I[01:14:40.925] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:40.925] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 4 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:40.926] --> textDocument/clangd.fileStatus
+I[01:14:40.926] --> textDocument/clangd.fileStatus
+I[01:14:40.926] --> textDocument/clangd.fileStatus
+I[01:14:40.944] --> textDocument/publishDiagnostics
+I[01:14:40.945] --> textDocument/clangd.fileStatus
+I[01:14:41.212] <-- textDocument/codeAction(23)
+I[01:14:41.212] --> reply:textDocument/codeAction(23) 0 ms
+I[01:14:41.212] --> textDocument/clangd.fileStatus
+I[01:14:41.598] <-- textDocument/documentLink(24)
+I[01:14:41.598] --> reply:textDocument/documentLink(24) 0 ms
+I[01:14:41.598] --> textDocument/clangd.fileStatus
+I[01:14:41.658] <-- textDocument/codeAction(25)
+I[01:14:41.659] --> reply:textDocument/codeAction(25) 0 ms
+I[01:14:41.659] --> textDocument/clangd.fileStatus
+I[01:14:42.021] <-- textDocument/documentSymbol(26)
+I[01:14:42.021] --> reply:textDocument/documentSymbol(26) 0 ms
+I[01:14:42.021] --> textDocument/clangd.fileStatus
+I[01:14:45.732] <-- textDocument/didChange
+I[01:14:45.740] <-- textDocument/completion(27)
+I[01:14:45.740] --> textDocument/clangd.fileStatus
+I[01:14:45.750] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:14:45.750] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[01:14:45.750] --> reply:textDocument/completion(27) 9 ms
+I[01:14:45.791] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:45.791] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 5 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:45.792] --> textDocument/clangd.fileStatus
+I[01:14:45.792] --> textDocument/clangd.fileStatus
+I[01:14:45.792] --> textDocument/clangd.fileStatus
+I[01:14:45.803] --> textDocument/publishDiagnostics
+I[01:14:45.803] --> textDocument/clangd.fileStatus
+I[01:14:46.065] <-- textDocument/codeAction(28)
+I[01:14:46.066] --> reply:textDocument/codeAction(28) 0 ms
+I[01:14:46.066] --> textDocument/clangd.fileStatus
+I[01:14:46.274] <-- textDocument/didChange
+I[01:14:46.297] <-- textDocument/completion(29)
+I[01:14:46.297] --> reply:textDocument/completion(29) 0 ms
+I[01:14:46.297] --> textDocument/clangd.fileStatus
+I[01:14:46.347] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:46.347] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 6 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:46.349] --> textDocument/clangd.fileStatus
+I[01:14:46.349] --> textDocument/clangd.fileStatus
+I[01:14:46.349] --> textDocument/clangd.fileStatus
+I[01:14:46.353] <-- textDocument/signatureHelp(30)
+I[01:14:46.357] --> reply:textDocument/signatureHelp(30) 4 ms
+I[01:14:46.363] --> textDocument/publishDiagnostics
+I[01:14:46.363] --> textDocument/clangd.fileStatus
+I[01:14:46.597] <-- textDocument/didChange
+I[01:14:46.599] --> textDocument/clangd.fileStatus
+I[01:14:46.649] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:46.650] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 7 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:46.651] --> textDocument/clangd.fileStatus
+I[01:14:46.651] --> textDocument/clangd.fileStatus
+I[01:14:46.657] --> textDocument/clangd.fileStatus
+I[01:14:46.668] --> textDocument/publishDiagnostics
+I[01:14:46.668] --> textDocument/clangd.fileStatus
+I[01:14:46.728] <-- textDocument/documentLink(31)
+I[01:14:46.729] --> reply:textDocument/documentLink(31) 0 ms
+I[01:14:46.729] --> textDocument/clangd.fileStatus
+I[01:14:47.066] <-- textDocument/codeAction(32)
+I[01:14:47.067] --> reply:textDocument/codeAction(32) 0 ms
+I[01:14:47.067] --> textDocument/clangd.fileStatus
+I[01:14:48.322] <-- textDocument/documentSymbol(33)
+I[01:14:48.323] --> reply:textDocument/documentSymbol(33) 0 ms
+I[01:14:48.323] --> textDocument/clangd.fileStatus
+I[01:14:50.131] <-- textDocument/didChange
+I[01:14:50.137] --> textDocument/clangd.fileStatus
+I[01:14:50.187] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:50.187] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 8 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:50.189] --> textDocument/clangd.fileStatus
+I[01:14:50.189] --> textDocument/clangd.fileStatus
+I[01:14:50.196] --> textDocument/clangd.fileStatus
+I[01:14:50.206] --> textDocument/publishDiagnostics
+I[01:14:50.206] --> textDocument/clangd.fileStatus
+I[01:14:50.468] <-- textDocument/codeAction(34)
+I[01:14:50.468] --> reply:textDocument/codeAction(34) 0 ms
+I[01:14:50.468] --> textDocument/clangd.fileStatus
+I[01:14:50.949] <-- textDocument/codeAction(35)
+I[01:14:50.952] --> reply:textDocument/codeAction(35) 2 ms
+I[01:14:50.952] --> textDocument/clangd.fileStatus
+I[01:14:51.130] <-- textDocument/documentLink(36)
+I[01:14:51.130] --> reply:textDocument/documentLink(36) 0 ms
+I[01:14:51.130] --> textDocument/clangd.fileStatus
+I[01:14:51.601] <-- textDocument/didChange
+I[01:14:51.605] --> textDocument/clangd.fileStatus
+I[01:14:51.650] <-- textDocument/didChange
+I[01:14:51.653] --> textDocument/clangd.fileStatus
+I[01:14:51.703] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:51.704] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 10 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:51.705] --> textDocument/clangd.fileStatus
+I[01:14:51.705] --> textDocument/clangd.fileStatus
+I[01:14:51.711] --> textDocument/clangd.fileStatus
+I[01:14:51.720] --> textDocument/publishDiagnostics
+I[01:14:51.721] --> textDocument/clangd.fileStatus
+I[01:14:51.917] <-- textDocument/didChange
+I[01:14:51.918] --> textDocument/clangd.fileStatus
+I[01:14:51.931] <-- textDocument/didChange
+I[01:14:51.936] --> textDocument/clangd.fileStatus
+I[01:14:51.987] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:51.987] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 12 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:51.988] --> textDocument/clangd.fileStatus
+I[01:14:51.988] --> textDocument/clangd.fileStatus
+I[01:14:51.994] --> textDocument/clangd.fileStatus
+I[01:14:52.005] --> textDocument/publishDiagnostics
+I[01:14:52.005] --> textDocument/clangd.fileStatus
+I[01:14:52.265] <-- textDocument/codeAction(37)
+I[01:14:52.265] --> reply:textDocument/codeAction(37) 0 ms
+I[01:14:52.265] --> textDocument/clangd.fileStatus
+I[01:14:52.565] <-- textDocument/didChange
+I[01:14:52.572] --> textDocument/clangd.fileStatus
+I[01:14:52.585] <-- textDocument/documentLink(38)
+I[01:14:52.585] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:52.586] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 13 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:52.591] --> textDocument/clangd.fileStatus
+I[01:14:52.815] <-- textDocument/codeAction(39)
+I[01:14:52.865] --> reply:textDocument/documentLink(38) 279 ms
+I[01:14:52.865] --> textDocument/clangd.fileStatus
+I[01:14:52.865] --> reply:textDocument/codeAction(39) 50 ms
+I[01:14:52.865] --> textDocument/clangd.fileStatus
+I[01:14:52.905] --> textDocument/clangd.fileStatus
+I[01:14:52.924] --> textDocument/publishDiagnostics
+I[01:14:52.925] --> textDocument/clangd.fileStatus
+I[01:14:53.201] <-- textDocument/codeAction(40)
+I[01:14:53.201] --> reply:textDocument/codeAction(40) 0 ms
+I[01:14:53.201] --> textDocument/clangd.fileStatus
+I[01:14:53.538] <-- textDocument/codeAction(41)
+I[01:14:53.538] --> reply:textDocument/codeAction(41) 0 ms
+I[01:14:53.538] --> textDocument/clangd.fileStatus
+I[01:14:54.032] <-- textDocument/documentSymbol(42)
+I[01:14:54.033] --> reply:textDocument/documentSymbol(42) 0 ms
+I[01:14:54.033] --> textDocument/clangd.fileStatus
+I[01:14:54.047] <-- textDocument/didChange
+I[01:14:54.051] --> textDocument/clangd.fileStatus
+I[01:14:54.102] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:54.102] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 14 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:54.104] --> textDocument/clangd.fileStatus
+I[01:14:54.104] --> textDocument/clangd.fileStatus
+I[01:14:54.332] --> textDocument/clangd.fileStatus
+I[01:14:54.349] --> textDocument/publishDiagnostics
+I[01:14:54.349] --> textDocument/clangd.fileStatus
+I[01:14:55.044] <-- textDocument/documentLink(43)
+I[01:14:55.044] --> reply:textDocument/documentLink(43) 0 ms
+I[01:14:55.044] --> textDocument/clangd.fileStatus
+I[01:14:55.518] <-- textDocument/documentSymbol(44)
+I[01:14:55.518] --> reply:textDocument/documentSymbol(44) 0 ms
+I[01:14:55.518] --> textDocument/clangd.fileStatus
+I[01:14:55.629] <-- textDocument/didChange
+I[01:14:55.630] --> textDocument/clangd.fileStatus
+I[01:14:55.680] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:55.680] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 15 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:55.682] --> textDocument/clangd.fileStatus
+I[01:14:55.682] --> textDocument/clangd.fileStatus
+I[01:14:55.878] <-- textDocument/codeAction(45)
+I[01:14:55.879] --> textDocument/clangd.fileStatus
+I[01:14:55.898] --> reply:textDocument/codeAction(45) 19 ms
+I[01:14:55.898] --> textDocument/clangd.fileStatus
+I[01:14:55.911] --> textDocument/clangd.fileStatus
+I[01:14:55.929] --> textDocument/publishDiagnostics
+I[01:14:55.929] --> textDocument/clangd.fileStatus
+I[01:14:56.188] <-- textDocument/codeAction(46)
+I[01:14:56.199] --> reply:textDocument/codeAction(46) 10 ms
+I[01:14:56.199] --> textDocument/clangd.fileStatus
+I[01:14:56.400] <-- textDocument/didChange
+I[01:14:56.402] --> textDocument/clangd.fileStatus
+I[01:14:56.438] <-- textDocument/completion(47)
+I[01:14:56.450] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:14:56.450] Code complete: 7 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 7 returned.
+I[01:14:56.450] --> reply:textDocument/completion(47) 11 ms
+I[01:14:56.453] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:56.453] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 16 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:56.455] --> textDocument/clangd.fileStatus
+I[01:14:56.455] --> textDocument/clangd.fileStatus
+I[01:14:56.456] --> textDocument/clangd.fileStatus
+I[01:14:56.474] --> textDocument/publishDiagnostics
+I[01:14:56.475] --> textDocument/clangd.fileStatus
+I[01:14:56.533] <-- textDocument/didChange
+I[01:14:56.535] --> textDocument/clangd.fileStatus
+I[01:14:56.585] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:56.585] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 17 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:56.587] --> textDocument/clangd.fileStatus
+I[01:14:56.587] --> textDocument/clangd.fileStatus
+I[01:14:56.587] --> textDocument/clangd.fileStatus
+I[01:14:56.590] <-- textDocument/completion(48)
+I[01:14:56.601] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:14:56.601] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[01:14:56.601] --> reply:textDocument/completion(48) 11 ms
+I[01:14:56.611] --> textDocument/publishDiagnostics
+I[01:14:56.611] --> textDocument/clangd.fileStatus
+I[01:14:56.627] <-- textDocument/documentLink(49)
+I[01:14:56.627] --> reply:textDocument/documentLink(49) 0 ms
+I[01:14:56.627] --> textDocument/clangd.fileStatus
+I[01:14:56.755] <-- textDocument/didChange
+I[01:14:56.756] <-- textDocument/completion(50)
+I[01:14:56.756] --> textDocument/clangd.fileStatus
+I[01:14:56.781] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:14:56.782] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[01:14:56.782] --> reply:textDocument/completion(50) 25 ms
+I[01:14:56.813] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:56.813] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 18 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:56.814] --> textDocument/clangd.fileStatus
+I[01:14:56.814] --> textDocument/clangd.fileStatus
+I[01:14:56.815] --> textDocument/clangd.fileStatus
+I[01:14:56.835] --> textDocument/publishDiagnostics
+I[01:14:56.836] --> textDocument/clangd.fileStatus
+I[01:14:57.097] <-- textDocument/codeAction(51)
+I[01:14:57.098] --> reply:textDocument/codeAction(51) 0 ms
+I[01:14:57.098] --> textDocument/clangd.fileStatus
+I[01:14:57.153] <-- textDocument/didChange
+I[01:14:57.155] <-- textDocument/completion(52)
+I[01:14:57.155] --> reply:textDocument/completion(52) 0 ms
+I[01:14:57.156] --> textDocument/clangd.fileStatus
+I[01:14:57.206] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:57.206] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 19 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:57.207] --> textDocument/clangd.fileStatus
+I[01:14:57.208] --> textDocument/clangd.fileStatus
+I[01:14:57.208] --> textDocument/clangd.fileStatus
+I[01:14:57.228] --> textDocument/publishDiagnostics
+I[01:14:57.228] --> textDocument/clangd.fileStatus
+I[01:14:57.259] <-- textDocument/signatureHelp(53)
+I[01:14:57.263] --> reply:textDocument/signatureHelp(53) 4 ms
+I[01:14:57.489] <-- textDocument/codeAction(54)
+I[01:14:57.490] --> reply:textDocument/codeAction(54) 0 ms
+I[01:14:57.490] --> textDocument/clangd.fileStatus
+I[01:14:57.748] <-- textDocument/documentLink(55)
+I[01:14:57.748] --> reply:textDocument/documentLink(55) 0 ms
+I[01:14:57.748] --> textDocument/clangd.fileStatus
+I[01:14:57.816] <-- textDocument/didChange
+I[01:14:57.823] --> textDocument/clangd.fileStatus
+I[01:14:57.873] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:14:57.874] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 20 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:14:57.875] --> textDocument/clangd.fileStatus
+I[01:14:57.875] --> textDocument/clangd.fileStatus
+I[01:14:58.082] <-- textDocument/codeAction(56)
+I[01:14:58.082] --> textDocument/clangd.fileStatus
+I[01:14:58.100] --> reply:textDocument/codeAction(56) 17 ms
+I[01:14:58.100] --> textDocument/clangd.fileStatus
+I[01:14:58.112] --> textDocument/clangd.fileStatus
+I[01:14:58.130] --> textDocument/publishDiagnostics
+I[01:14:58.130] --> textDocument/clangd.fileStatus
+I[01:14:58.389] <-- textDocument/codeAction(57)
+I[01:14:58.389] --> reply:textDocument/codeAction(57) 0 ms
+I[01:14:58.389] --> textDocument/clangd.fileStatus
+I[01:14:58.806] <-- textDocument/documentLink(58)
+I[01:14:58.806] --> reply:textDocument/documentLink(58) 0 ms
+I[01:14:58.806] --> textDocument/clangd.fileStatus
+I[01:14:59.276] <-- textDocument/documentSymbol(59)
+I[01:14:59.278] --> reply:textDocument/documentSymbol(59) 2 ms
+I[01:14:59.278] --> textDocument/clangd.fileStatus
+I[01:15:00.163] <-- textDocument/didChange
+I[01:15:00.164] --> textDocument/clangd.fileStatus
+I[01:15:00.219] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:00.219] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 21 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:00.221] --> textDocument/clangd.fileStatus
+I[01:15:00.226] --> textDocument/clangd.fileStatus
+I[01:15:00.413] <-- textDocument/codeAction(60)
+I[01:15:00.413] --> textDocument/clangd.fileStatus
+I[01:15:00.463] --> reply:textDocument/codeAction(60) 50 ms
+I[01:15:00.463] --> textDocument/clangd.fileStatus
+I[01:15:00.473] <-- textDocument/didChange
+I[01:15:00.477] --> textDocument/clangd.fileStatus
+I[01:15:00.506] --> textDocument/clangd.fileStatus
+I[01:15:00.542] --> textDocument/publishDiagnostics
+I[01:15:00.542] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:00.542] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 22 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:00.543] --> textDocument/clangd.fileStatus
+I[01:15:00.545] --> textDocument/clangd.fileStatus
+I[01:15:00.669] <-- textDocument/didChange
+I[01:15:00.684] --> textDocument/clangd.fileStatus
+I[01:15:00.726] --> textDocument/clangd.fileStatus
+I[01:15:00.726] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:00.726] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 23 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:00.728] --> textDocument/clangd.fileStatus
+I[01:15:00.818] --> textDocument/clangd.fileStatus
+I[01:15:00.823] --> textDocument/clangd.fileStatus
+I[01:15:00.824] --> textDocument/clangd.fileStatus
+I[01:15:00.877] --> textDocument/clangd.fileStatus
+I[01:15:00.877] --> textDocument/publishDiagnostics
+I[01:15:00.878] --> textDocument/clangd.fileStatus
+I[01:15:00.954] <-- textDocument/didChange
+I[01:15:00.971] --> textDocument/clangd.fileStatus
+I[01:15:01.021] --> textDocument/clangd.fileStatus
+I[01:15:01.021] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:01.021] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 24 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:01.026] --> textDocument/clangd.fileStatus
+I[01:15:01.136] <-- textDocument/didChange
+I[01:15:01.142] --> textDocument/clangd.fileStatus
+I[01:15:01.143] --> textDocument/clangd.fileStatus
+I[01:15:01.149] --> textDocument/clangd.fileStatus
+I[01:15:01.150] --> textDocument/clangd.fileStatus
+I[01:15:01.161] <-- textDocument/documentLink(61)
+I[01:15:01.195] --> textDocument/clangd.fileStatus
+I[01:15:01.196] --> textDocument/publishDiagnostics
+I[01:15:01.196] --> textDocument/clangd.fileStatus
+I[01:15:01.218] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:01.218] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 25 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:01.220] --> textDocument/clangd.fileStatus
+I[01:15:01.271] --> reply:textDocument/documentLink(61) 109 ms
+I[01:15:01.271] --> textDocument/clangd.fileStatus
+I[01:15:01.321] <-- textDocument/didChange
+I[01:15:01.336] --> textDocument/clangd.fileStatus
+I[01:15:01.386] --> textDocument/clangd.fileStatus
+I[01:15:01.386] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:01.386] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 26 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:01.388] --> textDocument/clangd.fileStatus
+I[01:15:01.411] --> textDocument/clangd.fileStatus
+I[01:15:01.411] --> textDocument/clangd.fileStatus
+I[01:15:01.412] --> textDocument/clangd.fileStatus
+I[01:15:01.434] --> textDocument/clangd.fileStatus
+I[01:15:01.435] --> textDocument/publishDiagnostics
+I[01:15:01.435] --> textDocument/clangd.fileStatus
+I[01:15:01.681] --> textDocument/clangd.fileStatus
+I[01:15:01.696] <-- textDocument/codeAction(62)
+I[01:15:01.708] --> textDocument/publishDiagnostics
+I[01:15:01.708] --> reply:textDocument/codeAction(62) 12 ms
+I[01:15:01.708] --> textDocument/clangd.fileStatus
+I[01:15:02.049] <-- textDocument/codeAction(63)
+I[01:15:02.049] --> reply:textDocument/codeAction(63) 0 ms
+I[01:15:02.049] --> textDocument/clangd.fileStatus
+I[01:15:02.302] <-- textDocument/documentLink(64)
+I[01:15:02.303] --> reply:textDocument/documentLink(64) 0 ms
+I[01:15:02.303] --> textDocument/clangd.fileStatus
+I[01:15:02.311] <-- textDocument/codeAction(65)
+I[01:15:02.312] --> reply:textDocument/codeAction(65) 0 ms
+I[01:15:02.312] --> textDocument/clangd.fileStatus
+I[01:15:02.581] <-- textDocument/didChange
+I[01:15:02.583] --> textDocument/clangd.fileStatus
+I[01:15:02.633] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:02.634] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 27 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:02.635] --> textDocument/clangd.fileStatus
+I[01:15:02.635] --> textDocument/clangd.fileStatus
+I[01:15:02.887] --> textDocument/clangd.fileStatus
+I[01:15:02.909] --> textDocument/publishDiagnostics
+I[01:15:02.909] --> textDocument/clangd.fileStatus
+I[01:15:03.429] <-- textDocument/didChange
+I[01:15:03.434] --> textDocument/clangd.fileStatus
+I[01:15:03.484] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:03.484] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 28 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:03.485] --> textDocument/clangd.fileStatus
+I[01:15:03.485] --> textDocument/clangd.fileStatus
+I[01:15:03.577] <-- textDocument/documentLink(66)
+I[01:15:03.577] --> textDocument/clangd.fileStatus
+I[01:15:03.598] --> reply:textDocument/documentLink(66) 21 ms
+I[01:15:03.598] --> textDocument/clangd.fileStatus
+I[01:15:03.675] <-- textDocument/codeAction(67)
+I[01:15:03.676] --> textDocument/clangd.fileStatus
+I[01:15:03.676] --> reply:textDocument/codeAction(67) 1 ms
+I[01:15:03.676] --> textDocument/clangd.fileStatus
+I[01:15:03.741] --> textDocument/clangd.fileStatus
+I[01:15:03.760] --> textDocument/publishDiagnostics
+I[01:15:03.760] --> textDocument/clangd.fileStatus
+I[01:15:04.034] <-- textDocument/codeAction(68)
+I[01:15:04.035] --> reply:textDocument/codeAction(68) 0 ms
+I[01:15:04.035] --> textDocument/clangd.fileStatus
+I[01:15:04.134] <-- textDocument/didChange
+I[01:15:04.136] --> textDocument/clangd.fileStatus
+I[01:15:04.158] <-- textDocument/completion(69)
+I[01:15:04.186] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:04.186] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 29 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:04.188] --> textDocument/clangd.fileStatus
+I[01:15:04.193] --> textDocument/clangd.fileStatus
+I[01:15:04.194] --> textDocument/clangd.fileStatus
+I[01:15:04.203] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:15:04.203] Code complete: 7 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 7 returned.
+I[01:15:04.203] --> reply:textDocument/completion(69) 45 ms
+I[01:15:04.223] --> textDocument/publishDiagnostics
+I[01:15:04.223] --> textDocument/clangd.fileStatus
+I[01:15:04.271] <-- textDocument/didChange
+I[01:15:04.272] --> textDocument/clangd.fileStatus
+I[01:15:04.323] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:04.323] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 30 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:04.324] --> textDocument/clangd.fileStatus
+I[01:15:04.325] --> textDocument/clangd.fileStatus
+I[01:15:04.326] --> textDocument/clangd.fileStatus
+I[01:15:04.365] --> textDocument/publishDiagnostics
+I[01:15:04.365] --> textDocument/clangd.fileStatus
+I[01:15:04.371] <-- textDocument/completion(70)
+I[01:15:04.379] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:15:04.379] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[01:15:04.379] --> reply:textDocument/completion(70) 8 ms
+I[01:15:04.554] <-- textDocument/didChange
+I[01:15:04.555] <-- textDocument/completion(71)
+I[01:15:04.557] --> textDocument/clangd.fileStatus
+I[01:15:04.569] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:15:04.569] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[01:15:04.569] --> reply:textDocument/completion(71) 14 ms
+I[01:15:04.605] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:04.605] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 31 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:04.607] --> textDocument/clangd.fileStatus
+I[01:15:04.607] --> textDocument/clangd.fileStatus
+I[01:15:04.607] --> textDocument/clangd.fileStatus
+I[01:15:04.628] --> textDocument/publishDiagnostics
+I[01:15:04.628] --> textDocument/clangd.fileStatus
+I[01:15:04.885] <-- textDocument/codeAction(72)
+I[01:15:04.887] --> reply:textDocument/codeAction(72) 1 ms
+I[01:15:04.887] --> textDocument/clangd.fileStatus
+I[01:15:04.946] <-- textDocument/didChange
+I[01:15:04.948] <-- textDocument/completion(73)
+I[01:15:04.948] --> reply:textDocument/completion(73) 0 ms
+I[01:15:04.948] --> textDocument/clangd.fileStatus
+I[01:15:04.998] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:04.999] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 32 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:05.001] --> textDocument/clangd.fileStatus
+I[01:15:05.001] --> textDocument/clangd.fileStatus
+I[01:15:05.002] --> textDocument/clangd.fileStatus
+I[01:15:05.024] --> textDocument/publishDiagnostics
+I[01:15:05.024] --> textDocument/clangd.fileStatus
+I[01:15:05.060] <-- textDocument/signatureHelp(74)
+I[01:15:05.065] --> reply:textDocument/signatureHelp(74) 4 ms
+I[01:15:05.130] <-- textDocument/documentLink(75)
+I[01:15:05.130] --> reply:textDocument/documentLink(75) 0 ms
+I[01:15:05.130] --> textDocument/clangd.fileStatus
+I[01:15:05.282] <-- textDocument/codeAction(76)
+I[01:15:05.282] --> reply:textDocument/codeAction(76) 0 ms
+I[01:15:05.282] --> textDocument/clangd.fileStatus
+I[01:15:05.558] <-- textDocument/codeAction(77)
+I[01:15:05.558] --> reply:textDocument/codeAction(77) 0 ms
+I[01:15:05.558] --> textDocument/clangd.fileStatus
+I[01:15:06.410] <-- textDocument/documentSymbol(78)
+I[01:15:06.414] --> reply:textDocument/documentSymbol(78) 3 ms
+I[01:15:06.414] --> textDocument/clangd.fileStatus
+I[01:15:11.244] <-- textDocument/didChange
+I[01:15:11.257] --> textDocument/clangd.fileStatus
+I[01:15:11.304] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:11.304] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 33 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:11.307] --> textDocument/clangd.fileStatus
+I[01:15:11.307] --> textDocument/clangd.fileStatus
+I[01:15:11.480] <-- textDocument/codeAction(79)
+I[01:15:11.480] --> textDocument/clangd.fileStatus
+I[01:15:11.504] --> reply:textDocument/codeAction(79) 24 ms
+I[01:15:11.504] --> textDocument/clangd.fileStatus
+I[01:15:11.590] --> textDocument/clangd.fileStatus
+I[01:15:11.611] --> textDocument/publishDiagnostics
+I[01:15:11.611] --> textDocument/clangd.fileStatus
+I[01:15:11.870] <-- textDocument/codeAction(80)
+I[01:15:11.871] --> reply:textDocument/codeAction(80) 0 ms
+I[01:15:11.871] --> textDocument/clangd.fileStatus
+I[01:15:12.230] <-- textDocument/documentLink(81)
+I[01:15:12.230] --> reply:textDocument/documentLink(81) 0 ms
+I[01:15:12.230] --> textDocument/clangd.fileStatus
+I[01:15:12.280] <-- textDocument/codeAction(82)
+I[01:15:12.280] --> reply:textDocument/codeAction(82) 0 ms
+I[01:15:12.280] --> textDocument/clangd.fileStatus
+I[01:15:13.571] <-- textDocument/didChange
+I[01:15:13.572] --> textDocument/clangd.fileStatus
+I[01:15:13.622] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:13.623] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 34 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:13.624] --> textDocument/clangd.fileStatus
+I[01:15:13.624] --> textDocument/clangd.fileStatus
+I[01:15:13.659] <-- textDocument/didChange
+I[01:15:13.674] --> textDocument/clangd.fileStatus
+I[01:15:13.723] --> textDocument/clangd.fileStatus
+I[01:15:13.723] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:13.723] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 35 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:13.724] --> textDocument/clangd.fileStatus
+I[01:15:13.923] <-- textDocument/didChange
+I[01:15:13.926] --> textDocument/clangd.fileStatus
+I[01:15:13.934] --> textDocument/clangd.fileStatus
+I[01:15:13.934] --> textDocument/clangd.fileStatus
+I[01:15:13.935] --> textDocument/clangd.fileStatus
+I[01:15:13.968] --> textDocument/clangd.fileStatus
+I[01:15:13.969] --> textDocument/publishDiagnostics
+I[01:15:13.970] --> textDocument/clangd.fileStatus
+I[01:15:13.999] --> textDocument/clangd.fileStatus
+I[01:15:13.999] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:13.999] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 36 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:14.001] --> textDocument/clangd.fileStatus
+I[01:15:14.222] --> textDocument/clangd.fileStatus
+I[01:15:14.223] --> textDocument/clangd.fileStatus
+I[01:15:14.224] --> textDocument/clangd.fileStatus
+I[01:15:14.231] <-- textDocument/codeAction(83)
+I[01:15:14.247] --> textDocument/clangd.fileStatus
+I[01:15:14.248] --> textDocument/publishDiagnostics
+I[01:15:14.249] --> textDocument/clangd.fileStatus
+I[01:15:14.472] --> reply:textDocument/codeAction(83) 241 ms
+I[01:15:14.472] --> textDocument/clangd.fileStatus
+I[01:15:14.568] <-- textDocument/documentLink(84)
+I[01:15:14.568] --> textDocument/clangd.fileStatus
+I[01:15:14.568] --> reply:textDocument/documentLink(84) 0 ms
+I[01:15:14.568] --> textDocument/clangd.fileStatus
+I[01:15:14.587] <-- textDocument/codeAction(85)
+I[01:15:14.587] --> textDocument/clangd.fileStatus
+I[01:15:14.587] --> reply:textDocument/codeAction(85) 0 ms
+I[01:15:14.587] --> textDocument/clangd.fileStatus
+I[01:15:14.625] --> textDocument/clangd.fileStatus
+I[01:15:14.654] --> textDocument/publishDiagnostics
+I[01:15:14.655] --> textDocument/clangd.fileStatus
+I[01:15:15.012] <-- textDocument/didChange
+I[01:15:15.024] --> textDocument/clangd.fileStatus
+I[01:15:15.075] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:15.075] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 37 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:15.077] --> textDocument/clangd.fileStatus
+I[01:15:15.077] --> textDocument/clangd.fileStatus
+I[01:15:15.451] --> textDocument/clangd.fileStatus
+I[01:15:15.472] --> textDocument/publishDiagnostics
+I[01:15:15.472] --> textDocument/clangd.fileStatus
+I[01:15:15.875] <-- textDocument/didChange
+I[01:15:15.877] --> textDocument/clangd.fileStatus
+I[01:15:15.928] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:15.928] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 38 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:15.929] --> textDocument/clangd.fileStatus
+I[01:15:15.930] --> textDocument/clangd.fileStatus
+I[01:15:16.006] <-- textDocument/documentLink(86)
+I[01:15:16.006] --> textDocument/clangd.fileStatus
+I[01:15:16.036] --> reply:textDocument/documentLink(86) 30 ms
+I[01:15:16.036] --> textDocument/clangd.fileStatus
+I[01:15:16.143] <-- textDocument/codeAction(87)
+I[01:15:16.143] --> textDocument/clangd.fileStatus
+I[01:15:16.144] --> reply:textDocument/codeAction(87) 0 ms
+I[01:15:16.144] --> textDocument/clangd.fileStatus
+I[01:15:16.298] --> textDocument/clangd.fileStatus
+I[01:15:16.320] --> textDocument/publishDiagnostics
+I[01:15:16.320] --> textDocument/clangd.fileStatus
+I[01:15:16.420] <-- textDocument/didChange
+I[01:15:16.427] --> textDocument/clangd.fileStatus
+I[01:15:16.466] <-- textDocument/completion(88)
+I[01:15:16.476] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:15:16.476] Code complete: 7 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 7 returned.
+I[01:15:16.476] --> reply:textDocument/completion(88) 10 ms
+I[01:15:16.478] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:16.478] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 39 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:16.480] --> textDocument/clangd.fileStatus
+I[01:15:16.480] --> textDocument/clangd.fileStatus
+I[01:15:16.481] --> textDocument/clangd.fileStatus
+I[01:15:16.505] --> textDocument/publishDiagnostics
+I[01:15:16.505] --> textDocument/clangd.fileStatus
+I[01:15:16.559] <-- textDocument/didChange
+I[01:15:16.568] --> textDocument/clangd.fileStatus
+I[01:15:16.618] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:16.619] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 40 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:16.620] --> textDocument/clangd.fileStatus
+I[01:15:16.620] --> textDocument/clangd.fileStatus
+I[01:15:16.621] --> textDocument/clangd.fileStatus
+I[01:15:16.646] --> textDocument/publishDiagnostics
+I[01:15:16.646] --> textDocument/clangd.fileStatus
+I[01:15:16.715] <-- textDocument/completion(89)
+I[01:15:16.719] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:15:16.719] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[01:15:16.720] --> reply:textDocument/completion(89) 4 ms
+I[01:15:16.808] <-- textDocument/didChange
+I[01:15:16.813] <-- textDocument/completion(90)
+I[01:15:16.814] --> textDocument/clangd.fileStatus
+I[01:15:16.829] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:15:16.829] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[01:15:16.829] --> reply:textDocument/completion(90) 15 ms
+I[01:15:16.865] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:16.866] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 41 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:16.868] --> textDocument/clangd.fileStatus
+I[01:15:16.869] --> textDocument/clangd.fileStatus
+I[01:15:16.870] --> textDocument/clangd.fileStatus
+I[01:15:16.900] --> textDocument/publishDiagnostics
+I[01:15:16.900] --> textDocument/clangd.fileStatus
+I[01:15:17.160] <-- textDocument/codeAction(91)
+I[01:15:17.161] --> reply:textDocument/codeAction(91) 0 ms
+I[01:15:17.161] --> textDocument/clangd.fileStatus
+I[01:15:17.417] <-- textDocument/documentLink(92)
+I[01:15:17.418] --> reply:textDocument/documentLink(92) 0 ms
+I[01:15:17.418] --> textDocument/clangd.fileStatus
+I[01:15:17.974] <-- textDocument/codeAction(93)
+I[01:15:17.975] --> reply:textDocument/codeAction(93) 0 ms
+I[01:15:17.975] --> textDocument/clangd.fileStatus
+I[01:15:18.204] <-- textDocument/didChange
+I[01:15:18.212] <-- textDocument/completion(94)
+I[01:15:18.212] --> reply:textDocument/completion(94) 0 ms
+I[01:15:18.212] --> textDocument/clangd.fileStatus
+I[01:15:18.262] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:18.262] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 42 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:18.264] --> textDocument/clangd.fileStatus
+I[01:15:18.264] --> textDocument/clangd.fileStatus
+I[01:15:18.265] --> textDocument/clangd.fileStatus
+I[01:15:18.286] --> textDocument/publishDiagnostics
+I[01:15:18.286] --> textDocument/clangd.fileStatus
+I[01:15:18.300] <-- textDocument/signatureHelp(95)
+I[01:15:18.305] --> reply:textDocument/signatureHelp(95) 5 ms
+I[01:15:18.556] <-- textDocument/codeAction(96)
+I[01:15:18.557] --> reply:textDocument/codeAction(96) 1 ms
+I[01:15:18.558] --> textDocument/clangd.fileStatus
+I[01:15:19.131] <-- textDocument/didChange
+I[01:15:19.133] --> textDocument/clangd.fileStatus
+I[01:15:19.174] <-- textDocument/documentLink(97)
+I[01:15:19.174] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:19.174] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 43 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:19.176] --> textDocument/clangd.fileStatus
+I[01:15:19.201] --> reply:textDocument/documentLink(97) 26 ms
+I[01:15:19.201] --> textDocument/clangd.fileStatus
+I[01:15:19.376] <-- textDocument/codeAction(98)
+I[01:15:19.377] --> textDocument/clangd.fileStatus
+I[01:15:19.377] --> reply:textDocument/codeAction(98) 1 ms
+I[01:15:19.377] --> textDocument/clangd.fileStatus
+I[01:15:19.542] --> textDocument/clangd.fileStatus
+I[01:15:19.566] --> textDocument/publishDiagnostics
+I[01:15:19.566] --> textDocument/clangd.fileStatus
+I[01:15:19.825] <-- textDocument/codeAction(99)
+I[01:15:19.826] --> reply:textDocument/codeAction(99) 0 ms
+I[01:15:19.826] --> textDocument/clangd.fileStatus
+I[01:15:20.231] <-- textDocument/codeAction(100)
+I[01:15:20.234] --> reply:textDocument/codeAction(100) 3 ms
+I[01:15:20.234] --> textDocument/clangd.fileStatus
+I[01:15:20.590] <-- textDocument/didChange
+I[01:15:20.593] --> textDocument/clangd.fileStatus
+I[01:15:20.643] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:20.644] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 44 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:20.645] --> textDocument/clangd.fileStatus
+I[01:15:20.646] --> textDocument/clangd.fileStatus
+I[01:15:20.786] <-- textDocument/didChange
+I[01:15:20.787] --> textDocument/clangd.fileStatus
+I[01:15:20.840] --> textDocument/clangd.fileStatus
+I[01:15:20.840] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:20.841] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 45 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:20.842] --> textDocument/clangd.fileStatus
+I[01:15:21.020] --> textDocument/clangd.fileStatus
+I[01:15:21.024] --> textDocument/clangd.fileStatus
+I[01:15:21.025] --> textDocument/clangd.fileStatus
+I[01:15:21.052] <-- textDocument/didChange
+I[01:15:21.082] --> textDocument/clangd.fileStatus
+I[01:15:21.083] --> textDocument/publishDiagnostics
+I[01:15:21.084] --> textDocument/clangd.fileStatus
+I[01:15:21.118] --> textDocument/clangd.fileStatus
+I[01:15:21.118] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:21.118] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 46 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:21.119] --> textDocument/clangd.fileStatus
+I[01:15:21.220] <-- textDocument/didChange
+I[01:15:21.228] --> textDocument/clangd.fileStatus
+I[01:15:21.279] --> textDocument/clangd.fileStatus
+I[01:15:21.279] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:21.279] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 47 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:21.280] --> textDocument/clangd.fileStatus
+I[01:15:21.427] --> textDocument/clangd.fileStatus
+I[01:15:21.427] --> textDocument/clangd.fileStatus
+I[01:15:21.428] --> textDocument/clangd.fileStatus
+I[01:15:21.451] --> textDocument/clangd.fileStatus
+I[01:15:21.452] --> textDocument/publishDiagnostics
+I[01:15:21.452] --> textDocument/clangd.fileStatus
+I[01:15:21.456] <-- textDocument/codeAction(101)
+I[01:15:21.487] --> textDocument/clangd.fileStatus
+I[01:15:21.507] <-- textDocument/didChange
+I[01:15:21.526] <-- $/cancelRequest
+I[01:15:21.529] --> reply:textDocument/codeAction(101) 73 ms
+I[01:15:21.530] --> textDocument/clangd.fileStatus
+I[01:15:21.576] --> textDocument/clangd.fileStatus
+I[01:15:21.576] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:21.576] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 48 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:21.578] --> textDocument/clangd.fileStatus
+I[01:15:21.587] <-- textDocument/documentLink(102)
+I[01:15:21.587] --> textDocument/clangd.fileStatus
+I[01:15:21.598] --> reply:textDocument/documentLink(102) 11 ms
+I[01:15:21.598] --> textDocument/clangd.fileStatus
+I[01:15:21.781] <-- textDocument/didChange
+I[01:15:21.798] --> textDocument/clangd.fileStatus
+I[01:15:21.841] --> textDocument/clangd.fileStatus
+I[01:15:21.842] --> textDocument/clangd.fileStatus
+I[01:15:21.843] --> textDocument/clangd.fileStatus
+I[01:15:21.866] --> textDocument/clangd.fileStatus
+I[01:15:21.867] --> textDocument/publishDiagnostics
+I[01:15:21.867] --> textDocument/clangd.fileStatus
+I[01:15:21.867] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:21.867] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 49 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:21.869] --> textDocument/clangd.fileStatus
+I[01:15:21.948] <-- textDocument/didChange
+I[01:15:21.950] --> textDocument/clangd.fileStatus
+I[01:15:22.008] --> textDocument/clangd.fileStatus
+I[01:15:22.008] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:22.008] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 50 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:22.010] --> textDocument/clangd.fileStatus
+I[01:15:22.010] <-- textDocument/didChange
+I[01:15:22.017] --> textDocument/clangd.fileStatus
+I[01:15:22.068] --> textDocument/clangd.fileStatus
+I[01:15:22.068] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:22.068] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 51 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:22.069] --> textDocument/clangd.fileStatus
+I[01:15:22.218] <-- textDocument/didChange
+I[01:15:22.242] --> textDocument/clangd.fileStatus
+I[01:15:22.254] --> textDocument/clangd.fileStatus
+I[01:15:22.254] --> textDocument/clangd.fileStatus
+I[01:15:22.255] --> textDocument/clangd.fileStatus
+I[01:15:22.285] --> textDocument/clangd.fileStatus
+I[01:15:22.286] --> textDocument/publishDiagnostics
+I[01:15:22.287] --> textDocument/clangd.fileStatus
+I[01:15:22.301] --> textDocument/clangd.fileStatus
+I[01:15:22.301] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:22.301] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 52 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:22.303] --> textDocument/clangd.fileStatus
+I[01:15:22.544] <-- textDocument/codeAction(103)
+I[01:15:22.546] --> textDocument/clangd.fileStatus
+I[01:15:22.562] --> reply:textDocument/codeAction(103) 18 ms
+I[01:15:22.562] --> textDocument/clangd.fileStatus
+I[01:15:22.657] --> textDocument/clangd.fileStatus
+I[01:15:22.659] --> textDocument/clangd.fileStatus
+I[01:15:22.661] <-- textDocument/didChange
+I[01:15:22.677] --> textDocument/clangd.fileStatus
+I[01:15:22.742] --> textDocument/clangd.fileStatus
+I[01:15:22.743] --> textDocument/publishDiagnostics
+I[01:15:22.744] --> textDocument/clangd.fileStatus
+I[01:15:22.744] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:22.744] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 53 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:22.745] --> textDocument/clangd.fileStatus
+I[01:15:22.763] <-- textDocument/documentLink(104)
+I[01:15:22.772] --> textDocument/clangd.fileStatus
+I[01:15:22.792] --> reply:textDocument/documentLink(104) 28 ms
+I[01:15:22.792] --> textDocument/clangd.fileStatus
+I[01:15:22.904] <-- textDocument/didChange
+I[01:15:22.908] --> textDocument/clangd.fileStatus
+I[01:15:22.959] --> textDocument/clangd.fileStatus
+I[01:15:22.959] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:22.959] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 54 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:22.961] --> textDocument/clangd.fileStatus
+I[01:15:23.039] <-- textDocument/didChange
+I[01:15:23.040] --> textDocument/clangd.fileStatus
+I[01:15:23.090] --> textDocument/clangd.fileStatus
+I[01:15:23.090] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:23.090] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 55 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:23.092] --> textDocument/clangd.fileStatus
+I[01:15:23.093] --> textDocument/clangd.fileStatus
+I[01:15:23.094] --> textDocument/clangd.fileStatus
+I[01:15:23.096] --> textDocument/clangd.fileStatus
+I[01:15:23.120] --> textDocument/clangd.fileStatus
+I[01:15:23.121] --> textDocument/publishDiagnostics
+I[01:15:23.122] --> textDocument/clangd.fileStatus
+I[01:15:23.378] <-- textDocument/codeAction(105)
+I[01:15:23.379] --> textDocument/clangd.fileStatus
+I[01:15:23.391] --> reply:textDocument/codeAction(105) 12 ms
+I[01:15:23.391] --> textDocument/clangd.fileStatus
+I[01:15:23.466] --> textDocument/clangd.fileStatus
+I[01:15:23.489] --> textDocument/publishDiagnostics
+I[01:15:23.489] --> textDocument/clangd.fileStatus
+I[01:15:23.746] <-- textDocument/codeAction(106)
+I[01:15:23.746] --> reply:textDocument/codeAction(106) 0 ms
+I[01:15:23.746] --> textDocument/clangd.fileStatus
+I[01:15:23.875] <-- textDocument/didChange
+I[01:15:23.878] --> textDocument/clangd.fileStatus
+I[01:15:23.890] <-- textDocument/documentLink(107)
+I[01:15:23.891] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:23.891] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 56 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:23.896] --> textDocument/clangd.fileStatus
+I[01:15:23.927] --> reply:textDocument/documentLink(107) 37 ms
+I[01:15:23.927] --> textDocument/clangd.fileStatus
+I[01:15:24.131] <-- textDocument/codeAction(108)
+I[01:15:24.131] --> textDocument/clangd.fileStatus
+I[01:15:24.131] --> reply:textDocument/codeAction(108) 0 ms
+I[01:15:24.131] --> textDocument/clangd.fileStatus
+I[01:15:24.272] --> textDocument/clangd.fileStatus
+I[01:15:24.294] --> textDocument/publishDiagnostics
+I[01:15:24.294] --> textDocument/clangd.fileStatus
+I[01:15:24.551] <-- textDocument/codeAction(109)
+I[01:15:24.551] --> reply:textDocument/codeAction(109) 0 ms
+I[01:15:24.551] --> textDocument/clangd.fileStatus
+I[01:15:25.574] <-- textDocument/didChange
+I[01:15:25.576] --> textDocument/clangd.fileStatus
+I[01:15:25.627] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:25.628] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 57 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:25.629] --> textDocument/clangd.fileStatus
+I[01:15:25.629] --> textDocument/clangd.fileStatus
+I[01:15:25.852] <-- textDocument/codeAction(110)
+I[01:15:25.852] --> textDocument/clangd.fileStatus
+I[01:15:25.874] --> reply:textDocument/codeAction(110) 22 ms
+I[01:15:25.874] --> textDocument/clangd.fileStatus
+I[01:15:25.897] <-- textDocument/didChange
+I[01:15:25.915] --> textDocument/clangd.fileStatus
+I[01:15:25.965] --> textDocument/clangd.fileStatus
+I[01:15:25.965] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:25.965] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 58 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:25.966] --> textDocument/clangd.fileStatus
+I[01:15:26.024] --> textDocument/clangd.fileStatus
+I[01:15:26.024] --> textDocument/clangd.fileStatus
+I[01:15:26.026] --> textDocument/clangd.fileStatus
+I[01:15:26.051] --> textDocument/clangd.fileStatus
+I[01:15:26.052] --> textDocument/publishDiagnostics
+I[01:15:26.053] --> textDocument/clangd.fileStatus
+I[01:15:26.311] <-- textDocument/codeAction(111)
+I[01:15:26.312] --> textDocument/clangd.fileStatus
+I[01:15:26.463] --> reply:textDocument/codeAction(111) 152 ms
+I[01:15:26.549] --> textDocument/publishDiagnostics
+I[01:15:26.549] --> textDocument/clangd.fileStatus
+I[01:15:26.575] <-- textDocument/documentLink(112)
+I[01:15:26.577] --> reply:textDocument/documentLink(112) 2 ms
+I[01:15:26.577] --> textDocument/clangd.fileStatus
+I[01:15:26.895] <-- textDocument/codeAction(113)
+I[01:15:26.895] --> reply:textDocument/codeAction(113) 0 ms
+I[01:15:26.895] --> textDocument/clangd.fileStatus
+I[01:15:27.197] <-- textDocument/codeAction(114)
+I[01:15:27.197] --> reply:textDocument/codeAction(114) 0 ms
+I[01:15:27.197] --> textDocument/clangd.fileStatus
+I[01:15:27.475] <-- textDocument/didChange
+I[01:15:27.480] --> textDocument/clangd.fileStatus
+I[01:15:27.529] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:27.529] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 59 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:27.531] --> textDocument/clangd.fileStatus
+I[01:15:27.531] --> textDocument/clangd.fileStatus
+I[01:15:27.705] <-- textDocument/didChange
+I[01:15:27.709] --> textDocument/clangd.fileStatus
+I[01:15:27.760] --> textDocument/clangd.fileStatus
+I[01:15:27.760] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:27.760] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 60 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:27.761] --> textDocument/clangd.fileStatus
+I[01:15:27.956] --> textDocument/clangd.fileStatus
+I[01:15:27.963] --> textDocument/clangd.fileStatus
+I[01:15:27.964] --> textDocument/clangd.fileStatus
+I[01:15:28.013] --> textDocument/clangd.fileStatus
+I[01:15:28.014] --> textDocument/publishDiagnostics
+I[01:15:28.014] --> textDocument/clangd.fileStatus
+I[01:15:28.477] --> textDocument/clangd.fileStatus
+I[01:15:28.478] <-- textDocument/documentLink(115)
+I[01:15:28.526] --> textDocument/publishDiagnostics
+I[01:15:28.526] --> reply:textDocument/documentLink(115) 48 ms
+I[01:15:28.527] --> textDocument/clangd.fileStatus
+I[01:15:28.611] <-- textDocument/didChange
+I[01:15:28.614] --> textDocument/clangd.fileStatus
+I[01:15:28.658] <-- textDocument/completion(116)
+I[01:15:28.664] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:28.665] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 61 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:28.667] --> textDocument/clangd.fileStatus
+I[01:15:28.667] --> textDocument/clangd.fileStatus
+I[01:15:28.746] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[01:15:28.746] Code complete: 6 results from Sema, 100 from Index, 0 matched, 0 from identifiers, 100 returned (incomplete).
+I[01:15:28.777] --> reply:textDocument/completion(116) 118 ms
+I[01:15:29.032] <-- textDocument/codeAction(117)
+I[01:15:29.033] --> textDocument/clangd.fileStatus
+I[01:15:29.058] --> reply:textDocument/codeAction(117) 26 ms
+I[01:15:29.058] --> textDocument/clangd.fileStatus
+I[01:15:29.064] <-- textDocument/didChange
+I[01:15:29.094] <-- $/cancelRequest
+I[01:15:29.095] --> textDocument/clangd.fileStatus
+I[01:15:29.117] <-- textDocument/didChange
+I[01:15:29.131] <-- textDocument/didChange
+I[01:15:29.131] --> textDocument/clangd.fileStatus
+I[01:15:29.132] --> textDocument/clangd.fileStatus
+I[01:15:29.183] --> textDocument/clangd.fileStatus
+I[01:15:29.183] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:29.183] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 64 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:29.185] --> textDocument/clangd.fileStatus
+I[01:15:29.346] <-- textDocument/completion(118)
+I[01:15:29.368] <-- textDocument/didChange
+I[01:15:29.378] --> textDocument/clangd.fileStatus
+I[01:15:29.391] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[01:15:29.391] Code complete: 3 results from Sema, 1 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[01:15:29.391] --> reply:textDocument/completion(118) 45 ms
+I[01:15:29.435] --> textDocument/clangd.fileStatus
+I[01:15:29.435] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:29.435] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 65 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:29.437] --> textDocument/clangd.fileStatus
+I[01:15:29.439] <-- textDocument/completion(119)
+I[01:15:29.444] Code complete: sema context TopLevel, query scopes [] (AnyScope=true), expected type <none>
+I[01:15:29.444] Code complete: 3 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 3 returned.
+I[01:15:29.444] --> reply:textDocument/completion(119) 5 ms
+I[01:15:29.532] --> textDocument/clangd.fileStatus
+I[01:15:29.533] --> textDocument/clangd.fileStatus
+I[01:15:29.540] --> textDocument/publishDiagnostics
+I[01:15:29.547] --> textDocument/publishDiagnostics
+I[01:15:29.547] --> textDocument/clangd.fileStatus
+I[01:15:29.609] <-- textDocument/documentLink(120)
+I[01:15:29.609] --> reply:textDocument/documentLink(120) 0 ms
+I[01:15:29.609] --> textDocument/clangd.fileStatus
+I[01:15:29.812] <-- textDocument/codeAction(121)
+I[01:15:29.813] --> reply:textDocument/codeAction(121) 0 ms
+I[01:15:29.813] --> textDocument/clangd.fileStatus
+I[01:15:34.346] <-- textDocument/didChange
+I[01:15:34.347] --> textDocument/clangd.fileStatus
+I[01:15:34.398] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:34.398] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 66 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:34.400] --> textDocument/clangd.fileStatus
+I[01:15:34.400] --> textDocument/clangd.fileStatus
+I[01:15:34.401] --> textDocument/clangd.fileStatus
+I[01:15:34.454] --> textDocument/publishDiagnostics
+I[01:15:34.454] --> textDocument/clangd.fileStatus
+I[01:15:35.336] <-- textDocument/documentLink(122)
+I[01:15:35.336] --> reply:textDocument/documentLink(122) 0 ms
+I[01:15:35.336] --> textDocument/clangd.fileStatus
+I[01:15:35.906] <-- textDocument/hover(123)
+I[01:15:35.927] --> reply:textDocument/hover(123) 20 ms
+I[01:15:35.927] --> textDocument/clangd.fileStatus
+I[01:15:36.550] <-- textDocument/didChange
+I[01:15:36.551] --> textDocument/clangd.fileStatus
+I[01:15:36.602] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:36.602] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 67 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:36.604] --> textDocument/clangd.fileStatus
+I[01:15:36.604] --> textDocument/clangd.fileStatus
+I[01:15:36.605] --> textDocument/clangd.fileStatus
+I[01:15:36.657] --> textDocument/publishDiagnostics
+I[01:15:36.657] --> textDocument/clangd.fileStatus
+I[01:15:37.015] <-- textDocument/didChange
+I[01:15:37.022] --> textDocument/clangd.fileStatus
+I[01:15:37.072] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:37.073] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 68 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:37.074] --> textDocument/clangd.fileStatus
+I[01:15:37.075] --> textDocument/clangd.fileStatus
+I[01:15:37.075] --> textDocument/clangd.fileStatus
+I[01:15:37.132] --> textDocument/publishDiagnostics
+I[01:15:37.132] --> textDocument/clangd.fileStatus
+I[01:15:37.544] <-- textDocument/documentLink(124)
+I[01:15:37.544] --> reply:textDocument/documentLink(124) 0 ms
+I[01:15:37.544] --> textDocument/clangd.fileStatus
+I[01:15:37.720] <-- textDocument/didChange
+I[01:15:37.723] --> textDocument/clangd.fileStatus
+I[01:15:37.775] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:15:37.776] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 69 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:15:37.778] --> textDocument/clangd.fileStatus
+I[01:15:37.778] --> textDocument/clangd.fileStatus
+I[01:15:37.779] --> textDocument/clangd.fileStatus
+I[01:15:37.835] --> textDocument/publishDiagnostics
+I[01:15:37.835] --> textDocument/clangd.fileStatus
+I[01:15:38.097] <-- textDocument/codeAction(125)
+I[01:15:38.097] --> reply:textDocument/codeAction(125) 0 ms
+I[01:15:38.097] --> textDocument/clangd.fileStatus
+I[01:15:38.711] <-- textDocument/documentLink(126)
+I[01:15:38.713] --> reply:textDocument/documentLink(126) 1 ms
+I[01:15:38.713] --> textDocument/clangd.fileStatus
+I[01:15:39.897] <-- textDocument/hover(127)
+I[01:15:39.909] --> reply:textDocument/hover(127) 12 ms
+I[01:15:39.909] --> textDocument/clangd.fileStatus
+I[01:15:42.082] <-- textDocument/hover(128)
+I[01:15:42.086] --> reply:textDocument/hover(128) 3 ms
+I[01:15:42.086] --> textDocument/clangd.fileStatus
+I[01:15:45.324] <-- textDocument/documentSymbol(129)
+I[01:15:45.325] --> reply:textDocument/documentSymbol(129) 1 ms
+I[01:15:45.325] --> textDocument/clangd.fileStatus
+I[01:15:47.865] <-- textDocument/hover(130)
+I[01:15:47.870] --> reply:textDocument/hover(130) 5 ms
+I[01:15:47.870] --> textDocument/clangd.fileStatus
+I[01:15:48.268] <-- textDocument/hover(131)
+I[01:15:48.271] --> reply:textDocument/hover(131) 2 ms
+I[01:15:48.271] --> textDocument/clangd.fileStatus
+I[01:15:48.289] <-- textDocument/documentHighlight(132)
+I[01:15:48.289] --> reply:textDocument/documentHighlight(132) 0 ms
+I[01:15:48.289] --> textDocument/clangd.fileStatus
+I[01:15:48.528] <-- textDocument/codeAction(133)
+I[01:15:48.528] --> reply:textDocument/codeAction(133) 0 ms
+I[01:15:48.528] --> textDocument/clangd.fileStatus
+I[01:15:48.574] <-- textDocument/hover(134)
+I[01:15:48.578] --> reply:textDocument/hover(134) 4 ms
+I[01:15:48.578] --> textDocument/clangd.fileStatus
+I[01:15:48.745] <-- textDocument/codeAction(135)
+I[01:15:48.746] --> reply:textDocument/codeAction(135) 0 ms
+I[01:15:48.746] --> textDocument/clangd.fileStatus
+I[01:15:50.238] <-- textDocument/hover(136)
+I[01:15:50.242] --> reply:textDocument/hover(136) 4 ms
+I[01:15:50.242] --> textDocument/clangd.fileStatus
+I[01:15:50.254] <-- textDocument/documentHighlight(137)
+I[01:15:50.254] --> reply:textDocument/documentHighlight(137) 0 ms
+I[01:15:50.254] --> textDocument/clangd.fileStatus
+I[01:15:50.501] <-- textDocument/codeAction(138)
+I[01:15:50.503] --> reply:textDocument/codeAction(138) 2 ms
+I[01:15:50.503] --> textDocument/clangd.fileStatus
+I[01:15:51.516] <-- textDocument/hover(139)
+I[01:15:51.520] --> reply:textDocument/hover(139) 3 ms
+I[01:15:51.520] --> textDocument/clangd.fileStatus
+I[01:15:51.661] <-- textDocument/documentHighlight(140)
+I[01:15:51.661] --> reply:textDocument/documentHighlight(140) 0 ms
+I[01:15:51.661] --> textDocument/clangd.fileStatus
+I[01:15:51.911] <-- textDocument/codeAction(141)
+I[01:15:51.911] --> reply:textDocument/codeAction(141) 0 ms
+I[01:15:51.911] --> textDocument/clangd.fileStatus
+I[01:15:52.236] <-- textDocument/hover(142)
+I[01:15:52.273] --> reply:textDocument/hover(142) 36 ms
+I[01:15:52.273] --> textDocument/clangd.fileStatus
+I[01:15:52.437] <-- textDocument/hover(143)
+I[01:15:52.442] --> reply:textDocument/hover(143) 5 ms
+I[01:15:52.442] --> textDocument/clangd.fileStatus
+I[01:15:53.177] <-- textDocument/hover(144)
+I[01:15:53.181] --> reply:textDocument/hover(144) 4 ms
+I[01:15:53.181] --> textDocument/clangd.fileStatus
+I[01:15:53.399] <-- textDocument/documentHighlight(145)
+I[01:15:53.400] --> reply:textDocument/documentHighlight(145) 0 ms
+I[01:15:53.400] --> textDocument/clangd.fileStatus
+I[01:15:53.632] <-- textDocument/codeAction(146)
+I[01:15:53.633] --> reply:textDocument/codeAction(146) 0 ms
+I[01:15:53.633] --> textDocument/clangd.fileStatus
+I[01:15:55.326] <-- textDocument/hover(147)
+I[01:15:55.331] --> reply:textDocument/hover(147) 4 ms
+I[01:15:55.332] --> textDocument/clangd.fileStatus
+I[01:15:55.721] <-- textDocument/documentHighlight(148)
+I[01:15:55.725] --> reply:textDocument/documentHighlight(148) 4 ms
+I[01:15:55.725] --> textDocument/clangd.fileStatus
+I[01:15:55.977] <-- textDocument/codeAction(149)
+I[01:15:55.977] --> reply:textDocument/codeAction(149) 0 ms
+I[01:15:55.977] --> textDocument/clangd.fileStatus
+I[01:15:58.213] <-- textDocument/hover(150)
+I[01:15:58.227] --> reply:textDocument/hover(150) 13 ms
+I[01:15:58.227] --> textDocument/clangd.fileStatus
+I[01:15:58.271] <-- textDocument/documentHighlight(151)
+I[01:15:58.281] --> reply:textDocument/documentHighlight(151) 10 ms
+I[01:15:58.281] --> textDocument/clangd.fileStatus
+I[01:15:58.512] <-- textDocument/codeAction(152)
+I[01:15:58.512] --> reply:textDocument/codeAction(152) 0 ms
+I[01:15:58.512] --> textDocument/clangd.fileStatus
+I[01:15:59.148] <-- textDocument/documentHighlight(153)
+I[01:15:59.148] --> reply:textDocument/documentHighlight(153) 0 ms
+I[01:15:59.148] --> textDocument/clangd.fileStatus
+I[01:15:59.395] <-- textDocument/codeAction(154)
+I[01:15:59.396] --> reply:textDocument/codeAction(154) 0 ms
+I[01:15:59.396] --> textDocument/clangd.fileStatus
+I[01:16:01.580] <-- textDocument/documentHighlight(155)
+I[01:16:01.587] --> reply:textDocument/documentHighlight(155) 6 ms
+I[01:16:01.587] --> textDocument/clangd.fileStatus
+I[01:16:01.809] <-- textDocument/codeAction(156)
+I[01:16:01.810] --> reply:textDocument/codeAction(156) 0 ms
+I[01:16:01.810] --> textDocument/clangd.fileStatus
+I[01:16:03.856] <-- textDocument/hover(157)
+I[01:16:03.860] --> reply:textDocument/hover(157) 3 ms
+I[01:16:03.860] --> textDocument/clangd.fileStatus
+I[01:16:03.945] <-- textDocument/documentHighlight(158)
+I[01:16:03.946] --> reply:textDocument/documentHighlight(158) 0 ms
+I[01:16:03.946] --> textDocument/clangd.fileStatus
+I[01:16:04.194] <-- textDocument/codeAction(159)
+I[01:16:04.195] --> reply:textDocument/codeAction(159) 1 ms
+I[01:16:04.195] --> textDocument/clangd.fileStatus
+I[01:16:04.538] <-- textDocument/didChange
+I[01:16:04.543] --> textDocument/clangd.fileStatus
+I[01:16:04.595] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:04.596] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 70 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:04.597] --> textDocument/clangd.fileStatus
+I[01:16:04.597] --> textDocument/clangd.fileStatus
+I[01:16:04.598] --> textDocument/clangd.fileStatus
+I[01:16:04.634] --> textDocument/publishDiagnostics
+I[01:16:04.634] --> textDocument/clangd.fileStatus
+I[01:16:04.651] <-- textDocument/signatureHelp(160)
+I[01:16:04.690] --> reply:textDocument/signatureHelp(160) 38 ms
+I[01:16:04.895] <-- textDocument/codeAction(161)
+I[01:16:04.896] --> reply:textDocument/codeAction(161) 0 ms
+I[01:16:04.896] --> textDocument/clangd.fileStatus
+I[01:16:05.464] <-- textDocument/hover(162)
+I[01:16:05.469] --> reply:textDocument/hover(162) 4 ms
+I[01:16:05.469] --> textDocument/clangd.fileStatus
+I[01:16:05.531] <-- textDocument/documentLink(163)
+I[01:16:05.531] --> reply:textDocument/documentLink(163) 0 ms
+I[01:16:05.531] --> textDocument/clangd.fileStatus
+I[01:16:05.561] <-- textDocument/documentHighlight(164)
+I[01:16:05.562] --> reply:textDocument/documentHighlight(164) 1 ms
+I[01:16:05.562] --> textDocument/clangd.fileStatus
+I[01:16:05.817] <-- textDocument/codeAction(165)
+I[01:16:05.818] --> reply:textDocument/codeAction(165) 0 ms
+I[01:16:05.818] --> textDocument/clangd.fileStatus
+I[01:16:09.362] <-- textDocument/hover(166)
+I[01:16:09.374] --> reply:textDocument/hover(166) 12 ms
+I[01:16:09.374] --> textDocument/clangd.fileStatus
+I[01:16:09.669] <-- textDocument/hover(167)
+I[01:16:09.677] --> reply:textDocument/hover(167) 8 ms
+I[01:16:09.677] --> textDocument/clangd.fileStatus
+I[01:16:14.288] <-- textDocument/documentSymbol(168)
+I[01:16:14.288] --> reply:textDocument/documentSymbol(168) 0 ms
+I[01:16:14.288] --> textDocument/clangd.fileStatus
+I[01:16:16.099] <-- textDocument/codeAction(169)
+I[01:16:16.099] --> reply:textDocument/codeAction(169) 0 ms
+I[01:16:16.099] --> textDocument/clangd.fileStatus
+I[01:16:16.489] <-- textDocument/didChange
+I[01:16:16.490] --> textDocument/clangd.fileStatus
+I[01:16:16.542] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:16.542] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 71 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:16.544] --> textDocument/clangd.fileStatus
+I[01:16:16.545] --> textDocument/clangd.fileStatus
+I[01:16:16.940] --> textDocument/clangd.fileStatus
+I[01:16:16.996] --> textDocument/publishDiagnostics
+I[01:16:16.996] --> textDocument/clangd.fileStatus
+I[01:16:17.486] <-- textDocument/documentLink(170)
+I[01:16:17.496] --> reply:textDocument/documentLink(170) 9 ms
+I[01:16:17.496] --> textDocument/clangd.fileStatus
+I[01:16:18.049] <-- textDocument/didChange
+I[01:16:18.051] --> textDocument/clangd.fileStatus
+I[01:16:18.104] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:18.105] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 72 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:18.107] --> textDocument/clangd.fileStatus
+I[01:16:18.107] --> textDocument/clangd.fileStatus
+I[01:16:18.295] <-- textDocument/codeAction(171)
+I[01:16:18.295] --> textDocument/clangd.fileStatus
+I[01:16:18.351] --> reply:textDocument/codeAction(171) 56 ms
+I[01:16:18.351] --> textDocument/clangd.fileStatus
+I[01:16:18.524] --> textDocument/clangd.fileStatus
+I[01:16:18.572] --> textDocument/publishDiagnostics
+I[01:16:18.572] --> textDocument/clangd.fileStatus
+I[01:16:18.595] <-- textDocument/didChange
+I[01:16:18.596] --> textDocument/clangd.fileStatus
+I[01:16:18.628] <-- textDocument/completion(172)
+I[01:16:18.634] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:16:18.634] Code complete: 7 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 7 returned.
+I[01:16:18.635] --> reply:textDocument/completion(172) 6 ms
+I[01:16:18.651] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:18.651] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 73 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:18.653] --> textDocument/clangd.fileStatus
+I[01:16:18.653] --> textDocument/clangd.fileStatus
+I[01:16:18.654] --> textDocument/clangd.fileStatus
+I[01:16:18.705] --> textDocument/publishDiagnostics
+I[01:16:18.709] --> textDocument/clangd.fileStatus
+I[01:16:18.767] <-- textDocument/didChange
+I[01:16:18.769] --> textDocument/clangd.fileStatus
+I[01:16:18.822] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:18.823] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 74 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:18.824] --> textDocument/clangd.fileStatus
+I[01:16:18.825] --> textDocument/clangd.fileStatus
+I[01:16:18.825] --> textDocument/clangd.fileStatus
+I[01:16:18.876] --> textDocument/publishDiagnostics
+I[01:16:18.876] --> textDocument/clangd.fileStatus
+I[01:16:18.908] <-- textDocument/completion(173)
+I[01:16:18.913] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:16:18.913] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[01:16:18.913] --> reply:textDocument/completion(173) 4 ms
+I[01:16:18.959] <-- textDocument/didChange
+I[01:16:18.960] <-- textDocument/completion(174)
+I[01:16:18.960] --> textDocument/clangd.fileStatus
+I[01:16:18.968] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:16:18.968] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[01:16:18.969] --> reply:textDocument/completion(174) 8 ms
+I[01:16:19.012] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:19.012] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 75 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:19.014] --> textDocument/clangd.fileStatus
+I[01:16:19.015] --> textDocument/clangd.fileStatus
+I[01:16:19.016] --> textDocument/clangd.fileStatus
+I[01:16:19.044] <-- textDocument/documentLink(175)
+I[01:16:19.076] --> textDocument/publishDiagnostics
+I[01:16:19.077] --> reply:textDocument/documentLink(175) 32 ms
+I[01:16:19.077] --> textDocument/clangd.fileStatus
+I[01:16:19.336] <-- textDocument/codeAction(176)
+I[01:16:19.336] --> reply:textDocument/codeAction(176) 0 ms
+I[01:16:19.336] --> textDocument/clangd.fileStatus
+I[01:16:19.813] <-- textDocument/codeAction(177)
+I[01:16:19.813] --> reply:textDocument/codeAction(177) 0 ms
+I[01:16:19.813] --> textDocument/clangd.fileStatus
+I[01:16:20.647] <-- textDocument/didChange
+I[01:16:20.650] <-- textDocument/completion(178)
+I[01:16:20.650] --> reply:textDocument/completion(178) 0 ms
+I[01:16:20.651] --> textDocument/clangd.fileStatus
+I[01:16:20.705] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:20.706] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 76 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:20.707] --> textDocument/clangd.fileStatus
+I[01:16:20.708] --> textDocument/clangd.fileStatus
+I[01:16:20.708] --> textDocument/clangd.fileStatus
+I[01:16:20.752] --> textDocument/publishDiagnostics
+I[01:16:20.752] --> textDocument/clangd.fileStatus
+I[01:16:20.761] <-- textDocument/signatureHelp(179)
+I[01:16:20.767] --> reply:textDocument/signatureHelp(179) 6 ms
+I[01:16:21.012] <-- textDocument/codeAction(180)
+I[01:16:21.013] --> reply:textDocument/codeAction(180) 0 ms
+I[01:16:21.013] --> textDocument/clangd.fileStatus
+I[01:16:21.119] <-- textDocument/didChange
+I[01:16:21.121] --> textDocument/clangd.fileStatus
+I[01:16:21.173] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:21.173] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 77 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:21.175] --> textDocument/clangd.fileStatus
+I[01:16:21.175] --> textDocument/clangd.fileStatus
+I[01:16:21.364] <-- textDocument/codeAction(181)
+I[01:16:21.364] --> textDocument/clangd.fileStatus
+I[01:16:21.416] --> reply:textDocument/codeAction(181) 52 ms
+I[01:16:21.416] --> textDocument/clangd.fileStatus
+I[01:16:21.631] --> textDocument/clangd.fileStatus
+I[01:16:21.666] <-- textDocument/documentLink(182)
+I[01:16:21.713] --> textDocument/publishDiagnostics
+I[01:16:21.713] --> reply:textDocument/documentLink(182) 46 ms
+I[01:16:21.713] --> textDocument/clangd.fileStatus
+I[01:16:21.971] <-- textDocument/codeAction(183)
+I[01:16:21.971] --> reply:textDocument/codeAction(183) 0 ms
+I[01:16:21.971] --> textDocument/clangd.fileStatus
+I[01:16:22.320] <-- textDocument/codeAction(184)
+I[01:16:22.320] --> reply:textDocument/codeAction(184) 0 ms
+I[01:16:22.320] --> textDocument/clangd.fileStatus
+I[01:16:23.191] <-- textDocument/didChange
+I[01:16:23.207] --> textDocument/clangd.fileStatus
+I[01:16:23.254] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:23.255] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 78 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:23.256] --> textDocument/clangd.fileStatus
+I[01:16:23.256] --> textDocument/clangd.fileStatus
+I[01:16:23.602] <-- textDocument/didChange
+I[01:16:23.628] --> textDocument/clangd.fileStatus
+I[01:16:23.679] --> textDocument/clangd.fileStatus
+I[01:16:23.679] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:23.679] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 79 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:23.681] --> textDocument/clangd.fileStatus
+I[01:16:23.701] --> textDocument/clangd.fileStatus
+I[01:16:23.702] --> textDocument/clangd.fileStatus
+I[01:16:23.703] --> textDocument/clangd.fileStatus
+I[01:16:23.754] --> textDocument/clangd.fileStatus
+I[01:16:23.755] --> textDocument/publishDiagnostics
+I[01:16:23.756] --> textDocument/clangd.fileStatus
+I[01:16:24.011] <-- textDocument/codeAction(185)
+I[01:16:24.012] --> textDocument/clangd.fileStatus
+I[01:16:24.029] --> reply:textDocument/codeAction(185) 18 ms
+I[01:16:24.029] --> textDocument/clangd.fileStatus
+I[01:16:24.129] --> textDocument/clangd.fileStatus
+I[01:16:24.184] <-- textDocument/documentLink(186)
+I[01:16:24.187] --> textDocument/publishDiagnostics
+I[01:16:24.187] --> reply:textDocument/documentLink(186) 3 ms
+I[01:16:24.187] --> textDocument/clangd.fileStatus
+I[01:16:24.445] <-- textDocument/codeAction(187)
+I[01:16:24.445] --> reply:textDocument/codeAction(187) 0 ms
+I[01:16:24.445] --> textDocument/clangd.fileStatus
+I[01:16:24.506] <-- textDocument/didChange
+I[01:16:24.509] --> textDocument/clangd.fileStatus
+I[01:16:24.561] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:24.563] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 80 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:24.566] --> textDocument/clangd.fileStatus
+I[01:16:24.566] --> textDocument/clangd.fileStatus
+I[01:16:24.764] <-- textDocument/codeAction(188)
+I[01:16:24.765] --> textDocument/clangd.fileStatus
+I[01:16:24.782] --> reply:textDocument/codeAction(188) 17 ms
+I[01:16:24.782] --> textDocument/clangd.fileStatus
+I[01:16:25.009] --> textDocument/clangd.fileStatus
+I[01:16:25.059] --> textDocument/publishDiagnostics
+I[01:16:25.059] --> textDocument/clangd.fileStatus
+I[01:16:25.319] <-- textDocument/codeAction(189)
+I[01:16:25.320] --> reply:textDocument/codeAction(189) 1 ms
+I[01:16:25.320] --> textDocument/clangd.fileStatus
+I[01:16:25.496] <-- textDocument/documentLink(190)
+I[01:16:25.497] --> reply:textDocument/documentLink(190) 0 ms
+I[01:16:25.497] --> textDocument/clangd.fileStatus
+I[01:16:25.598] <-- textDocument/didChange
+I[01:16:25.599] --> textDocument/clangd.fileStatus
+I[01:16:25.651] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:25.651] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 81 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:25.653] --> textDocument/clangd.fileStatus
+I[01:16:25.653] --> textDocument/clangd.fileStatus
+I[01:16:25.845] <-- textDocument/codeAction(191)
+I[01:16:25.845] --> textDocument/clangd.fileStatus
+I[01:16:25.864] --> reply:textDocument/codeAction(191) 19 ms
+I[01:16:25.864] --> textDocument/clangd.fileStatus
+I[01:16:26.101] --> textDocument/clangd.fileStatus
+I[01:16:26.182] --> textDocument/publishDiagnostics
+I[01:16:26.185] --> textDocument/clangd.fileStatus
+I[01:16:26.441] <-- textDocument/codeAction(192)
+I[01:16:26.441] --> reply:textDocument/codeAction(192) 0 ms
+I[01:16:26.441] --> textDocument/clangd.fileStatus
+I[01:16:26.595] <-- textDocument/documentLink(193)
+I[01:16:26.595] --> reply:textDocument/documentLink(193) 0 ms
+I[01:16:26.595] --> textDocument/clangd.fileStatus
+I[01:16:26.650] <-- textDocument/didChange
+I[01:16:26.652] --> textDocument/clangd.fileStatus
+I[01:16:26.709] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:26.709] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 82 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:26.711] --> textDocument/clangd.fileStatus
+I[01:16:26.711] --> textDocument/clangd.fileStatus
+I[01:16:26.858] <-- textDocument/didChange
+I[01:16:26.881] --> textDocument/clangd.fileStatus
+I[01:16:26.938] --> textDocument/clangd.fileStatus
+I[01:16:26.938] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:26.938] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 83 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:26.939] --> textDocument/clangd.fileStatus
+I[01:16:27.055] <-- textDocument/didChange
+I[01:16:27.078] --> textDocument/clangd.fileStatus
+I[01:16:27.133] --> textDocument/clangd.fileStatus
+I[01:16:27.133] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:27.133] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 84 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:27.136] --> textDocument/clangd.fileStatus
+I[01:16:27.182] --> textDocument/clangd.fileStatus
+I[01:16:27.184] --> textDocument/clangd.fileStatus
+I[01:16:27.205] <-- textDocument/didChange
+I[01:16:27.208] --> textDocument/clangd.fileStatus
+I[01:16:27.291] --> textDocument/clangd.fileStatus
+I[01:16:27.294] --> textDocument/publishDiagnostics
+I[01:16:27.296] --> textDocument/clangd.fileStatus
+I[01:16:27.296] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:27.296] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 85 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:27.298] --> textDocument/clangd.fileStatus
+I[01:16:27.489] <-- textDocument/didChange
+I[01:16:27.511] --> textDocument/clangd.fileStatus
+I[01:16:27.564] --> textDocument/clangd.fileStatus
+I[01:16:27.564] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:27.564] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 86 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:27.566] --> textDocument/clangd.fileStatus
+I[01:16:27.643] --> textDocument/clangd.fileStatus
+I[01:16:27.643] --> textDocument/clangd.fileStatus
+I[01:16:27.644] <-- textDocument/documentLink(194)
+I[01:16:27.645] --> textDocument/clangd.fileStatus
+I[01:16:27.715] --> textDocument/clangd.fileStatus
+I[01:16:27.716] --> textDocument/publishDiagnostics
+I[01:16:27.716] --> textDocument/clangd.fileStatus
+I[01:16:27.723] <-- textDocument/codeAction(195)
+I[01:16:27.911] --> reply:textDocument/documentLink(194) 266 ms
+I[01:16:27.911] --> textDocument/clangd.fileStatus
+I[01:16:27.911] --> reply:textDocument/codeAction(195) 187 ms
+I[01:16:27.911] --> textDocument/clangd.fileStatus
+I[01:16:28.087] <-- textDocument/codeAction(196)
+I[01:16:28.087] --> textDocument/clangd.fileStatus
+I[01:16:28.087] --> reply:textDocument/codeAction(196) 0 ms
+I[01:16:28.087] --> textDocument/clangd.fileStatus
+I[01:16:28.158] --> textDocument/clangd.fileStatus
+I[01:16:28.211] --> textDocument/publishDiagnostics
+I[01:16:28.213] --> textDocument/clangd.fileStatus
+I[01:16:28.468] <-- textDocument/codeAction(197)
+I[01:16:28.469] --> reply:textDocument/codeAction(197) 1 ms
+I[01:16:28.469] --> textDocument/clangd.fileStatus
+I[01:16:28.763] <-- textDocument/codeAction(198)
+I[01:16:28.763] --> reply:textDocument/codeAction(198) 0 ms
+I[01:16:28.764] --> textDocument/clangd.fileStatus
+I[01:16:28.966] <-- textDocument/didChange
+I[01:16:28.970] --> textDocument/clangd.fileStatus
+I[01:16:29.040] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:29.040] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 87 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:29.042] --> textDocument/clangd.fileStatus
+I[01:16:29.042] --> textDocument/clangd.fileStatus
+I[01:16:29.510] --> textDocument/clangd.fileStatus
+I[01:16:29.601] --> textDocument/publishDiagnostics
+I[01:16:29.601] --> textDocument/clangd.fileStatus
+I[01:16:29.964] <-- textDocument/documentLink(199)
+I[01:16:29.965] --> reply:textDocument/documentLink(199) 0 ms
+I[01:16:29.965] --> textDocument/clangd.fileStatus
+I[01:16:30.782] <-- textDocument/didChange
+I[01:16:30.784] --> textDocument/clangd.fileStatus
+I[01:16:30.853] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:30.854] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 88 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:30.855] --> textDocument/clangd.fileStatus
+I[01:16:30.855] --> textDocument/clangd.fileStatus
+I[01:16:31.030] <-- textDocument/codeAction(200)
+I[01:16:31.030] --> textDocument/clangd.fileStatus
+I[01:16:31.086] --> reply:textDocument/codeAction(200) 55 ms
+I[01:16:31.086] --> textDocument/clangd.fileStatus
+I[01:16:31.272] <-- textDocument/didChange
+I[01:16:31.290] --> textDocument/clangd.fileStatus
+I[01:16:31.344] --> textDocument/clangd.fileStatus
+I[01:16:31.345] <-- textDocument/completion(201)
+I[01:16:31.391] <-- textDocument/didChange
+I[01:16:31.423] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:16:31.423] Code complete: 7 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 7 returned.
+I[01:16:31.423] --> reply:textDocument/completion(201) 78 ms
+I[01:16:31.441] --> textDocument/publishDiagnostics
+I[01:16:31.441] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:31.444] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 89 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:31.446] --> textDocument/clangd.fileStatus
+I[01:16:31.452] --> textDocument/clangd.fileStatus
+I[01:16:31.453] --> textDocument/clangd.fileStatus
+I[01:16:31.511] --> textDocument/publishDiagnostics
+I[01:16:31.513] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:31.513] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 90 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:31.515] --> textDocument/clangd.fileStatus
+I[01:16:31.515] --> textDocument/clangd.fileStatus
+I[01:16:31.516] --> textDocument/clangd.fileStatus
+I[01:16:31.598] --> textDocument/publishDiagnostics
+I[01:16:31.598] --> textDocument/clangd.fileStatus
+I[01:16:31.652] <-- textDocument/didChange
+I[01:16:31.653] --> textDocument/clangd.fileStatus
+I[01:16:31.694] <-- textDocument/completion(202)
+I[01:16:31.699] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:16:31.699] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[01:16:31.699] --> reply:textDocument/completion(202) 4 ms
+I[01:16:31.733] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:31.734] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 91 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:31.735] --> textDocument/clangd.fileStatus
+I[01:16:31.735] --> textDocument/clangd.fileStatus
+I[01:16:31.736] --> textDocument/clangd.fileStatus
+I[01:16:31.778] <-- textDocument/documentLink(203)
+I[01:16:31.782] --> textDocument/publishDiagnostics
+I[01:16:31.782] --> reply:textDocument/documentLink(203) 4 ms
+I[01:16:31.782] --> textDocument/clangd.fileStatus
+I[01:16:32.042] <-- textDocument/codeAction(204)
+I[01:16:32.042] --> reply:textDocument/codeAction(204) 0 ms
+I[01:16:32.042] --> textDocument/clangd.fileStatus
+I[01:16:32.926] <-- textDocument/codeAction(205)
+I[01:16:32.927] --> reply:textDocument/codeAction(205) 0 ms
+I[01:16:32.927] --> textDocument/clangd.fileStatus
+I[01:16:33.728] <-- textDocument/didChange
+I[01:16:33.735] --> textDocument/clangd.fileStatus
+I[01:16:33.815] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:33.816] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 92 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:33.817] --> textDocument/clangd.fileStatus
+I[01:16:33.818] --> textDocument/clangd.fileStatus
+I[01:16:33.955] <-- textDocument/codeAction(206)
+I[01:16:33.955] --> textDocument/clangd.fileStatus
+I[01:16:34.006] --> reply:textDocument/codeAction(206) 51 ms
+I[01:16:34.006] --> textDocument/clangd.fileStatus
+I[01:16:34.313] --> textDocument/clangd.fileStatus
+I[01:16:34.367] --> textDocument/publishDiagnostics
+I[01:16:34.367] --> textDocument/clangd.fileStatus
+I[01:16:34.623] <-- textDocument/codeAction(207)
+I[01:16:34.623] --> reply:textDocument/codeAction(207) 0 ms
+I[01:16:34.624] --> textDocument/clangd.fileStatus
+I[01:16:34.712] <-- textDocument/documentLink(208)
+I[01:16:34.712] --> reply:textDocument/documentLink(208) 0 ms
+I[01:16:34.712] --> textDocument/clangd.fileStatus
+I[01:16:34.970] <-- textDocument/codeAction(209)
+I[01:16:34.970] --> reply:textDocument/codeAction(209) 0 ms
+I[01:16:34.970] --> textDocument/clangd.fileStatus
+I[01:16:35.455] <-- textDocument/didChange
+I[01:16:35.462] --> textDocument/clangd.fileStatus
+I[01:16:35.532] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:35.533] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 93 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:35.534] --> textDocument/clangd.fileStatus
+I[01:16:35.534] --> textDocument/clangd.fileStatus
+I[01:16:35.574] <-- textDocument/didChange
+I[01:16:35.577] --> textDocument/clangd.fileStatus
+I[01:16:35.648] --> textDocument/clangd.fileStatus
+I[01:16:35.648] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:35.648] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 94 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:35.650] --> textDocument/clangd.fileStatus
+I[01:16:35.695] <-- textDocument/didChange
+I[01:16:35.699] --> textDocument/clangd.fileStatus
+I[01:16:35.769] --> textDocument/clangd.fileStatus
+I[01:16:35.769] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:35.770] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 95 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:35.771] --> textDocument/clangd.fileStatus
+I[01:16:35.942] <-- textDocument/codeAction(210)
+I[01:16:35.942] --> textDocument/clangd.fileStatus
+I[01:16:36.007] --> reply:textDocument/codeAction(210) 64 ms
+I[01:16:36.007] --> textDocument/clangd.fileStatus
+I[01:16:36.078] --> textDocument/clangd.fileStatus
+I[01:16:36.079] --> textDocument/clangd.fileStatus
+I[01:16:36.080] --> textDocument/clangd.fileStatus
+I[01:16:36.130] --> textDocument/clangd.fileStatus
+I[01:16:36.131] --> textDocument/publishDiagnostics
+I[01:16:36.132] --> textDocument/clangd.fileStatus
+I[01:16:36.399] <-- textDocument/codeAction(211)
+I[01:16:36.399] --> textDocument/clangd.fileStatus
+I[01:16:36.473] <-- textDocument/documentLink(212)
+I[01:16:36.516] --> reply:textDocument/codeAction(211) 116 ms
+I[01:16:36.516] --> textDocument/clangd.fileStatus
+I[01:16:36.516] --> reply:textDocument/documentLink(212) 42 ms
+I[01:16:36.516] --> textDocument/clangd.fileStatus
+I[01:16:36.613] --> textDocument/clangd.fileStatus
+I[01:16:36.676] --> textDocument/publishDiagnostics
+I[01:16:36.676] --> textDocument/clangd.fileStatus
+I[01:16:37.099] <-- textDocument/codeAction(213)
+I[01:16:37.100] --> reply:textDocument/codeAction(213) 0 ms
+I[01:16:37.100] --> textDocument/clangd.fileStatus
+I[01:16:38.479] <-- textDocument/codeAction(214)
+I[01:16:38.479] --> reply:textDocument/codeAction(214) 0 ms
+I[01:16:38.479] --> textDocument/clangd.fileStatus
+I[01:16:41.028] <-- textDocument/documentHighlight(215)
+I[01:16:41.036] --> reply:textDocument/documentHighlight(215) 7 ms
+I[01:16:41.036] --> textDocument/clangd.fileStatus
+I[01:16:41.262] <-- textDocument/codeAction(216)
+I[01:16:41.262] --> reply:textDocument/codeAction(216) 0 ms
+I[01:16:41.263] --> textDocument/clangd.fileStatus
+I[01:16:41.272] <-- textDocument/documentHighlight(217)
+I[01:16:41.272] --> reply:textDocument/documentHighlight(217) 0 ms
+I[01:16:41.273] --> textDocument/clangd.fileStatus
+I[01:16:41.524] <-- textDocument/codeAction(218)
+I[01:16:41.524] --> reply:textDocument/codeAction(218) 0 ms
+I[01:16:41.524] --> textDocument/clangd.fileStatus
+I[01:16:41.796] <-- textDocument/codeAction(219)
+I[01:16:41.796] --> reply:textDocument/codeAction(219) 0 ms
+I[01:16:41.796] --> textDocument/clangd.fileStatus
+I[01:16:41.812] <-- textDocument/documentHighlight(220)
+I[01:16:41.813] --> reply:textDocument/documentHighlight(220) 0 ms
+I[01:16:41.813] --> textDocument/clangd.fileStatus
+I[01:16:41.935] <-- textDocument/documentSymbol(221)
+I[01:16:41.936] --> reply:textDocument/documentSymbol(221) 0 ms
+I[01:16:41.936] --> textDocument/clangd.fileStatus
+I[01:16:42.067] <-- textDocument/codeAction(222)
+I[01:16:42.068] --> reply:textDocument/codeAction(222) 0 ms
+I[01:16:42.068] --> textDocument/clangd.fileStatus
+I[01:16:43.001] <-- textDocument/codeAction(223)
+I[01:16:43.002] --> reply:textDocument/codeAction(223) 0 ms
+I[01:16:43.002] --> textDocument/clangd.fileStatus
+I[01:16:43.499] <-- textDocument/didChange
+I[01:16:43.503] --> textDocument/clangd.fileStatus
+I[01:16:43.566] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:43.566] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 96 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:43.568] --> textDocument/clangd.fileStatus
+I[01:16:43.568] --> textDocument/clangd.fileStatus
+I[01:16:44.024] --> textDocument/clangd.fileStatus
+I[01:16:44.077] --> textDocument/publishDiagnostics
+I[01:16:44.077] --> textDocument/clangd.fileStatus
+I[01:16:44.494] <-- textDocument/documentLink(224)
+I[01:16:44.494] --> reply:textDocument/documentLink(224) 0 ms
+I[01:16:44.494] --> textDocument/clangd.fileStatus
+I[01:16:46.000] <-- textDocument/didChange
+I[01:16:46.005] --> textDocument/clangd.fileStatus
+I[01:16:46.059] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:16:46.059] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 97 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:16:46.061] --> textDocument/clangd.fileStatus
+I[01:16:46.061] --> textDocument/clangd.fileStatus
+I[01:16:46.525] --> textDocument/clangd.fileStatus
+I[01:16:46.584] --> textDocument/publishDiagnostics
+I[01:16:46.584] --> textDocument/clangd.fileStatus
+I[01:16:46.999] <-- textDocument/documentLink(225)
+I[01:16:47.000] --> reply:textDocument/documentLink(225) 1 ms
+I[01:16:47.000] --> textDocument/clangd.fileStatus
+I[01:16:51.716] <-- textDocument/documentSymbol(226)
+I[01:16:51.721] --> reply:textDocument/documentSymbol(226) 4 ms
+I[01:16:51.721] --> textDocument/clangd.fileStatus
+I[01:16:52.148] <-- textDocument/hover(227)
+I[01:16:52.155] --> reply:textDocument/hover(227) 6 ms
+I[01:16:52.155] --> textDocument/clangd.fileStatus
+I[01:16:52.318] <-- textDocument/codeAction(228)
+I[01:16:52.318] --> reply:textDocument/codeAction(228) 0 ms
+I[01:16:52.318] --> textDocument/clangd.fileStatus
+I[01:16:58.643] <-- textDocument/codeAction(229)
+I[01:16:58.648] --> reply:textDocument/codeAction(229) 5 ms
+I[01:16:58.648] --> textDocument/clangd.fileStatus
+I[01:17:06.130] <-- textDocument/codeAction(230)
+I[01:17:06.131] --> reply:textDocument/codeAction(230) 0 ms
+I[01:17:06.131] --> textDocument/clangd.fileStatus
+I[01:17:06.471] <-- textDocument/didChange
+I[01:17:06.482] --> textDocument/clangd.fileStatus
+I[01:17:06.535] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:17:06.536] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 98 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:17:06.537] --> textDocument/clangd.fileStatus
+I[01:17:06.538] --> textDocument/clangd.fileStatus
+I[01:17:06.949] --> textDocument/clangd.fileStatus
+I[01:17:06.993] --> textDocument/publishDiagnostics
+I[01:17:06.993] --> textDocument/clangd.fileStatus
+I[01:17:07.457] <-- textDocument/documentLink(231)
+I[01:17:07.458] --> reply:textDocument/documentLink(231) 1 ms
+I[01:17:07.458] --> textDocument/clangd.fileStatus
+I[01:17:07.654] <-- textDocument/didChange
+I[01:17:07.656] --> textDocument/clangd.fileStatus
+I[01:17:07.707] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:17:07.707] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 99 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:17:07.708] --> textDocument/clangd.fileStatus
+I[01:17:07.709] --> textDocument/clangd.fileStatus
+I[01:17:07.890] <-- textDocument/codeAction(232)
+I[01:17:07.890] --> textDocument/clangd.fileStatus
+I[01:17:07.932] --> reply:textDocument/codeAction(232) 42 ms
+I[01:17:07.932] --> textDocument/clangd.fileStatus
+I[01:17:08.092] <-- textDocument/didChange
+I[01:17:08.094] --> textDocument/clangd.fileStatus
+I[01:17:08.145] --> textDocument/clangd.fileStatus
+I[01:17:08.145] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:17:08.146] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 100 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:17:08.147] --> textDocument/clangd.fileStatus
+I[01:17:08.155] --> textDocument/clangd.fileStatus
+I[01:17:08.156] --> textDocument/clangd.fileStatus
+I[01:17:08.158] <-- textDocument/completion(233)
+I[01:17:08.182] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:17:08.182] Code complete: 7 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 7 returned.
+I[01:17:08.182] --> reply:textDocument/completion(233) 24 ms
+I[01:17:08.222] <-- textDocument/didChange
+I[01:17:08.246] --> textDocument/publishDiagnostics
+I[01:17:08.295] --> textDocument/publishDiagnostics
+I[01:17:08.295] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:17:08.296] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 101 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:17:08.297] --> textDocument/clangd.fileStatus
+I[01:17:08.298] --> textDocument/clangd.fileStatus
+I[01:17:08.299] --> textDocument/clangd.fileStatus
+I[01:17:08.380] --> textDocument/publishDiagnostics
+I[01:17:08.380] --> textDocument/clangd.fileStatus
+I[01:17:08.439] <-- textDocument/completion(234)
+I[01:17:08.443] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:17:08.443] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[01:17:08.443] --> reply:textDocument/completion(234) 4 ms
+I[01:17:08.499] <-- textDocument/didChange
+I[01:17:08.502] <-- textDocument/completion(235)
+I[01:17:08.502] --> textDocument/clangd.fileStatus
+I[01:17:08.509] Code complete: sema context PreprocessorDirective, query scopes [] (AnyScope=true), expected type <none>
+I[01:17:08.510] Code complete: 4 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[01:17:08.510] --> reply:textDocument/completion(235) 7 ms
+I[01:17:08.560] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:17:08.562] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 102 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:17:08.566] --> textDocument/clangd.fileStatus
+I[01:17:08.566] --> textDocument/clangd.fileStatus
+I[01:17:08.568] --> textDocument/clangd.fileStatus
+I[01:17:08.614] --> textDocument/publishDiagnostics
+I[01:17:08.614] --> textDocument/clangd.fileStatus
+I[01:17:08.638] <-- textDocument/documentLink(236)
+I[01:17:08.639] --> reply:textDocument/documentLink(236) 0 ms
+I[01:17:08.639] --> textDocument/clangd.fileStatus
+I[01:17:08.870] <-- textDocument/codeAction(237)
+I[01:17:08.871] --> reply:textDocument/codeAction(237) 0 ms
+I[01:17:08.871] --> textDocument/clangd.fileStatus
+I[01:17:09.713] <-- textDocument/codeAction(238)
+I[01:17:09.713] --> reply:textDocument/codeAction(238) 0 ms
+I[01:17:09.713] --> textDocument/clangd.fileStatus
+I[01:17:09.956] <-- textDocument/didChange
+I[01:17:09.958] --> textDocument/clangd.fileStatus
+I[01:17:10.017] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:17:10.017] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 103 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:17:10.019] --> textDocument/clangd.fileStatus
+I[01:17:10.019] --> textDocument/clangd.fileStatus
+I[01:17:10.203] <-- textDocument/codeAction(239)
+I[01:17:10.203] --> textDocument/clangd.fileStatus
+I[01:17:10.249] --> reply:textDocument/codeAction(239) 45 ms
+I[01:17:10.249] --> textDocument/clangd.fileStatus
+I[01:17:10.439] --> textDocument/clangd.fileStatus
+I[01:17:10.485] --> textDocument/publishDiagnostics
+I[01:17:10.485] --> textDocument/clangd.fileStatus
+I[01:17:10.742] <-- textDocument/codeAction(240)
+I[01:17:10.742] --> reply:textDocument/codeAction(240) 0 ms
+I[01:17:10.742] --> textDocument/clangd.fileStatus
+I[01:17:10.951] <-- textDocument/documentLink(241)
+I[01:17:10.951] --> reply:textDocument/documentLink(241) 0 ms
+I[01:17:10.951] --> textDocument/clangd.fileStatus
+I[01:17:10.983] <-- textDocument/didChange
+I[01:17:10.986] --> textDocument/clangd.fileStatus
+I[01:17:11.036] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:17:11.037] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 104 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:17:11.039] --> textDocument/clangd.fileStatus
+I[01:17:11.039] --> textDocument/clangd.fileStatus
+I[01:17:11.230] <-- textDocument/didChange
+I[01:17:11.232] --> textDocument/clangd.fileStatus
+I[01:17:11.283] --> textDocument/clangd.fileStatus
+I[01:17:11.285] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:17:11.285] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 105 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:17:11.286] --> textDocument/clangd.fileStatus
+I[01:17:11.452] <-- textDocument/didChange
+I[01:17:11.453] --> textDocument/clangd.fileStatus
+I[01:17:11.476] --> textDocument/clangd.fileStatus
+I[01:17:11.476] --> textDocument/clangd.fileStatus
+I[01:17:11.477] --> textDocument/clangd.fileStatus
+I[01:17:11.524] --> textDocument/clangd.fileStatus
+I[01:17:11.525] --> textDocument/publishDiagnostics
+I[01:17:11.526] --> textDocument/clangd.fileStatus
+I[01:17:11.526] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:17:11.526] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 106 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:17:11.527] --> textDocument/clangd.fileStatus
+I[01:17:11.701] <-- textDocument/didChange
+I[01:17:11.703] --> textDocument/clangd.fileStatus
+I[01:17:11.752] --> textDocument/clangd.fileStatus
+I[01:17:11.752] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:17:11.752] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 107 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:17:11.755] --> textDocument/clangd.fileStatus
+I[01:17:11.919] --> textDocument/clangd.fileStatus
+I[01:17:11.919] --> textDocument/clangd.fileStatus
+I[01:17:11.920] --> textDocument/clangd.fileStatus
+I[01:17:11.954] <-- textDocument/codeAction(242)
+I[01:17:11.964] --> textDocument/clangd.fileStatus
+I[01:17:11.964] --> textDocument/publishDiagnostics
+I[01:17:11.965] --> textDocument/clangd.fileStatus
+I[01:17:11.990] <-- textDocument/documentLink(243)
+I[01:17:12.003] --> reply:textDocument/codeAction(242) 49 ms
+I[01:17:12.003] --> textDocument/clangd.fileStatus
+I[01:17:12.003] --> reply:textDocument/documentLink(243) 12 ms
+I[01:17:12.003] --> textDocument/clangd.fileStatus
+I[01:17:12.228] <-- textDocument/codeAction(244)
+I[01:17:12.228] --> textDocument/clangd.fileStatus
+I[01:17:12.228] --> reply:textDocument/codeAction(244) 0 ms
+I[01:17:12.228] --> textDocument/clangd.fileStatus
+I[01:17:12.354] --> textDocument/clangd.fileStatus
+I[01:17:12.400] --> textDocument/publishDiagnostics
+I[01:17:12.400] --> textDocument/clangd.fileStatus
+I[01:17:12.536] <-- textDocument/didChange
+I[01:17:12.538] --> textDocument/clangd.fileStatus
+I[01:17:12.588] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:17:12.589] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 108 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:17:12.590] --> textDocument/clangd.fileStatus
+I[01:17:12.590] --> textDocument/clangd.fileStatus
+I[01:17:12.800] <-- textDocument/codeAction(245)
+I[01:17:12.800] --> textDocument/clangd.fileStatus
+I[01:17:12.815] --> reply:textDocument/codeAction(245) 14 ms
+I[01:17:12.815] --> textDocument/clangd.fileStatus
+I[01:17:13.030] --> textDocument/clangd.fileStatus
+I[01:17:13.081] --> textDocument/publishDiagnostics
+I[01:17:13.081] --> textDocument/clangd.fileStatus
+I[01:17:13.095] <-- textDocument/didChange
+I[01:17:13.095] --> textDocument/clangd.fileStatus
+I[01:17:13.145] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:17:13.147] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 109 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:17:13.153] --> textDocument/clangd.fileStatus
+I[01:17:13.153] --> textDocument/clangd.fileStatus
+I[01:17:15.752] <-- textDocument/codeAction(246)
+I[01:17:15.752] --> textDocument/clangd.fileStatus
+I[01:17:15.810] --> reply:textDocument/codeAction(246) 58 ms
+I[01:17:15.811] --> textDocument/clangd.fileStatus
+I[01:17:15.948] <-- textDocument/documentLink(247)
+I[01:17:15.948] --> textDocument/clangd.fileStatus
+I[01:17:15.948] --> reply:textDocument/documentLink(247) 0 ms
+I[01:17:15.948] --> textDocument/clangd.fileStatus
+I[01:17:16.080] --> textDocument/clangd.fileStatus
+I[01:17:16.141] --> textDocument/publishDiagnostics
+I[01:17:16.141] --> textDocument/clangd.fileStatus
+I[01:17:16.400] <-- textDocument/codeAction(248)
+I[01:17:16.401] --> reply:textDocument/codeAction(248) 0 ms
+I[01:17:16.401] --> textDocument/clangd.fileStatus
+I[01:17:16.807] <-- textDocument/codeAction(249)
+I[01:17:16.807] --> reply:textDocument/codeAction(249) 0 ms
+I[01:17:16.808] --> textDocument/clangd.fileStatus
+I[01:17:17.608] <-- textDocument/didChange
+I[01:17:17.631] <-- textDocument/completion(250)
+I[01:17:17.631] --> textDocument/clangd.fileStatus
+I[01:17:17.639] Code complete: sema context IncludedFile, query scopes [] (AnyScope=true), expected type <none>
+I[01:17:17.640] Code complete: 1 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[01:17:17.640] --> reply:textDocument/completion(250) 9 ms
+I[01:17:17.681] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:17:17.681] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 110 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:17:17.683] --> textDocument/clangd.fileStatus
+I[01:17:17.683] --> textDocument/clangd.fileStatus
+I[01:17:17.829] <-- textDocument/codeAction(251)
+I[01:17:17.829] --> textDocument/clangd.fileStatus
+I[01:17:17.888] --> reply:textDocument/codeAction(251) 58 ms
+I[01:17:17.888] --> textDocument/clangd.fileStatus
+I[01:17:17.932] <-- textDocument/didChange
+I[01:17:17.938] --> textDocument/clangd.fileStatus
+I[01:17:17.957] <-- textDocument/completion(252)
+I[01:17:17.984] --> textDocument/clangd.fileStatus
+I[01:17:17.984] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:17:17.984] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 111 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:17:17.986] --> textDocument/clangd.fileStatus
+I[01:17:17.989] Code complete: sema context IncludedFile, query scopes [] (AnyScope=true), expected type <none>
+I[01:17:17.989] Code complete: 1 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 1 returned.
+I[01:17:17.989] --> reply:textDocument/completion(252) 31 ms
+I[01:17:18.149] <-- textDocument/codeAction(253)
+I[01:17:18.149] --> textDocument/clangd.fileStatus
+I[01:17:18.199] --> reply:textDocument/codeAction(253) 49 ms
+I[01:17:18.199] --> textDocument/clangd.fileStatus
+I[01:17:18.296] --> textDocument/clangd.fileStatus
+I[01:17:18.297] --> textDocument/clangd.fileStatus
+I[01:17:18.299] --> textDocument/clangd.fileStatus
+I[01:17:18.349] --> textDocument/clangd.fileStatus
+I[01:17:18.349] --> textDocument/publishDiagnostics
+I[01:17:18.350] --> textDocument/clangd.fileStatus
+I[01:17:18.580] <-- textDocument/documentLink(254)
+I[01:17:18.580] --> textDocument/clangd.fileStatus
+I[01:17:18.612] <-- textDocument/codeAction(255)
+I[01:17:18.660] --> reply:textDocument/documentLink(254) 79 ms
+I[01:17:18.660] --> textDocument/clangd.fileStatus
+I[01:17:18.660] --> reply:textDocument/codeAction(255) 47 ms
+I[01:17:18.660] --> textDocument/clangd.fileStatus
+I[01:17:18.836] --> textDocument/clangd.fileStatus
+I[01:17:18.882] --> textDocument/publishDiagnostics
+I[01:17:18.882] --> textDocument/clangd.fileStatus
+I[01:17:19.306] <-- textDocument/codeAction(256)
+I[01:17:19.306] --> reply:textDocument/codeAction(256) 0 ms
+I[01:17:19.306] --> textDocument/clangd.fileStatus
+I[01:17:23.173] <-- textDocument/didChange
+I[01:17:23.178] --> textDocument/clangd.fileStatus
+I[01:17:23.229] Failed to find compilation database for /mnt/hgfs/georgezhang/leet/l0056.intervals.cc
+I[01:17:23.229] ASTWorker building file /mnt/hgfs/georgezhang/leet/l0056.intervals.cc version 112 with command clangd fallback
+[/mnt/hgfs/georgezhang/leet]
+/usr/bin/clang /mnt/hgfs/georgezhang/leet/l0056.intervals.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:17:23.231] --> textDocument/clangd.fileStatus
+I[01:17:23.231] --> textDocument/clangd.fileStatus
+I[01:17:23.232] --> textDocument/clangd.fileStatus
+I[01:17:23.232] --> textDocument/clangd.fileStatus
+I[01:17:24.156] <-- textDocument/documentLink(257)
+I[01:17:24.158] --> reply:textDocument/documentLink(257) 1 ms
+I[01:17:24.158] --> textDocument/clangd.fileStatus
+I[01:17:24.416] <-- textDocument/codeAction(258)
+I[01:17:24.417] --> reply:textDocument/codeAction(258) 0 ms
+I[01:17:24.417] --> textDocument/clangd.fileStatus
+I[01:17:27.688] <-- textDocument/hover(259)
+I[01:17:27.696] --> reply:textDocument/hover(259) 7 ms
+I[01:17:27.696] --> textDocument/clangd.fileStatus
+I[01:17:28.447] <-- textDocument/documentSymbol(260)
+I[01:17:28.449] --> reply:textDocument/documentSymbol(260) 1 ms
+I[01:17:28.449] --> textDocument/clangd.fileStatus
+I[01:17:34.274] <-- textDocument/hover(261)
+I[01:17:34.282] --> reply:textDocument/hover(261) 7 ms
+I[01:17:34.282] --> textDocument/clangd.fileStatus
+I[01:17:36.494] <-- textDocument/codeAction(262)
+I[01:17:36.495] --> reply:textDocument/codeAction(262) 0 ms
+I[01:17:36.495] --> textDocument/clangd.fileStatus
+I[01:17:37.766] <-- textDocument/hover(263)
+I[01:17:37.769] --> reply:textDocument/hover(263) 3 ms
+I[01:17:37.769] --> textDocument/clangd.fileStatus
+I[01:17:52.632] <-- textDocument/hover(264)
+I[01:17:52.637] --> reply:textDocument/hover(264) 4 ms
+I[01:17:52.637] --> textDocument/clangd.fileStatus
+I[01:17:52.707] <-- textDocument/documentHighlight(265)
+I[01:17:52.708] --> reply:textDocument/documentHighlight(265) 0 ms
+I[01:17:52.708] --> textDocument/clangd.fileStatus
+I[01:17:52.934] <-- textDocument/codeAction(266)
+I[01:17:52.934] --> reply:textDocument/codeAction(266) 0 ms
+I[01:17:52.934] --> textDocument/clangd.fileStatus
+I[01:17:55.785] <-- textDocument/documentHighlight(267)
+I[01:17:55.785] --> reply:textDocument/documentHighlight(267) 0 ms
+I[01:17:55.785] --> textDocument/clangd.fileStatus
+I[01:17:56.016] <-- textDocument/codeAction(268)
+I[01:17:56.017] --> reply:textDocument/codeAction(268) 0 ms
+I[01:17:56.017] --> textDocument/clangd.fileStatus
+I[01:18:00.657] <-- textDocument/hover(269)
+I[01:18:00.669] --> reply:textDocument/hover(269) 12 ms
+I[01:18:00.670] --> textDocument/clangd.fileStatus
+I[01:18:00.786] <-- textDocument/documentHighlight(270)
+I[01:18:00.786] --> reply:textDocument/documentHighlight(270) 0 ms
+I[01:18:00.786] --> textDocument/clangd.fileStatus
+I[01:18:01.013] <-- textDocument/codeAction(271)
+I[01:18:01.013] --> reply:textDocument/codeAction(271) 0 ms
+I[01:18:01.014] --> textDocument/clangd.fileStatus
+I[01:18:03.558] <-- textDocument/hover(272)
+I[01:18:03.562] --> reply:textDocument/hover(272) 4 ms
+I[01:18:03.562] --> textDocument/clangd.fileStatus
+I[01:18:04.059] <-- textDocument/documentHighlight(273)
+I[01:18:04.060] --> reply:textDocument/documentHighlight(273) 0 ms
+I[01:18:04.060] --> textDocument/clangd.fileStatus
+I[01:18:04.309] <-- textDocument/codeAction(274)
+I[01:18:04.309] --> reply:textDocument/codeAction(274) 0 ms
+I[01:18:04.309] --> textDocument/clangd.fileStatus
+I[01:18:08.442] <-- textDocument/hover(275)
+I[01:18:08.456] --> reply:textDocument/hover(275) 13 ms
+I[01:18:08.457] --> textDocument/clangd.fileStatus
+I[01:18:08.516] <-- textDocument/documentHighlight(276)
+I[01:18:08.516] --> reply:textDocument/documentHighlight(276) 0 ms
+I[01:18:08.516] --> textDocument/clangd.fileStatus
+I[01:18:08.758] <-- textDocument/codeAction(277)
+I[01:18:08.759] --> reply:textDocument/codeAction(277) 1 ms
+I[01:18:08.759] --> textDocument/clangd.fileStatus
+I[01:18:11.439] <-- textDocument/hover(278)
+I[01:18:11.445] --> reply:textDocument/hover(278) 5 ms
+I[01:18:11.445] --> textDocument/clangd.fileStatus
+I[01:18:11.733] <-- textDocument/codeAction(279)
+I[01:18:11.733] --> reply:textDocument/codeAction(279) 0 ms
+I[01:18:11.733] --> textDocument/clangd.fileStatus
+I[01:18:11.956] <-- textDocument/hover(280)
+I[01:18:11.960] --> reply:textDocument/hover(280) 4 ms
+I[01:18:11.960] --> textDocument/clangd.fileStatus
+I[01:18:12.014] <-- textDocument/definition(281)
+I[01:18:12.015] --> reply:textDocument/definition(281) 0 ms
+I[01:18:12.015] --> textDocument/clangd.fileStatus
+I[01:18:38.804] <-- textDocument/didOpen
+I[01:18:38.808] Failed to find compilation database for /mnt/hgfs/georgezhang/pp.cc
+I[01:18:38.808] ASTWorker building file /mnt/hgfs/georgezhang/pp.cc version 1 with command clangd fallback
+[/mnt/hgfs/georgezhang]
+/usr/bin/clang /mnt/hgfs/georgezhang/pp.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:18:38.811] --> textDocument/clangd.fileStatus
+I[01:18:38.900] --> textDocument/publishDiagnostics
+I[01:18:38.900] --> textDocument/clangd.fileStatus
+I[01:18:39.073] <-- textDocument/documentLink(282)
+I[01:18:39.073] <-- textDocument/documentSymbol(283)
+I[01:18:39.073] --> reply:textDocument/documentLink(282) 0 ms
+I[01:18:39.073] --> reply:textDocument/documentSymbol(283) 0 ms
+I[01:18:39.073] --> textDocument/clangd.fileStatus
+I[01:20:39.998] <-- textDocument/didOpen
+I[01:20:40.009] <-- textDocument/documentLink(284)
+I[01:20:40.009] <-- textDocument/codeAction(285)
+I[01:20:40.009] <-- textDocument/documentSymbol(286)
+I[01:20:40.023] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/misc/1306.jumpGame.cc
+I[01:20:40.023] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/misc/1306.jumpGame.cc version 1 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode/misc]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/misc/1306.jumpGame.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:20:40.026] --> textDocument/clangd.fileStatus
+I[01:20:40.096] --> textDocument/publishDiagnostics
+I[01:20:40.096] --> reply:textDocument/documentLink(284) 86 ms
+I[01:20:40.096] --> reply:textDocument/codeAction(285) 86 ms
+I[01:20:40.096] --> reply:textDocument/documentSymbol(286) 86 ms
+I[01:20:40.096] --> textDocument/clangd.fileStatus
+I[01:20:47.818] <-- textDocument/documentSymbol(287)
+I[01:20:47.824] --> reply:textDocument/documentSymbol(287) 5 ms
+I[01:20:47.824] --> textDocument/clangd.fileStatus
+I[01:20:48.913] <-- textDocument/documentSymbol(288)
+I[01:20:48.913] --> reply:textDocument/documentSymbol(288) 0 ms
+I[01:20:48.913] --> textDocument/clangd.fileStatus
+I[01:20:49.810] <-- textDocument/documentSymbol(289)
+I[01:20:49.810] --> reply:textDocument/documentSymbol(289) 0 ms
+I[01:20:49.810] --> textDocument/clangd.fileStatus
+I[01:20:50.890] <-- textDocument/codeAction(290)
+I[01:20:50.890] --> reply:textDocument/codeAction(290) 0 ms
+I[01:20:50.890] --> textDocument/clangd.fileStatus
+I[01:21:20.538] <-- textDocument/didChange
+I[01:21:20.540] --> textDocument/clangd.fileStatus
+I[01:21:20.591] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/misc/1306.jumpGame.cc
+I[01:21:20.591] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/misc/1306.jumpGame.cc version 2 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode/misc]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/misc/1306.jumpGame.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:21:20.593] --> textDocument/clangd.fileStatus
+I[01:21:20.593] --> textDocument/clangd.fileStatus
+I[01:21:20.593] --> textDocument/clangd.fileStatus
+I[01:21:20.599] --> textDocument/publishDiagnostics
+I[01:21:20.599] --> textDocument/clangd.fileStatus
+I[01:21:20.869] <-- textDocument/didChange
+I[01:21:20.879] --> textDocument/clangd.fileStatus
+I[01:21:20.930] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/misc/1306.jumpGame.cc
+I[01:21:20.930] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/misc/1306.jumpGame.cc version 3 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode/misc]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/misc/1306.jumpGame.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:21:20.932] --> textDocument/clangd.fileStatus
+I[01:21:20.932] --> textDocument/clangd.fileStatus
+I[01:21:20.932] --> textDocument/clangd.fileStatus
+I[01:21:20.941] --> textDocument/publishDiagnostics
+I[01:21:20.941] --> textDocument/clangd.fileStatus
+I[01:21:21.187] <-- textDocument/documentSymbol(291)
+I[01:21:21.187] --> reply:textDocument/documentSymbol(291) 0 ms
+I[01:21:21.188] --> textDocument/clangd.fileStatus
+I[01:21:21.537] <-- textDocument/documentLink(292)
+I[01:21:21.537] --> reply:textDocument/documentLink(292) 0 ms
+I[01:21:21.537] --> textDocument/clangd.fileStatus
+I[01:21:22.273] <-- textDocument/didChange
+I[01:21:22.275] --> textDocument/clangd.fileStatus
+I[01:21:22.327] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/misc/1306.jumpGame.cc
+I[01:21:22.327] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/misc/1306.jumpGame.cc version 4 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode/misc]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/misc/1306.jumpGame.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:21:22.328] --> textDocument/clangd.fileStatus
+I[01:21:22.328] --> textDocument/clangd.fileStatus
+I[01:21:22.328] --> textDocument/clangd.fileStatus
+I[01:21:22.336] --> textDocument/publishDiagnostics
+I[01:21:22.336] --> textDocument/clangd.fileStatus
+I[01:21:22.630] <-- textDocument/documentSymbol(293)
+I[01:21:22.630] --> reply:textDocument/documentSymbol(293) 0 ms
+I[01:21:22.630] --> textDocument/clangd.fileStatus
+I[01:21:22.645] <-- textDocument/didChange
+I[01:21:22.647] --> textDocument/clangd.fileStatus
+I[01:21:22.698] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/misc/1306.jumpGame.cc
+I[01:21:22.698] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/misc/1306.jumpGame.cc version 5 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode/misc]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/misc/1306.jumpGame.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[01:21:22.699] --> textDocument/clangd.fileStatus
+I[01:21:22.700] --> textDocument/clangd.fileStatus
+I[01:21:22.700] --> textDocument/clangd.fileStatus
+I[01:21:22.709] --> textDocument/publishDiagnostics
+I[01:21:22.709] --> textDocument/clangd.fileStatus
+I[01:21:23.016] <-- textDocument/documentSymbol(294)
+I[01:21:23.016] --> reply:textDocument/documentSymbol(294) 0 ms
+I[01:21:23.016] --> textDocument/clangd.fileStatus
+I[01:21:23.272] <-- textDocument/documentLink(295)
+I[01:21:23.272] --> reply:textDocument/documentLink(295) 0 ms
+I[01:21:23.272] --> textDocument/clangd.fileStatus
+I[01:21:24.770] <-- textDocument/codeAction(296)
+I[01:21:24.771] --> reply:textDocument/codeAction(296) 0 ms
+I[01:21:24.771] --> textDocument/clangd.fileStatus

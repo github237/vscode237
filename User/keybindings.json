@@ -1,0 +1,77 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+down",
+        "command": "spaceBlockJumper.moveDown"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "spaceBlockJumper.moveUp"
+    },
+    {
+        "key": "ctrl+x ctrl+x",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+c t",
+        "command": "extension.findText"
+    },
+    {
+        "key": "ctrl+c s",
+        "command": "extension.findSymbol"
+    },
+    {
+        "key": "ctrl+c b",
+        "command": "extension.build"
+    },
+    {
+        "key": "ctrl+c d",
+        "command": "extension.findDefinition"
+    },
+    {
+        "key": "ctrl+c d",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "f12",
+        "command": "-editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+c a",
+        "command": "editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "shift+f12",
+        "command": "-editor.action.goToReferences",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+c ctrl+a",
+        "command": "references-view.findReferences",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "shift+alt+f12",
+        "command": "-references-view.findReferences",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "ctrl+x left",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+alt+-",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+x right",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.navigateForward"
+    }
+]

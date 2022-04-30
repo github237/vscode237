@@ -1,0 +1,148 @@
+[2022-04-28 20:57:35.279] [renderer1] [error] The request (id: 2, method: 'textDocument/hover') has been cancelled: Error: The request (id: 2, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.280] [renderer1] [error] The request (id: 3, method: 'textDocument/hover') has been cancelled: Error: The request (id: 3, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.280] [renderer1] [error] The request (id: 4, method: 'textDocument/hover') has been cancelled: Error: The request (id: 4, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.280] [renderer1] [error] The request (id: 5, method: 'textDocument/hover') has been cancelled: Error: The request (id: 5, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.280] [renderer1] [error] The request (id: 6, method: 'textDocument/hover') has been cancelled: Error: The request (id: 6, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.280] [renderer1] [error] The request (id: 7, method: 'textDocument/hover') has been cancelled: Error: The request (id: 7, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.280] [renderer1] [error] The request (id: 8, method: 'textDocument/hover') has been cancelled: Error: The request (id: 8, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.280] [renderer1] [error] The request (id: 9, method: 'textDocument/hover') has been cancelled: Error: The request (id: 9, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.280] [renderer1] [error] The request (id: 10, method: 'textDocument/hover') has been cancelled: Error: The request (id: 10, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.280] [renderer1] [error] The request (id: 11, method: 'textDocument/hover') has been cancelled: Error: The request (id: 11, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.280] [renderer1] [error] The request (id: 12, method: 'textDocument/hover') has been cancelled: Error: The request (id: 12, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.470] [renderer1] [error] The request (id: 13, method: 'textDocument/hover') has been cancelled: Error: The request (id: 13, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.517] [renderer1] [error] The request (id: 14, method: 'textDocument/hover') has been cancelled: Error: The request (id: 14, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.677] [renderer1] [error] The request (id: 16, method: 'textDocument/hover') has been cancelled: Error: The request (id: 16, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.934] [renderer1] [error] The request (id: 17, method: 'textDocument/hover') has been cancelled: Error: The request (id: 17, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:36.039] [renderer1] [error] The request (id: 18, method: 'textDocument/hover') has been cancelled: Error: The request (id: 18, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:36.064] [renderer1] [error] The request (id: 19, method: 'textDocument/hover') has been cancelled: Error: The request (id: 19, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:44.039] [renderer1] [error] The request (id: 14, method: 'textDocument/hover') has been cancelled: Error: The request (id: 14, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:44.225] [renderer1] [error] The request (id: 16, method: 'textDocument/hover') has been cancelled: Error: The request (id: 16, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:49.229] [renderer1] [error] The request (id: 22, method: 'textDocument/hover') has been cancelled: Error: The request (id: 22, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:49.440] [renderer1] [error] The request (id: 27, method: 'textDocument/hover') has been cancelled: Error: The request (id: 27, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:58:00.236] [renderer1] [error] The request (id: 32, method: 'textDocument/hover') has been cancelled: Error: The request (id: 32, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:58:51.438] [renderer1] [error] The request (id: 60, method: 'textDocument/hover') has been cancelled: Error: The request (id: 60, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:58:52.804] [renderer1] [error] The request (id: 62, method: 'textDocument/hover') has been cancelled: Error: The request (id: 62, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:59:48.529] [renderer1] [error] The request (id: 104, method: 'textDocument/hover') has been cancelled: Error: The request (id: 104, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 21:01:14.386] [renderer1] [error] The request (id: 239, method: 'textDocument/hover') has been cancelled: Error: The request (id: 239, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 21:01:48.626] [renderer1] [error] The request (id: 271, method: 'textDocument/hover') has been cancelled: Error: The request (id: 271, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 21:02:36.510] [renderer1] [error] The request (id: 327, method: 'workspace/executeCommand') has been cancelled: Error: The request (id: 327, method: 'workspace/executeCommand') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 21:02:48.287] [renderer1] [error] The request (id: 352, method: 'textDocument/hover') has been cancelled: Error: The request (id: 352, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 21:03:55.994] [renderer1] [warning] UNRESPONSIVE extension host, 'Wscats.eno' took 99% of 6534.812ms, saved PROFILE here: '/tmp/exthost-3116c0.cpuprofile' [{"id":"gc","total":91513,"percentage":1},{"id":"Wscats.eno","total":6442139,"percentage":99}]
+[2022-04-28 21:05:22.843] [renderer1] [info] Setting search error: {"url":"https://bingsettingssearch.trafficmanager.net/api/Search","body":"{\"query\":\"(font)%5E10%20%7C%7C%20font~\",\"filters\":\"(packageid%20eq%20'a7fa941e-bcda-486f-8141-8483a6286177'%20and%20startbuildno%20le%20'000000000100000000210000000000'%20and%20endbuildno%20ge%20'000000000100000000210000000000')%20or%20(packageid%20eq%20'abab72a2-5116-4dc2-930d-519cc5326bf9'%20and%20startbuildno%20le%20'000000000000000000010000000011'%20and%20endbuildno%20ge%20'000000000000000000010000000011')%20or%20(packageid%20eq%20'26356a32-0320-433c-b4f7-a64b9aaf3e58'%20and%20startbuildno%20le%20'000000000100000000010000000001'%20and%20endbuildno%20ge%20'000000000100000000010000000001')%20or%20(packageid%20eq%20'19e1cdbe-42df-443e-89c0-bfecc7204b1d'%20and%20startbuildno%20le%20'000000000000000000020000000003'%20and%20endbuildno%20ge%20'000000000000000000020000000003')%20or%20(packageid%20eq%20'2be7cf14-2603-402e-9771-fd79df83cdf8'%20and%20startbuildno%20le%20'000000000000000000000000000017'%20and%20endbuildno%20ge%20'000000000000000000000000000017')%20or%20(packageid%20eq%20'876e8f93-74d0-4f4f-91b7-34a09f19f444'%20and%20startbuildno%20le%20'000000000100000000020000000014'%20and%20endbuildno%20ge%20'000000000100000000020000000014')%20or%20(packageid%20eq%20'61fcd0cf-64d7-4836-8d6b-d55f4fb83281'%20and%20startbuildno%20le%20'000000000000000000310000000000'%20and%20endbuildno%20ge%20'000000000000000000310000000000')%20or%20(packageid%20eq%20'7865e561-1c83-410e-9b99-aabada597a7e'%20and%20startbuildno%20le%20'000000000000000000160000000000'%20and%20endbuildno%20ge%20'000000000000000000160000000000')%20or%20(packageid%20eq%20'96f11e1f-1a46-4592-b084-f025b2c2a81f'%20and%20startbuildno%20le%20'000000000000000000120000000001'%20and%20endbuildno%20ge%20'000000000000000000120000000001')%20or%20(packageid%20eq%20'67c06b0d-1891-42ca-b2a8-113e79bff069'%20and%20startbuildno%20le%20'000000000000000000260000000000'%20and%20endbuildno%20ge%20'000000000000000000260000000000')%20or%20(packageid%20eq%20'b0f06c6b-24fb-4d7b-bd79-bc5e2fa17312'%20and%20startbuildno%20le%20'000000000000000000300000000001'%20and%20endbuildno%20ge%20'000000000000000000300000000001')%20or%20(packageid%20eq%20'a205ad34-542b-4c67-a9ed-f645103ad9c0'%20and%20startbuildno%20le%20'000000000000000000090000000000'%20and%20endbuildno%20ge%20'000000000000000000090000000000')%20or%20(packageid%20eq%20'97a08c5f-6667-4242-a5c5-045dfb6bd4b9'%20and%20startbuildno%20le%20'000000000100000000000000000005'%20and%20endbuildno%20ge%20'000000000100000000000000000005')%20or%20(packageid%20eq%20'0e8e71fb-6b26-4602-8e4a-1741a7b40a08'%20and%20startbuildno%20le%20'000000000200000000030000000053'%20and%20endbuildno%20ge%20'000000000200000000030000000053')%20or%20(packageid%20eq%20'0e09be2c-e1a5-4719-98d2-2460aa220ce8'%20and%20startbuildno%20le%20'000000000000000000000000000001'%20and%20endbuildno%20ge%20'000000000000000000000000000001')%20or%20(packageid%20eq%20'8f313c11-80fc-4b16-983f-3865c3bec6f1'%20and%20startbuildno%20le%20'000000000000000000020000000000'%20and%20endbuildno%20ge%20'000000000000000000020000000000')%20or%20(packageid%20eq%20'932c605f-b557-48d6-82b3-f682f311987a'%20and%20startbuildno%20le%20'000000000100000000050000000004'%20and%20endbuildno%20ge%20'000000000100000000050000000004')%20or%20(packageid%20eq%20'core'%20and%20startbuildno%20le%20'1500100728140'%20and%20endbuildno%20ge%20'1500100728140')\",\"rawQuery\":\"font\"}","hasMoreFilters":false} returned status code: 400
+[2022-04-28 21:05:23.001] [renderer1] [info] Setting search error: {"url":"https://bingsettingssearch.trafficmanager.net/api/Search","body":"{\"query\":\"(font)%5E10%20%7C%7C%20font~\",\"filters\":\"diminish%20eq%20'latest'\",\"rawQuery\":\"font\"}","hasMoreFilters":false} returned status code: 400

@@ -1,0 +1,8 @@
+[2022-04-28 20:09:02.655] [renderer1] [warning] UNRESPONSIVE extension host, 'ms-vscode.cpptools' took 99% of 6895.77ms, saved PROFILE here: '/tmp/exthost-86167a.cpuprofile' [{"id":"ms-vscode.cpptools","total":6842493,"percentage":99},{"id":"program","total":1144,"percentage":0}]
+[2022-04-28 20:09:08.638] [renderer1] [warning] UNRESPONSIVE extension host, 'CoenraadS.bracket-pair-colorizer-2' took 60% of 679.656ms, saved PROFILE here: '/tmp/exthost-68064c.cpuprofile' [{"id":"CoenraadS.bracket-pair-colorizer-2","total":409214,"percentage":60},{"id":"llvm-vs-code-extensions.vscode-clangd","total":18995,"percentage":3},{"id":"ms-vscode-remote.remote-containers","total":118088,"percentage":17},{"id":"ms-vscode.cpptools","total":5649,"percentage":1},{"id":"program","total":20418,"percentage":3},{"id":"self","total":104673,"percentage":15}]
+[2022-04-28 20:09:10.860] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2022-04-28 20:13:34.627] [renderer1] [warning] UNRESPONSIVE extension host, 'CoenraadS.bracket-pair-colorizer-2' took 94% of 5500.641ms, saved PROFILE here: '/tmp/exthost-c6941a.cpuprofile' [{"id":"CoenraadS.bracket-pair-colorizer-2","total":5151872,"percentage":94},{"id":"gc","total":348132,"percentage":6}]
+[2022-04-28 20:13:37.427] [renderer1] [error] Invalid typed array length: -7810: RangeError: Invalid typed array length: -7810
+    at new Uint32Array (<anonymous>)
+    at N._setDocumentSemanticTokens (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2745:84)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2744:75

@@ -1,0 +1,227 @@
+Analyzing 
+PMD Command: java -Dfile.encoding=utf-8 -cp "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/bin/pmd/lib/*:*" net.sourceforge.pmd.PMD -f csv -no-cache -d "" -R "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/rulesets/p3c-ruleset.xml"
+stdout:
+Mandatory arguments:
+1) A java source code filename or directory
+2) A report format 
+3) A ruleset filename or a comma-delimited string of ruleset filenames
+
+For example: 
+C:\>pmd-bin-6.15.0\bin\pmd.bat -d c:\my\source\code -f html -R java-unusedcode
+
+Languages and version suported:
+java
+
+Available report formats and their configuration properties are:
+   codeclimate: Code Climate integration.
+   csv: Comma-separated values tabular format.
+        problem - Include Problem column   default: true
+        package - Include Package column   default: true
+        file - Include File column   default: true
+        priority - Include Priority column   default: true
+        line - Include Line column   default: true
+        desc - Include Description column   default: true
+        ruleSet - Include Rule set column   default: true
+        rule - Include Rule column   default: true
+   emacs: GNU Emacs integration.
+   empty: Empty, nothing.
+   html: HTML format
+        linePrefix - Prefix for line number anchor in the source file.
+        linkPrefix - Path to HTML source.
+   ideaj: IntelliJ IDEA integration.
+        classAndMethodName - Class and Method name, pass '.method' when processing a directory.   default: 
+        sourcePath - Source path.   default: 
+        fileName - File name.   default: 
+   summaryhtml: Summary HTML format.
+        linePrefix - Prefix for line number anchor in the source file.
+        linkPrefix - Path to HTML source.
+   text: Text format.
+   textcolor: Text format, with color support (requires ANSI console support, e.g. xterm, rxvt, etc.).
+        color - Enables colors with anything other than 'false' or '0'.   default: yes
+   textpad: TextPad integration.
+   vbhtml: Vladimir Bossicard HTML format.
+   xml: XML format.
+        encoding - XML encoding format, defaults to UTF-8.   default: UTF-8
+   xslt: XML with a XSL Transformation applied.
+        encoding - XML encoding format, defaults to UTF-8.   default: UTF-8
+        xsltFilename - The XSLT file name.
+   yahtml: Yet Another HTML format.
+        outputDir - Output directory.
+
+For example on windows: 
+C:\>pmd-bin-6.15.0\bin\pmd.bat -dir c:\my\source\code -format text -R rulesets/java/quickstart.xml -version 1.5 -language java -debug
+C:\>pmd-bin-6.15.0\bin\pmd.bat -dir c:\my\source\code -f xml -rulesets rulesets/java/quickstart.xml,category/java/codestyle.xml -encoding UTF-8
+C:\>pmd-bin-6.15.0\bin\pmd.bat -d c:\my\source\code -rulesets rulesets/java/quickstart.xml -auxclasspath lib\commons-collections.jar;lib\derby.jar
+C:\>pmd-bin-6.15.0\bin\pmd.bat -d c:\my\source\code -f html -R rulesets/java/quickstart.xml -auxclasspath file:///C:/my/classpathfile
+
+For example on *nix: 
+$ pmd-bin-6.15.0/bin/run.sh pmd -dir /home/workspace/src/main/java/code -f html -rulesets rulesets/java/quickstart.xml,category/java/codestyle.xml
+$ pmd-bin-6.15.0/bin/run.sh pmd -d ./src/main/java/code -R rulesets/java/quickstart.xml -f xslt -property xsltFilename=my-own.xsl
+$ pmd-bin-6.15.0/bin/run.sh pmd -d ./src/main/java/code -f html -R rulesets/java/quickstart.xml -auxclasspath commons-collections.jar:derby.jar
+
+
+
+
+
+
+stderr:File  doesn't exist
+
+Failed Exit Code: 1
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+TypeError: Cannot read property 'includes' of undefined
+0 issue(s) found
+Analyzing /mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java
+PMD Command: java -Dfile.encoding=utf-8 -cp "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/bin/pmd/lib/*:*" net.sourceforge.pmd.PMD -f csv -no-cache -d "/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java" -R "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/rulesets/p3c-ruleset.xml"
+stdout:"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","","/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java","3","1","【HelloWorld】缺少包含@author的注释信息","AlibabaJavaComments","ClassMustHaveAuthorRule"
+
+1 issue(s) found
+Analyzing /mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java
+PMD Command: java -Dfile.encoding=utf-8 -cp "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/bin/pmd/lib/*:*" net.sourceforge.pmd.PMD -f csv -no-cache -d "/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java" -R "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/rulesets/p3c-ruleset.xml"
+stdout:"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","","/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java","3","1","【HelloWorld】缺少包含@author的注释信息","AlibabaJavaComments","ClassMustHaveAuthorRule"
+
+1 issue(s) found
+Analyzing /mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java
+PMD Command: java -Dfile.encoding=utf-8 -cp "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/bin/pmd/lib/*:*" net.sourceforge.pmd.PMD -f csv -no-cache -d "/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java" -R "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/rulesets/p3c-ruleset.xml"
+stdout:"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","","/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java","3","1","【HelloWorld】缺少包含@author的注释信息","AlibabaJavaComments","ClassMustHaveAuthorRule"
+
+1 issue(s) found
+Analyzing /mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java
+PMD Command: java -Dfile.encoding=utf-8 -cp "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/bin/pmd/lib/*:*" net.sourceforge.pmd.PMD -f csv -no-cache -d "/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java" -R "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/rulesets/p3c-ruleset.xml"
+Analyzing /mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java
+PMD Command: java -Dfile.encoding=utf-8 -cp "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/bin/pmd/lib/*:*" net.sourceforge.pmd.PMD -f csv -no-cache -d "/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java" -R "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/rulesets/p3c-ruleset.xml"
+stdout:"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","","/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java","3","1","【HelloWorld】缺少包含@author的注释信息","AlibabaJavaComments","ClassMustHaveAuthorRule"
+
+1 issue(s) found
+stdout:"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","","/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java","3","1","【HelloWorld】缺少包含@author的注释信息","AlibabaJavaComments","ClassMustHaveAuthorRule"
+
+1 issue(s) found
+Analyzing /mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java
+PMD Command: java -Dfile.encoding=utf-8 -cp "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/bin/pmd/lib/*:*" net.sourceforge.pmd.PMD -f csv -no-cache -d "/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java" -R "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/rulesets/p3c-ruleset.xml"
+stdout:"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","","/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java","3","1","【HelloWorld】缺少包含@author的注释信息","AlibabaJavaComments","ClassMustHaveAuthorRule"
+
+1 issue(s) found
+Analyzing /mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java
+PMD Command: java -Dfile.encoding=utf-8 -cp "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/bin/pmd/lib/*:*" net.sourceforge.pmd.PMD -f csv -no-cache -d "/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java" -R "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/rulesets/p3c-ruleset.xml"
+stdout:"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","","/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java","3","1","【HelloWorld】缺少包含@author的注释信息","AlibabaJavaComments","ClassMustHaveAuthorRule"
+
+1 issue(s) found
+Analyzing /mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java
+PMD Command: java -Dfile.encoding=utf-8 -cp "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/bin/pmd/lib/*:*" net.sourceforge.pmd.PMD -f csv -no-cache -d "/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java" -R "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/rulesets/p3c-ruleset.xml"
+stderr:Apr 28, 2022 8:41:26 PM net.sourceforge.pmd.lang.ast.xpath.Attribute getValue
+WARNING: Use of deprecated attribute 'LocalVariableDeclaration/@Array' in XPath query
+
+stdout:"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","","/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java","3","1","【HelloWorld】缺少包含@author的注释信息","AlibabaJavaComments","ClassMustHaveAuthorRule"
+
+1 issue(s) found
+Analyzing /mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java
+PMD Command: java -Dfile.encoding=utf-8 -cp "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/bin/pmd/lib/*:*" net.sourceforge.pmd.PMD -f csv -no-cache -d "/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java" -R "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/rulesets/p3c-ruleset.xml"
+stderr:Apr 28, 2022 8:41:36 PM net.sourceforge.pmd.lang.ast.xpath.Attribute getValue
+WARNING: Use of deprecated attribute 'LocalVariableDeclaration/@Array' in XPath query
+
+stdout:"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","","/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java","3","1","【HelloWorld】缺少包含@author的注释信息","AlibabaJavaComments","ClassMustHaveAuthorRule"
+
+1 issue(s) found
+Analyzing /mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java
+PMD Command: java -Dfile.encoding=utf-8 -cp "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/bin/pmd/lib/*:*" net.sourceforge.pmd.PMD -f csv -no-cache -d "/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java" -R "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/rulesets/p3c-ruleset.xml"
+stderr:Apr 28, 2022 8:42:04 PM net.sourceforge.pmd.lang.ast.xpath.Attribute getValue
+WARNING: Use of deprecated attribute 'LocalVariableDeclaration/@Array' in XPath query
+
+stdout:"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","","/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java","3","1","【HelloWorld】缺少包含@author的注释信息","AlibabaJavaComments","ClassMustHaveAuthorRule"
+
+1 issue(s) found
+Analyzing /mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java
+PMD Command: java -Dfile.encoding=utf-8 -cp "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/bin/pmd/lib/*:*" net.sourceforge.pmd.PMD -f csv -no-cache -d "/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java" -R "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/rulesets/p3c-ruleset.xml"
+stderr:Apr 28, 2022 8:49:09 PM net.sourceforge.pmd.lang.ast.xpath.Attribute getValue
+WARNING: Use of deprecated attribute 'LocalVariableDeclaration/@Array' in XPath query
+
+stdout:"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","","/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java","3","1","【HelloWorld】缺少包含@author的注释信息","AlibabaJavaComments","ClassMustHaveAuthorRule"
+
+1 issue(s) found
+Analyzing /mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java
+PMD Command: java -Dfile.encoding=utf-8 -cp "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/bin/pmd/lib/*:*" net.sourceforge.pmd.PMD -f csv -no-cache -d "/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java" -R "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/rulesets/p3c-ruleset.xml"
+stdout:"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","","/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java","3","3","【HelloWorld】缺少包含@author的注释信息","AlibabaJavaComments","ClassMustHaveAuthorRule"
+
+1 issue(s) found
+Analyzing /mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java
+PMD Command: java -Dfile.encoding=utf-8 -cp "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/bin/pmd/lib/*:*" net.sourceforge.pmd.PMD -f csv -no-cache -d "/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java" -R "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/rulesets/p3c-ruleset.xml"
+stdout:"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","","/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java","3","3","【HelloWorld】缺少包含@author的注释信息","AlibabaJavaComments","ClassMustHaveAuthorRule"
+
+1 issue(s) found
+Analyzing /mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java
+PMD Command: java -Dfile.encoding=utf-8 -cp "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/bin/pmd/lib/*:*" net.sourceforge.pmd.PMD -f csv -no-cache -d "/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java" -R "/home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/rulesets/p3c-ruleset.xml"
+stdout:"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","","/mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java","3","3","【HelloWorld】缺少包含@author的注释信息","AlibabaJavaComments","ClassMustHaveAuthorRule"
+
+1 issue(s) found

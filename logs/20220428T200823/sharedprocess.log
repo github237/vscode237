@@ -1,0 +1,44 @@
+[2022-04-28 20:08:28.888] [sharedprocess] [info] main {"machineId":"729fe2fdb439a3729d7d888fbe7627f459a9118715f4a781b49a5276464993f9","windowId":2}
+[2022-04-28 20:08:37.391] [sharedprocess] [info] Installing extension: batisteo.vscode-django
+[2022-04-28 20:08:37.392] [sharedprocess] [info] Installing extension: coenraads.bracket-pair-colorizer-2
+[2022-04-28 20:08:37.393] [sharedprocess] [info] Installing extension: fisheva.eva-theme
+[2022-04-28 20:08:37.394] [sharedprocess] [info] Installing extension: leojhonsong.ccpp-extension-pack
+[2022-04-28 20:08:37.395] [sharedprocess] [info] Installing extension: ms-vscode.vscode-typescript-next
+[2022-04-28 20:08:37.395] [sharedprocess] [info] Installing extension: vscjava.vscode-spring-initializr
+[2022-04-28 20:08:39.084] [sharedprocess] [info] Downloaded extension: leojhonsong.ccpp-extension-pack undefined
+[2022-04-28 20:08:39.238] [sharedprocess] [info] Downloaded extension: batisteo.vscode-django undefined
+[2022-04-28 20:08:39.238] [sharedprocess] [info] Downloaded extension: fisheva.eva-theme undefined
+[2022-04-28 20:08:39.292] [sharedprocess] [info] Downloaded extension: vscjava.vscode-spring-initializr undefined
+[2022-04-28 20:08:39.366] [sharedprocess] [info] Downloaded extension: coenraads.bracket-pair-colorizer-2 undefined
+[2022-04-28 20:08:39.606] [sharedprocess] [info] Extracted extension to /home/georgezhang/.vscode/extensions/.leojhonsong.ccpp-extension-pack-2.0.0: leojhonsong.ccpp-extension-pack
+[2022-04-28 20:08:39.608] [sharedprocess] [info] Renamed to /home/georgezhang/.vscode/extensions/leojhonsong.ccpp-extension-pack-2.0.0
+[2022-04-28 20:08:39.624] [sharedprocess] [info] Installation completed. leojhonsong.ccpp-extension-pack
+[2022-04-28 20:08:40.219] [sharedprocess] [info] Extracted extension to /home/georgezhang/.vscode/extensions/.fisheva.eva-theme-1.8.2: fisheva.eva-theme
+[2022-04-28 20:08:40.220] [sharedprocess] [info] Renamed to /home/georgezhang/.vscode/extensions/fisheva.eva-theme-1.8.2
+[2022-04-28 20:08:40.229] [sharedprocess] [info] Installation completed. fisheva.eva-theme
+[2022-04-28 20:08:40.252] [sharedprocess] [info] Extracted extension to /home/georgezhang/.vscode/extensions/.vscjava.vscode-spring-initializr-0.9.0: vscjava.vscode-spring-initializr
+[2022-04-28 20:08:40.253] [sharedprocess] [info] Renamed to /home/georgezhang/.vscode/extensions/vscjava.vscode-spring-initializr-0.9.0
+[2022-04-28 20:08:40.259] [sharedprocess] [info] Extensions installed successfully: fisheva.eva-theme
+[2022-04-28 20:08:40.266] [sharedprocess] [info] Installation completed. vscjava.vscode-spring-initializr
+[2022-04-28 20:08:40.315] [sharedprocess] [info] Installing extension: ms-vscode.makefile-tools
+[2022-04-28 20:08:40.486] [sharedprocess] [info] Extensions installed successfully: vscjava.vscode-spring-initializr
+[2022-04-28 20:08:42.180] [sharedprocess] [info] Downloaded extension: ms-vscode.makefile-tools undefined
+[2022-04-28 20:08:43.219] [sharedprocess] [info] Extracted extension to /home/georgezhang/.vscode/extensions/.coenraads.bracket-pair-colorizer-2-0.2.4: coenraads.bracket-pair-colorizer-2
+[2022-04-28 20:08:43.221] [sharedprocess] [info] Renamed to /home/georgezhang/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.4
+[2022-04-28 20:08:43.225] [sharedprocess] [info] Installation completed. coenraads.bracket-pair-colorizer-2
+[2022-04-28 20:08:43.237] [sharedprocess] [info] Extracted extension to /home/georgezhang/.vscode/extensions/.batisteo.vscode-django-1.10.0: batisteo.vscode-django
+[2022-04-28 20:08:43.238] [sharedprocess] [info] Renamed to /home/georgezhang/.vscode/extensions/batisteo.vscode-django-1.10.0
+[2022-04-28 20:08:43.239] [sharedprocess] [info] Extensions installed successfully: coenraads.bracket-pair-colorizer-2
+[2022-04-28 20:08:43.244] [sharedprocess] [info] Installation completed. batisteo.vscode-django
+[2022-04-28 20:08:43.268] [sharedprocess] [info] Extensions installed successfully: batisteo.vscode-django
+[2022-04-28 20:08:43.747] [sharedprocess] [info] Downloaded extension: ms-vscode.vscode-typescript-next undefined
+[2022-04-28 20:08:59.918] [sharedprocess] [info] Extracted extension to /home/georgezhang/.vscode/extensions/.ms-vscode.makefile-tools-0.5.0: ms-vscode.makefile-tools
+[2022-04-28 20:08:59.921] [sharedprocess] [info] Renamed to /home/georgezhang/.vscode/extensions/ms-vscode.makefile-tools-0.5.0
+[2022-04-28 20:08:59.925] [sharedprocess] [info] Installation completed. ms-vscode.makefile-tools
+[2022-04-28 20:09:00.088] [sharedprocess] [info] Extensions installed successfully: ms-vscode.makefile-tools
+[2022-04-28 20:09:00.099] [sharedprocess] [info] Extensions installed successfully: leojhonsong.ccpp-extension-pack
+[2022-04-28 20:09:00.555] [sharedprocess] [info] Extracted extension to /home/georgezhang/.vscode/extensions/.ms-vscode.vscode-typescript-next-4.7.20220428: ms-vscode.vscode-typescript-next
+[2022-04-28 20:09:00.555] [sharedprocess] [info] Renamed to /home/georgezhang/.vscode/extensions/ms-vscode.vscode-typescript-next-4.7.20220428
+[2022-04-28 20:09:00.556] [sharedprocess] [info] Installation completed. ms-vscode.vscode-typescript-next
+[2022-04-28 20:09:00.854] [sharedprocess] [info] Extensions installed successfully: ms-vscode.vscode-typescript-next
+[2022-04-28 20:09:08.965] [sharedprocess] [info] Starting to clean up unused language packs.

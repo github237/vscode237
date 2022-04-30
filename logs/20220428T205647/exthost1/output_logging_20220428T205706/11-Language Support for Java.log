@@ -1,0 +1,116 @@
+[Error - 8:57:26 PM] Apr 28, 2022, 8:57:26 PM Failed to build workspace.
+jdt.ls-java-project does not exist
+Java Model Exception: Java Model Status [jdt.ls-java-project does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+	at org.eclipse.jdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:2322)
+	at org.eclipse.jdt.internal.core.JavaProject.getPackageFragments(JavaProject.java:2346)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.cleanupResources(ProjectsManager.java:212)
+	at org.eclipse.jdt.ls.core.internal.handlers.BuildWorkspaceHandler.buildWorkspace(BuildWorkspaceHandler.java:53)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$26(JDTLanguageServer.java:835)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$51(JDTLanguageServer.java:1007)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[Error - 8:57:45 PM] Apr 28, 2022, 8:57:45 PM Failed to create linked resource from file:///mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java to jdt.ls-java-project
+Resource '/jdt.ls-java-project/src/HelloWorld.java' already exists.
+org.eclipse.core.internal.resources.ResourceException(/jdt.ls-java-project/src/HelloWorld.java)[367]: java.lang.Exception: Resource '/jdt.ls-java-project/src/HelloWorld.java' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1369)
+	at org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1304)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:643)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:270)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:185)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:445)
+	at org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:40)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$6(JDTLanguageServer.java:561)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[Error - 8:57:45 PM] Apr 28, 2022, 8:57:45 PM Failed to create linked resource from file:///mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java to jdt.ls-java-project
+Resource '/jdt.ls-java-project/src/HelloWorld.java' already exists.
+org.eclipse.core.internal.resources.ResourceException(/jdt.ls-java-project/src/HelloWorld.java)[367]: java.lang.Exception: Resource '/jdt.ls-java-project/src/HelloWorld.java' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1369)
+	at org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1304)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:643)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:270)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:185)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:445)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:404)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentHighlightHandler.documentHighlight(DocumentHighlightHandler.java:87)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$12(JDTLanguageServer.java:623)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[Error - 8:57:45 PM] Apr 28, 2022, 8:57:45 PM Failed to create linked resource from file:///mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java to jdt.ls-java-project
+Resource '/jdt.ls-java-project/src/HelloWorld.java' already exists.
+org.eclipse.core.internal.resources.ResourceException(/jdt.ls-java-project/src/HelloWorld.java)[367]: java.lang.Exception: Resource '/jdt.ls-java-project/src/HelloWorld.java' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1369)
+	at org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1304)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:643)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:270)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:185)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:165)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:91)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:649)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[Error - 8:57:45 PM] Apr 28, 2022, 8:57:45 PM Failed to create linked resource from file:///mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java to jdt.ls-java-project
+Resource '/jdt.ls-java-project/src/HelloWorld.java' already exists.
+org.eclipse.core.internal.resources.ResourceException(/jdt.ls-java-project/src/HelloWorld.java)[367]: java.lang.Exception: Resource '/jdt.ls-java-project/src/HelloWorld.java' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1369)
+	at org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1304)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:643)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:270)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:185)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:445)
+	at org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:40)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$6(JDTLanguageServer.java:561)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[Error - 8:57:45 PM] Apr 28, 2022, 8:57:45 PM Failed to create linked resource from file:///mnt/hgfs/georgezhang/leetcode/java/HelloWorld.java to jdt.ls-java-project
+Resource '/jdt.ls-java-project/src/HelloWorld.java' already exists.
+org.eclipse.core.internal.resources.ResourceException(/jdt.ls-java-project/src/HelloWorld.java)[367]: java.lang.Exception: Resource '/jdt.ls-java-project/src/HelloWorld.java' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1369)
+	at org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1304)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:643)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:270)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:185)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:445)
+	at org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.foldingRange(FoldingRangeHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$28(JDTLanguageServer.java:865)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$51(JDTLanguageServer.java:1007)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[Warn  - 9:01:52 PM] Apr 28, 2022, 9:01:52 PM >> execute error, message: execute ScanWorkspaceCommand error
+[Warn  - 9:02:05 PM] Apr 28, 2022, 9:02:05 PM >> execute error, message: execute ScanWorkspaceCommand error
+[Warn  - 9:02:11 PM] Apr 28, 2022, 9:02:11 PM >> execute error, message: execute ScanWorkspaceCommand error
+[Warn  - 9:04:02 PM] Apr 28, 2022, 9:04:02 PM >> execute error, message: execute ScanWorkspaceCommand error
+[Warn  - 9:07:44 PM] Apr 28, 2022, 9:07:44 PM >> execute error, message: execute ScanWorkspaceCommand error
+[Warn  - 9:08:17 PM] Apr 28, 2022, 9:08:17 PM >> execute error, message: execute ScanWorkspaceCommand error

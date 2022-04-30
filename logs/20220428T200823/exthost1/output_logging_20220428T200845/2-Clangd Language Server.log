@@ -1,0 +1,184 @@
+I[20:08:48.295] clangd version 11.0.1 (Red Hat 11.0.1-1.module_el8.4.0+966+2995ef20)
+I[20:08:48.295] PID: 16244
+I[20:08:48.296] Working directory: /home/georgezhang
+I[20:08:48.296] argv[0]: /usr/bin/clangd
+I[20:08:48.296] Starting LSP over stdin/stdout
+I[20:08:48.618] <-- initialize(0)
+I[20:08:48.618] Client supports legacy semanticHighlights notification and standard semanticTokens request, choosing the latter (no notifications).
+I[20:08:48.619] --> reply:initialize(0) 1 ms
+I[20:08:55.437] <-- initialized
+I[20:08:55.454] <-- textDocument/didOpen
+I[20:08:55.455] <-- textDocument/didOpen
+I[20:08:55.536] Failed to find compilation database for /home/georgezhang/src/linux/mm/slub.c
+I[20:08:55.536] ASTWorker building file /home/georgezhang/src/linux/mm/slub.c version 1 with command clangd fallback
+[/home/georgezhang/src/linux/mm]
+/usr/bin/clang /home/georgezhang/src/linux/mm/slub.c -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[20:08:55.543] --> textDocument/clangd.fileStatus
+I[20:08:55.589] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[20:08:55.589] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 1 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[20:08:55.595] --> textDocument/clangd.fileStatus
+I[20:08:57.437] --> textDocument/publishDiagnostics
+I[20:08:57.438] --> textDocument/clangd.fileStatus
+I[20:08:59.174] --> textDocument/publishDiagnostics
+I[20:08:59.175] --> textDocument/clangd.fileStatus
+I[20:09:02.925] <-- textDocument/documentSymbol(1)
+I[20:09:02.925] <-- textDocument/codeAction(2)
+I[20:09:02.925] <-- textDocument/documentLink(3)
+I[20:09:02.925] <-- textDocument/semanticTokens/full(4)
+I[20:09:02.925] <-- textDocument/semanticTokens/full(5)
+I[20:09:02.925] <-- $/setTrace
+I[20:09:02.925] unhandled notification $/setTrace
+I[20:09:02.971] --> reply:textDocument/documentSymbol(1) 46 ms
+I[20:09:02.983] --> reply:textDocument/semanticTokens/full(5) 57 ms
+I[20:09:02.983] --> textDocument/clangd.fileStatus
+I[20:09:03.032] --> reply:textDocument/codeAction(2) 107 ms
+I[20:09:03.032] --> reply:textDocument/documentLink(3) 107 ms
+I[20:09:03.036] --> reply:textDocument/semanticTokens/full(4) 111 ms
+I[20:09:03.037] --> textDocument/clangd.fileStatus
+I[20:09:03.571] <-- $/cancelRequest
+I[20:09:03.571] <-- textDocument/documentSymbol(6)
+I[20:09:03.571] <-- $/cancelRequest
+I[20:09:03.571] <-- textDocument/codeAction(7)
+I[20:09:03.594] --> reply:textDocument/documentSymbol(6) 23 ms
+I[20:09:03.607] --> reply:textDocument/codeAction(7) 36 ms
+I[20:09:03.608] --> textDocument/clangd.fileStatus
+I[20:09:08.389] <-- textDocument/codeAction(8)
+I[20:09:08.396] <-- $/cancelRequest
+I[20:09:08.399] --> reply:textDocument/codeAction(8) 9 ms
+I[20:09:08.399] --> textDocument/clangd.fileStatus
+I[20:09:08.624] <-- $/cancelRequest
+I[20:09:08.624] <-- textDocument/documentLink(9)
+I[20:09:08.627] --> reply:textDocument/documentLink(9) 3 ms
+I[20:09:08.627] --> textDocument/clangd.fileStatus
+I[20:09:09.222] <-- textDocument/codeAction(10)
+I[20:09:09.222] <-- $/cancelRequest
+I[20:09:09.226] --> reply:textDocument/codeAction(10) 4 ms
+I[20:09:09.226] --> textDocument/clangd.fileStatus
+I[20:09:09.661] <-- textDocument/codeAction(11)
+I[20:09:09.661] <-- $/cancelRequest
+I[20:09:09.669] --> reply:textDocument/codeAction(11) 8 ms
+I[20:09:09.669] --> textDocument/clangd.fileStatus
+I[20:09:10.029] <-- textDocument/codeAction(12)
+I[20:09:10.030] <-- $/cancelRequest
+I[20:09:10.034] --> reply:textDocument/codeAction(12) 4 ms
+I[20:09:10.034] --> textDocument/clangd.fileStatus
+I[20:09:10.864] <-- textDocument/codeAction(13)
+I[20:09:10.868] --> reply:textDocument/codeAction(13) 4 ms
+I[20:09:10.868] --> textDocument/clangd.fileStatus
+I[20:11:44.957] <-- textDocument/hover(14)
+I[20:11:44.960] --> reply:textDocument/hover(14) 3 ms
+I[20:11:44.965] --> textDocument/clangd.fileStatus
+I[20:11:49.010] <-- textDocument/hover(15)
+I[20:11:49.014] --> reply:textDocument/hover(15) 3 ms
+I[20:11:49.014] --> textDocument/clangd.fileStatus
+I[20:11:49.914] <-- textDocument/documentSymbol(16)
+I[20:11:49.930] --> reply:textDocument/documentSymbol(16) 15 ms
+I[20:11:49.933] --> textDocument/clangd.fileStatus
+I[20:11:50.235] <-- textDocument/documentLink(17)
+I[20:11:50.235] --> reply:textDocument/documentLink(17) 0 ms
+I[20:11:50.235] --> textDocument/clangd.fileStatus
+I[20:11:50.772] <-- textDocument/documentSymbol(18)
+I[20:11:50.821] --> reply:textDocument/documentSymbol(18) 49 ms
+I[20:11:50.824] --> textDocument/clangd.fileStatus
+I[20:11:51.193] <-- textDocument/hover(19)
+I[20:11:51.206] --> reply:textDocument/hover(19) 13 ms
+I[20:11:51.206] --> textDocument/clangd.fileStatus
+I[20:11:51.916] <-- textDocument/documentHighlight(20)
+I[20:11:51.917] --> reply:textDocument/documentHighlight(20) 1 ms
+I[20:11:51.917] --> textDocument/clangd.fileStatus
+I[20:11:52.075] <-- textDocument/codeAction(21)
+I[20:11:52.078] --> reply:textDocument/codeAction(21) 2 ms
+I[20:11:52.078] --> textDocument/clangd.fileStatus
+I[20:12:13.646] <-- textDocument/documentHighlight(22)
+I[20:12:13.656] --> reply:textDocument/documentHighlight(22) 10 ms
+I[20:12:13.656] --> textDocument/clangd.fileStatus
+I[20:12:13.821] <-- textDocument/codeAction(23)
+I[20:12:13.822] --> reply:textDocument/codeAction(23) 0 ms
+I[20:12:13.822] --> textDocument/clangd.fileStatus
+I[20:12:15.360] <-- textDocument/documentHighlight(24)
+I[20:12:15.361] --> reply:textDocument/documentHighlight(24) 0 ms
+I[20:12:15.361] --> textDocument/clangd.fileStatus
+I[20:12:15.521] <-- textDocument/codeAction(25)
+I[20:12:15.522] --> reply:textDocument/codeAction(25) 0 ms
+I[20:12:15.522] --> textDocument/clangd.fileStatus
+I[20:12:40.093] <-- textDocument/codeAction(26)
+I[20:12:40.097] --> reply:textDocument/codeAction(26) 3 ms
+I[20:12:40.097] --> textDocument/clangd.fileStatus
+I[20:13:02.972] <-- textDocument/documentSymbol(27)
+I[20:13:03.092] --> reply:textDocument/documentSymbol(27) 119 ms
+I[20:13:03.099] --> textDocument/clangd.fileStatus
+I[20:13:18.025] <-- textDocument/documentLink(28)
+I[20:13:18.025] <-- textDocument/codeAction(29)
+I[20:13:18.025] <-- textDocument/documentSymbol(30)
+I[20:13:18.025] <-- $/cancelRequest
+I[20:13:18.025] <-- textDocument/documentSymbol(31)
+I[20:13:18.025] <-- $/cancelRequest
+I[20:13:18.025] <-- textDocument/documentSymbol(32)
+I[20:13:18.025] <-- $/cancelRequest
+I[20:13:18.025] <-- textDocument/documentSymbol(33)
+I[20:13:18.065] <-- textDocument/codeAction(34)
+I[20:13:18.066] <-- $/cancelRequest
+I[20:13:18.076] --> reply:textDocument/documentLink(28) 51 ms
+I[20:13:18.076] --> reply:textDocument/codeAction(29) 51 ms, error: Task was cancelled.
+I[20:13:18.076] --> reply:textDocument/documentSymbol(30) 51 ms, error: Task was cancelled.
+I[20:13:18.076] --> reply:textDocument/documentSymbol(31) 51 ms, error: Task was cancelled.
+I[20:13:18.076] --> reply:textDocument/documentSymbol(32) 51 ms, error: Task was cancelled.
+I[20:13:18.078] --> reply:textDocument/documentSymbol(33) 53 ms
+I[20:13:18.079] --> reply:textDocument/codeAction(34) 13 ms
+I[20:13:18.079] --> textDocument/clangd.fileStatus
+I[20:13:36.853] <-- textDocument/codeAction(35)
+I[20:13:36.853] <-- textDocument/codeAction(36)
+I[20:13:36.853] <-- $/cancelRequest
+I[20:13:36.853] <-- textDocument/documentHighlight(37)
+I[20:13:36.880] <-- textDocument/codeAction(38)
+I[20:13:36.880] <-- $/cancelRequest
+I[20:13:36.895] --> reply:textDocument/codeAction(35) 42 ms, error: Task was cancelled.
+I[20:13:36.896] --> reply:textDocument/codeAction(36) 42 ms, error: Task was cancelled.
+I[20:13:36.896] --> reply:textDocument/documentHighlight(37) 42 ms
+I[20:13:36.896] --> reply:textDocument/codeAction(38) 16 ms
+I[20:13:36.896] --> textDocument/clangd.fileStatus
+I[20:13:37.360] <-- textDocument/codeAction(39)
+I[20:13:37.362] --> reply:textDocument/codeAction(39) 2 ms
+I[20:13:37.362] --> textDocument/clangd.fileStatus
+I[20:14:01.250] <-- textDocument/documentHighlight(40)
+I[20:14:01.263] <-- textDocument/codeAction(41)
+I[20:14:01.344] --> reply:textDocument/documentHighlight(40) 93 ms
+I[20:14:01.344] --> reply:textDocument/codeAction(41) 81 ms
+I[20:14:01.344] --> textDocument/clangd.fileStatus
+I[20:14:02.153] <-- textDocument/hover(42)
+I[20:14:02.316] <-- $/cancelRequest
+I[20:14:02.452] --> reply:textDocument/hover(42) 299 ms
+I[20:14:02.453] --> textDocument/clangd.fileStatus
+I[20:14:09.794] <-- textDocument/didSave
+I[20:14:09.798] --> textDocument/clangd.fileStatus
+I[20:14:09.798] --> textDocument/clangd.fileStatus
+I[20:14:09.883] <-- textDocument/didSave
+I[20:14:09.895] --> textDocument/clangd.fileStatus
+I[20:14:09.896] --> textDocument/clangd.fileStatus
+I[20:14:10.276] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[20:14:10.276] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 1 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[20:14:10.279] --> textDocument/clangd.fileStatus
+I[20:14:10.280] --> textDocument/clangd.fileStatus
+I[20:14:10.281] --> textDocument/clangd.fileStatus
+I[20:14:10.282] --> textDocument/clangd.fileStatus
+I[20:14:10.389] Failed to find compilation database for /home/georgezhang/src/linux/mm/slub.c
+I[20:14:10.390] ASTWorker building file /home/georgezhang/src/linux/mm/slub.c version 1 with command clangd fallback
+[/home/georgezhang/src/linux/mm]
+/usr/bin/clang /home/georgezhang/src/linux/mm/slub.c -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[20:14:10.394] --> textDocument/clangd.fileStatus
+I[20:14:10.396] --> textDocument/clangd.fileStatus
+I[20:14:10.397] --> textDocument/clangd.fileStatus
+I[20:14:10.405] --> textDocument/clangd.fileStatus
+I[20:14:11.550] <-- textDocument/codeAction(43)
+I[20:14:11.553] --> reply:textDocument/codeAction(43) 3 ms
+I[20:14:11.553] --> textDocument/clangd.fileStatus
+I[20:14:12.864] <-- textDocument/codeAction(44)
+I[20:14:12.864] --> reply:textDocument/codeAction(44) 0 ms
+I[20:14:12.864] --> textDocument/clangd.fileStatus
+I[20:14:15.264] <-- textDocument/codeAction(45)
+I[20:14:15.264] --> reply:textDocument/codeAction(45) 0 ms
+I[20:14:15.264] --> textDocument/clangd.fileStatus

@@ -1,0 +1,13 @@
+20:17:28.274	INFO	LSP connect	Reading messages from queue...
+20:17:28.287	INFO	LSP$1MessageReader run	Placing incoming messages on queue...
+20:17:29.115	SEVERE	LSP connect	null
+java.lang.NullPointerException
+	at java.base/java.nio.file.Path.of(Path.java:197)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at org.javacs.JavaLanguageServer.initialize(JavaLanguageServer.java:148)
+	at org.javacs.lsp.LSP.connect(LSP.java:259)
+	at org.javacs.Main.main(Main.java:30)
+
+[Error - 8:17:29 PM] Server initialization failed.
+  Message: 
+  Code: -32603 

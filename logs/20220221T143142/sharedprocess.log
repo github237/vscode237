@@ -1,0 +1,18 @@
+[2022-02-21 14:31:48.091] [sharedprocess] [info] main {"machineId":"729fe2fdb439a3729d7d888fbe7627f459a9118715f4a781b49a5276464993f9","windowId":2}
+[2022-02-21 14:31:49.712] [sharedprocess] [info] Deleted from disk fisheva.eva-theme /home/georgezhang/.vscode/extensions/fisheva.eva-theme-1.7.7
+[2022-02-21 14:31:49.712] [sharedprocess] [info] Deleted from disk jeff-hykin.better-cpp-syntax /home/georgezhang/.vscode/extensions/jeff-hykin.better-cpp-syntax-1.15.10
+[2022-02-21 14:31:49.948] [sharedprocess] [info] Deleted from disk amiralizadeh9480.cpp-helper /home/georgezhang/.vscode/extensions/amiralizadeh9480.cpp-helper-0.3.0
+[2022-02-21 14:31:49.948] [sharedprocess] [info] Deleted from disk mgmcdermott.vscode-language-babel /home/georgezhang/.vscode/extensions/mgmcdermott.vscode-language-babel-0.0.35
+[2022-02-21 14:31:49.948] [sharedprocess] [info] Deleted from disk github.github-vscode-theme /home/georgezhang/.vscode/extensions/github.github-vscode-theme-5.1.0
+[2022-02-21 14:31:50.247] [sharedprocess] [info] Deleted from disk batisteo.vscode-django /home/georgezhang/.vscode/extensions/batisteo.vscode-django-1.8.0
+[2022-02-21 14:31:50.353] [sharedprocess] [info] Deleted from disk ms-vscode.vscode-typescript-next /home/georgezhang/.vscode/extensions/ms-vscode.vscode-typescript-next-4.6.20220118
+[2022-02-21 14:31:50.365] [sharedprocess] [info] Deleted from disk ms-vscode.vscode-typescript-next /home/georgezhang/.vscode/extensions/ms-vscode.vscode-typescript-next-4.6.20220122
+[2022-02-21 14:31:50.365] [sharedprocess] [info] Deleted from disk ms-vscode.vscode-typescript-next /home/georgezhang/.vscode/extensions/ms-vscode.vscode-typescript-next-4.6.20220126
+[2022-02-21 14:31:50.367] [sharedprocess] [info] Deleted from disk ms-vscode.vscode-typescript-next /home/georgezhang/.vscode/extensions/ms-vscode.vscode-typescript-next-4.6.20220116
+[2022-02-21 14:32:00.314] [sharedprocess] [info] Installing extension: ms-vscode.vscode-typescript-next
+[2022-02-21 14:32:05.028] [sharedprocess] [info] Downloaded extension: ms-vscode.vscode-typescript-next undefined
+[2022-02-21 14:32:21.076] [sharedprocess] [info] Extracted extension to /home/georgezhang/.vscode/extensions/.ms-vscode.vscode-typescript-next-4.7.20220220: ms-vscode.vscode-typescript-next
+[2022-02-21 14:32:21.076] [sharedprocess] [info] Renamed to /home/georgezhang/.vscode/extensions/ms-vscode.vscode-typescript-next-4.7.20220220
+[2022-02-21 14:32:21.078] [sharedprocess] [info] Installation completed. ms-vscode.vscode-typescript-next
+[2022-02-21 14:32:21.113] [sharedprocess] [info] Extensions installed successfully: ms-vscode.vscode-typescript-next
+[2022-02-21 14:32:28.164] [sharedprocess] [info] Starting to clean up unused language packs.

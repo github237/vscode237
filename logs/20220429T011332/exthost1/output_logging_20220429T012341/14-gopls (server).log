@@ -1,0 +1,206 @@
+[Info  - 1:23:42 AM] 2022/04/29 01:23:42 go env for /mnt/hgfs/georgezhang/leetcode/misc
+(root /mnt/hgfs/georgezhang/leetcode/misc)
+(go version go version go1.13.6 linux/amd64)
+(valid build configuration = false)
+(build flags: [])
+GOPROXY=https://proxy.golang.org,direct
+GOSUMDB=sum.golang.org
+GO111MODULE=
+GOCACHE=/home/georgezhang/.cache/go-build
+GOINSECURE=
+GOPATH=/home/georgezhang/go
+GOMOD=
+GONOPROXY=
+GOPRIVATE=
+GOROOT=/usr/local/go
+GOMODCACHE=
+GOFLAGS=
+GONOSUMDB=
+
+
+[Info  - 1:23:42 AM] 2022/04/29 01:23:42 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./ builtin]
+	packages=2
+
+[Info  - 1:23:42 AM] 2022/04/29 01:23:42 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:23:42 AM] 2022/04/29 01:23:42 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:23:42 AM] 2022/04/29 01:23:42 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:23:48 AM] 2022/04/29 01:23:48 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:23:48 AM] 2022/04/29 01:23:48 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:23:49 AM] 2022/04/29 01:23:49 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:24:01 AM] 2022/04/29 01:24:01 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:24:01 AM] 2022/04/29 01:24:01 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:24:01 AM] 2022/04/29 01:24:01 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:29:57 AM] 2022/04/29 01:29:57 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:29:57 AM] 2022/04/29 01:29:57 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:29:57 AM] 2022/04/29 01:29:57 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:29:58 AM] 2022/04/29 01:29:58 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:29:58 AM] 2022/04/29 01:29:58 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:29:58 AM] 2022/04/29 01:29:58 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:30:03 AM] 2022/04/29 01:30:03 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:30:03 AM] 2022/04/29 01:30:03 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:30:03 AM] 2022/04/29 01:30:03 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:30:07 AM] 2022/04/29 01:30:07 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:30:07 AM] 2022/04/29 01:30:07 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:30:07 AM] 2022/04/29 01:30:07 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:30:08 AM] 2022/04/29 01:30:08 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:30:08 AM] 2022/04/29 01:30:08 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:30:09 AM] 2022/04/29 01:30:09 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:30:11 AM] 2022/04/29 01:30:11 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:30:12 AM] 2022/04/29 01:30:12 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:30:12 AM] 2022/04/29 01:30:12 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:30:12 AM] 2022/04/29 01:30:12 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:30:12 AM] 2022/04/29 01:30:12 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+
+[Info  - 1:30:12 AM] 2022/04/29 01:30:12 go/packages.Load
+	snapshot=0
+	directory=/mnt/hgfs/georgezhang/leetcode/misc
+	query=[./]
+	packages=1
+

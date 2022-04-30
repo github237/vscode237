@@ -1,0 +1,14 @@
+[2022-04-28 20:17:20.051] [sharedprocess] [info] main {"machineId":"729fe2fdb439a3729d7d888fbe7627f459a9118715f4a781b49a5276464993f9","windowId":2}
+[2022-04-28 20:17:21.425] [sharedprocess] [info] Deleted from disk leojhonsong.ccpp-extension-pack /home/georgezhang/.vscode/extensions/leojhonsong.ccpp-extension-pack-1.1.0
+[2022-04-28 20:17:21.458] [sharedprocess] [info] Deleted from disk fisheva.eva-theme /home/georgezhang/.vscode/extensions/fisheva.eva-theme-1.7.8
+[2022-04-28 20:17:21.459] [sharedprocess] [info] Deleted from disk vscjava.vscode-spring-initializr /home/georgezhang/.vscode/extensions/vscjava.vscode-spring-initializr-0.8.0
+[2022-04-28 20:17:21.500] [sharedprocess] [info] Deleted from disk coenraads.bracket-pair-colorizer-2 /home/georgezhang/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.2
+[2022-04-28 20:17:21.500] [sharedprocess] [info] Deleted from disk batisteo.vscode-django /home/georgezhang/.vscode/extensions/batisteo.vscode-django-1.9.0
+[2022-04-28 20:17:21.507] [sharedprocess] [info] Deleted from disk ms-vscode.vscode-typescript-next /home/georgezhang/.vscode/extensions/ms-vscode.vscode-typescript-next-4.7.20220220
+[2022-04-28 20:18:00.128] [sharedprocess] [info] Starting to clean up unused language packs.
+[2022-04-28 20:18:08.296] [sharedprocess] [info] Installing extension: alphabotsec.vscode-eclipse-keybindings
+[2022-04-28 20:18:10.495] [sharedprocess] [info] Downloaded extension: alphabotsec.vscode-eclipse-keybindings undefined
+[2022-04-28 20:18:11.254] [sharedprocess] [info] Extracted extension to /home/georgezhang/.vscode/extensions/.alphabotsec.vscode-eclipse-keybindings-0.14.0: alphabotsec.vscode-eclipse-keybindings
+[2022-04-28 20:18:11.273] [sharedprocess] [info] Renamed to /home/georgezhang/.vscode/extensions/alphabotsec.vscode-eclipse-keybindings-0.14.0
+[2022-04-28 20:18:11.313] [sharedprocess] [info] Installation completed. alphabotsec.vscode-eclipse-keybindings
+[2022-04-28 20:18:11.430] [sharedprocess] [info] Extensions installed successfully: alphabotsec.vscode-eclipse-keybindings

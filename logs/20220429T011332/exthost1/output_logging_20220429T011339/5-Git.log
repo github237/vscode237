@@ -1,0 +1,16 @@
+Looking for git in: git
+Using git 2.27.0 from git
+> git rev-parse --git-dir
+Open repository: /mnt/hgfs/georgezhang/leetcode
+> git status -z -u
+> git show --textconv :misc/1306.jumpGame.cc
+> git ls-files --stage -- /mnt/hgfs/georgezhang/leetcode/misc/1306.jumpGame.cc
+> git cat-file -s 7ce785893af0b6c730802ee0964f3fd64cfc1c35
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse main
+> git rev-parse --symbolic-full-name main@{u}
+> git rev-list --left-right main...refs/remotes/origin/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template

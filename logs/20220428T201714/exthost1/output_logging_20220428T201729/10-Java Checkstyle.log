@@ -1,0 +1,303 @@
+[Info  - 8:17:29 PM] Downloading checkstyle 8.16 jar.
+[Info  - 8:17:29 PM] Being redirected to https://objects.githubusercontent.com/github-production-release-asset-2e65be/12499251/e5616c80-0bee-11e9-9257-9894babe36b0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220429%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220429T031728Z&X-Amz-Expires=300&X-Amz-Signature=0485dbc63863bed4e7e89346a261823f39b1c87164f4e9843c5c6a77bf8ae204&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=12499251&response-content-disposition=attachment%3B%20filename%3Dcheckstyle-8.16-all.jar&response-content-type=application%2Foctet-stream.
+[Info  - 8:17:31 PM] Saved checkstyle jar to /home/georgezhang/.config/Code/User/globalStorage/thomdabeast.java-checkstyle/checkstyle-8.16.jar.
+[Error - 8:23:11 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:23:12 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:23:13 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:23:21 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:24:30 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:24:32 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:24:33 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:24:33 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:24:33 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:24:33 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:25:07 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:26:04 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:26:05 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:26:06 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:29:47 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:29:47 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:30:57 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:30:58 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:31:01 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+
+[Error - 8:31:58 PM] Checkstyle failed with error code 254:
+Checkstyle ends with 1 errors.
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module LineLength - Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:463)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:386)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:313)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:180)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:119)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'fileExtensions' in module LineLength does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:224)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:191)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:458)
+	... 5 more
+

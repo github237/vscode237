@@ -1,0 +1,190 @@
+[2022-04-28 20:17:23.082] [exthost] [info] extension host started
+[2022-04-28 20:17:23.171] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2022-04-28 20:17:23.172] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2022-04-28 20:17:23.182] [exthost] [info] ExtensionService#_doActivateExtension GabrielBB.vscode-lombok {"startup":false,"extensionId":{"value":"GabrielBB.vscode-lombok","_lower":"gabrielbb.vscode-lombok"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:17:23.182] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/out/index
+[2022-04-28 20:17:23.219] [exthost] [info] ExtensionService#_doActivateExtension georgewfraser.vscode-javac {"startup":false,"extensionId":{"value":"georgewfraser.vscode-javac","_lower":"georgewfraser.vscode-javac"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:17:23.219] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/georgewfraser.vscode-javac-0.2.39/out/lib/extension
+[2022-04-28 20:17:23.475] [exthost] [info] ExtensionService#_doActivateExtension redhat.java {"startup":false,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:17:23.475] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension
+[2022-04-28 20:17:23.555] [exthost] [info] ExtensionService#_doActivateExtension Rectcircle.vscode-p3c {"startup":false,"extensionId":{"value":"Rectcircle.vscode-p3c","_lower":"rectcircle.vscode-p3c"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:17:23.555] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/out/src/extension
+[2022-04-28 20:17:23.672] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"SonarSource.sonarlint-vscode","_lower":"sonarsource.sonarlint-vscode"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:17:23.672] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2022-04-28 20:17:23.681] [exthost] [info] ExtensionService#_doActivateExtension thomdabeast.java-checkstyle {"startup":false,"extensionId":{"value":"thomdabeast.java-checkstyle","_lower":"thomdabeast.java-checkstyle"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:17:23.681] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/thomdabeast.java-checkstyle-1.1.1/client/src/extension
+[2022-04-28 20:17:24.330] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"extensionId":{"value":"VisualStudioExptTeam.vscodeintellicode","_lower":"visualstudioexptteam.vscodeintellicode"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:17:24.330] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.14/dist/intellicode
+[2022-04-28 20:17:24.559] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug {"startup":false,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:17:24.561] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/vscjava.vscode-java-debug-0.31.0/dist/extension
+[2022-04-28 20:17:24.625] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack {"startup":false,"extensionId":{"value":"vscjava.vscode-java-pack","_lower":"vscjava.vscode-java-pack"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:17:24.626] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/vscjava.vscode-java-pack-0.12.1/out/extension
+[2022-04-28 20:17:24.779] [exthost] [info] ExtensionService#_doActivateExtension wx-chevalier.google-java-format {"startup":false,"extensionId":{"value":"wx-chevalier.google-java-format","_lower":"wx-chevalier.google-java-format"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:17:24.779] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/wx-chevalier.google-java-format-0.0.1/out/src/extension
+[2022-04-28 20:17:24.795] [exthost] [info] ExtensionService#_doActivateExtension yangbaopan.vscode-java-p3c {"startup":false,"extensionId":{"value":"yangbaopan.vscode-java-p3c","_lower":"yangbaopan.vscode-java-p3c"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:17:24.796] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/yangbaopan.vscode-java-p3c-1.5.4/out/src/extension
+[2022-04-28 20:17:25.208] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onDebugDynamicConfigurations"}
+[2022-04-28 20:17:25.208] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2022-04-28 20:17:25.574] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2022-04-28 20:17:25.574] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2022-04-28 20:17:25.576] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2022-04-28 20:17:25.576] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2022-04-28 20:17:25.599] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2022-04-28 20:17:25.599] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2022-04-28 20:17:25.625] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2022-04-28 20:17:25.625] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2022-04-28 20:17:25.632] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2022-04-28 20:17:25.632] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2022-04-28 20:17:25.635] [exthost] [info] ExtensionService#_doActivateExtension byi8220.indented-block-highlighting {"startup":true,"extensionId":{"value":"byi8220.indented-block-highlighting","_lower":"byi8220.indented-block-highlighting"},"activationEvent":"*"}
+[2022-04-28 20:17:25.635] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/byi8220.indented-block-highlighting-1.0.7/out/extension
+[2022-04-28 20:17:25.637] [exthost] [info] ExtensionService#_doActivateExtension Durzn.brackethighlighter {"startup":true,"extensionId":{"value":"Durzn.brackethighlighter","_lower":"durzn.brackethighlighter"},"activationEvent":"*"}
+[2022-04-28 20:17:25.637] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/durzn.brackethighlighter-2.2.4/out/extension.js
+[2022-04-28 20:17:25.654] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"extensionId":{"value":"Equinusocio.vsc-material-theme","_lower":"equinusocio.vsc-material-theme"},"activationEvent":"*"}
+[2022-04-28 20:17:25.654] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/equinusocio.vsc-material-theme-33.0.0/build/material.theme.config
+[2022-04-28 20:17:25.667] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons {"startup":true,"extensionId":{"value":"equinusocio.vsc-material-theme-icons","_lower":"equinusocio.vsc-material-theme-icons"},"activationEvent":"*"}
+[2022-04-28 20:17:25.669] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/equinusocio.vsc-material-theme-icons-1.2.2/out/src/extension
+[2022-04-28 20:17:25.689] [exthost] [info] ExtensionService#_doActivateExtension hiro-sun.vscode-emacs {"startup":true,"extensionId":{"value":"hiro-sun.vscode-emacs","_lower":"hiro-sun.vscode-emacs"},"activationEvent":"*"}
+[2022-04-28 20:17:25.689] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/hiro-sun.vscode-emacs-0.1.1/out/src/extension
+[2022-04-28 20:17:25.700] [exthost] [info] ExtensionService#_doActivateExtension imagio.vscode-dimmer-block {"startup":true,"extensionId":{"value":"imagio.vscode-dimmer-block","_lower":"imagio.vscode-dimmer-block"},"activationEvent":"*"}
+[2022-04-28 20:17:25.701] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/imagio.vscode-dimmer-block-2.2.0/out/src/extension
+[2022-04-28 20:17:25.704] [exthost] [info] ExtensionService#_doActivateExtension lfs.vscode-emacs-friendly {"startup":true,"extensionId":{"value":"lfs.vscode-emacs-friendly","_lower":"lfs.vscode-emacs-friendly"},"activationEvent":"*"}
+[2022-04-28 20:17:25.704] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/lfs.vscode-emacs-friendly-0.9.0/out/src/extension
+[2022-04-28 20:17:25.712] [exthost] [info] ExtensionService#_doActivateExtension mhutchie.git-graph {"startup":true,"extensionId":{"value":"mhutchie.git-graph","_lower":"mhutchie.git-graph"},"activationEvent":"*"}
+[2022-04-28 20:17:25.712] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/mhutchie.git-graph-1.30.0/out/extension.js
+[2022-04-28 20:17:25.769] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2022-04-28 20:17:25.769] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/pkief.material-icon-theme-4.4.0/dist/extension
+[2022-04-28 20:17:25.786] [exthost] [info] ExtensionService#_doActivateExtension rafaelmaiolla.remote-vscode {"startup":true,"extensionId":{"value":"rafaelmaiolla.remote-vscode","_lower":"rafaelmaiolla.remote-vscode"},"activationEvent":"*"}
+[2022-04-28 20:17:25.786] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/rafaelmaiolla.remote-vscode-1.1.0/out/src/extension
+[2022-04-28 20:17:26.082] [exthost] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"extensionId":{"value":"Shan.code-settings-sync","_lower":"shan.code-settings-sync"},"activationEvent":"*"}
+[2022-04-28 20:17:26.082] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/shan.code-settings-sync-3.4.3/out/extension.js
+[2022-04-28 20:17:26.164] [exthost] [info] ExtensionService#_doActivateExtension shardulm94.trailing-spaces {"startup":true,"extensionId":{"value":"shardulm94.trailing-spaces","_lower":"shardulm94.trailing-spaces"},"activationEvent":"*"}
+[2022-04-28 20:17:26.164] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/shardulm94.trailing-spaces-0.3.1/out/src/extension
+[2022-04-28 20:17:26.180] [exthost] [info] ExtensionService#_doActivateExtension SirTori.indenticator {"startup":true,"extensionId":{"value":"SirTori.indenticator","_lower":"sirtori.indenticator"},"activationEvent":"*"}
+[2022-04-28 20:17:26.180] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/sirtori.indenticator-0.7.0/out/src/extension
+[2022-04-28 20:17:26.181] [exthost] [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight {"startup":true,"extensionId":{"value":"wayou.vscode-todo-highlight","_lower":"wayou.vscode-todo-highlight"},"activationEvent":"*"}
+[2022-04-28 20:17:26.181] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/wayou.vscode-todo-highlight-1.0.5/src/extension
+[2022-04-28 20:17:26.184] [exthost] [info] ExtensionService#_doActivateExtension xulion.codescope {"startup":true,"extensionId":{"value":"xulion.codescope","_lower":"xulion.codescope"},"activationEvent":"*"}
+[2022-04-28 20:17:26.185] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/xulion.codescope-0.2.0/out/extension
+[2022-04-28 20:17:26.213] [exthost] [info] ExtensionService#_doActivateExtension ybaumes.highlight-trailing-white-spaces {"startup":true,"extensionId":{"value":"ybaumes.highlight-trailing-white-spaces","_lower":"ybaumes.highlight-trailing-white-spaces"},"activationEvent":"*"}
+[2022-04-28 20:17:26.214] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/ybaumes.highlight-trailing-white-spaces-0.0.2/out/src/extension
+[2022-04-28 20:17:26.217] [exthost] [error] Activating extension wx-chevalier.google-java-format failed due to an error:
+[2022-04-28 20:17:26.218] [exthost] [error] Error: Cannot find module 'sax'
+Require stack:
+- /home/georgezhang/.vscode/extensions/wx-chevalier.google-java-format-0.0.1/out/src/extension.js
+- /usr/share/code/resources/app/out/vs/loader.js
+- /usr/share/code/resources/app/out/bootstrap-amd.js
+- /usr/share/code/resources/app/out/bootstrap-fork.js
+	at Function.Module._resolveFilename (internal/modules/cjs/loader.js:844:17)
+	at Module._load (internal/modules/cjs/loader.js:737:27)
+	at Function.Module._load (electron/js2c/asar.js:769:28)
+	at Function.t._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:1057:776)
+	at Function.i._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:1027:486)
+	at Function.n._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:1023:767)
+	at Module.require (internal/modules/cjs/loader.js:899:19)
+	at r (/usr/share/code/resources/app/out/vs/loader.js:17:346)
+	at Object.<anonymous> (/home/georgezhang/.vscode/extensions/wx-chevalier.google-java-format-0.0.1/out/src/extension.js:6:13)
+	at Module.i._compile (/usr/share/code/resources/app/out/vs/loader.js:17:571)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1051:10)
+	at Module.load (internal/modules/cjs/loader.js:862:32)
+	at Module._load (internal/modules/cjs/loader.js:774:14)
+	at Function.Module._load (electron/js2c/asar.js:769:28)
+	at Function.t._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:1057:776)
+	at Function.i._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:1027:486)
+	at Function.n._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:1023:767)
+	at Module.require (internal/modules/cjs/loader.js:899:19)
+	at require (internal/modules/cjs/helpers.js:74:18)
+	at Function.s [as __$__nodeRequire] (/usr/share/code/resources/app/out/vs/loader.js:34:963)
+	at p._loadCommonJSModule (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:1028:771)
+	at p._doActivateExtension (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:925:742)
+	at p._activateExtension (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:924:822)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+	at async Promise.all (index 9)
+[2022-04-28 20:17:26.606] [exthost] [error] Activating extension byi8220.indented-block-highlighting failed due to an error:
+[2022-04-28 20:17:26.606] [exthost] [error] Error: Illegal value for `line`
+	at d._lineAt (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:545:764)
+	at Object.lineAt (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:544:734)
+	at BlockHL.findBot (/home/georgezhang/.vscode/extensions/byi8220.indented-block-highlighting-1.0.7/out/extension.js:109:36)
+	at BlockHL.updateLine (/home/georgezhang/.vscode/extensions/byi8220.indented-block-highlighting-1.0.7/out/extension.js:45:32)
+	at activate (/home/georgezhang/.vscode/extensions/byi8220.indented-block-highlighting-1.0.7/out/extension.js:22:22)
+	at Function._callActivateOptional (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:927:841)
+	at Function._callActivate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:927:492)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:925:841
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+	at async Promise.all (index 5)
+	at async Promise.all (index 0)
+[2022-04-28 20:17:26.606] [exthost] [error] Activating extension lfs.vscode-emacs-friendly failed due to an error:
+[2022-04-28 20:17:26.607] [exthost] [error] Error: command 'emacs.C-g' already exists
+	at _.registerCommand (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:693:559)
+	at Object.registerCommand (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:988:219)
+	at registerCommand (/home/georgezhang/.vscode/extensions/lfs.vscode-emacs-friendly-0.9.0/out/src/extension.js:78:28)
+	at /home/georgezhang/.vscode/extensions/lfs.vscode-emacs-friendly-0.9.0/out/src/extension.js:23:36
+	at Array.forEach (<anonymous>)
+	at activate (/home/georgezhang/.vscode/extensions/lfs.vscode-emacs-friendly-0.9.0/out/src/extension.js:22:17)
+	at Function._callActivateOptional (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:927:841)
+	at Function._callActivate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:927:492)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:925:841
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+	at async Promise.all (index 11)
+	at async Promise.all (index 0)
+[2022-04-28 20:17:27.480] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2022-04-28 20:17:27.485] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2022-04-28 20:17:27.500] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2022-04-28 20:17:27.500] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2022-04-28 20:17:27.532] [exthost] [info] eager extensions activated
+[2022-04-28 20:17:28.174] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2 {"startup":false,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer-2","_lower":"coenraads.bracket-pair-colorizer-2"},"activationEvent":"onStartupFinished"}
+[2022-04-28 20:17:28.174] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.4/out/src/extension
+[2022-04-28 20:17:28.414] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers {"startup":false,"extensionId":{"value":"ms-vscode-remote.remote-containers","_lower":"ms-vscode-remote.remote-containers"},"activationEvent":"onStartupFinished"}
+[2022-04-28 20:17:28.414] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/ms-vscode-remote.remote-containers-0.145.1/dist/extension
+[2022-04-28 20:17:29.363] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl {"startup":false,"extensionId":{"value":"ms-vscode-remote.remote-wsl","_lower":"ms-vscode-remote.remote-wsl"},"activationEvent":"onStartupFinished"}
+[2022-04-28 20:17:29.363] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/ms-vscode-remote.remote-wsl-0.50.1/dist/extension
+[2022-04-28 20:17:32.144] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2022-04-28 20:17:32.144] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2022-04-28 20:17:32.154] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2022-04-28 20:17:32.154] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2022-04-28 20:17:35.013] [exthost] [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+[2022-04-28 20:17:35.281] [exthost] [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+[2022-04-28 20:18:05.012] [exthost] [info] ExtensionService#_doActivateExtension Pivotal.vscode-spring-boot {"startup":false,"extensionId":{"value":"Pivotal.vscode-spring-boot","_lower":"pivotal.vscode-spring-boot"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:18:05.012] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/pivotal.vscode-spring-boot-1.25.0/out/lib/Main
+[2022-04-28 20:18:07.053] [exthost] [info] ExtensionService#_doActivateExtension shengchen.vscode-checkstyle {"startup":false,"extensionId":{"value":"shengchen.vscode-checkstyle","_lower":"shengchen.vscode-checkstyle"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:18:07.053] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/shengchen.vscode-checkstyle-1.4.1/dist/extension
+[2022-04-28 20:18:07.281] [exthost] [info] ExtensionService#_doActivateExtension SonarSource.sonarlint-vscode {"startup":false,"extensionId":{"value":"SonarSource.sonarlint-vscode","_lower":"sonarsource.sonarlint-vscode"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:18:07.281] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/sonarsource.sonarlint-vscode-1.21.0/dist/extension
+[2022-04-28 20:18:07.510] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test {"startup":false,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:18:07.510] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/vscjava.vscode-java-test-0.26.0/main.js
+[2022-04-28 20:22:36.868] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready {"startup":false,"extensionId":{"value":"vscode.debug-server-ready","_lower":"vscode.debug-server-ready"},"activationEvent":"onDebugResolve"}
+[2022-04-28 20:22:36.868] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-server-ready/dist/extension
+[2022-04-28 20:23:02.591] [exthost] [error] onWillSaveTextDocument-listener from extension 'redhat.java' threw ERROR
+[2022-04-28 20:23:02.591] [exthost] [error] Error: timeout
+	at Timeout._onTimeout (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:638:581)
+	at listOnTimeout (internal/timers.js:531:17)
+	at processTimers (internal/timers.js:475:7)
+[2022-04-28 20:23:10.101] [exthost] [info] ExtensionService#_doActivateExtension jmfirth.vsc-space-block-jumper {"startup":false,"extensionId":{"value":"jmfirth.vsc-space-block-jumper","_lower":"jmfirth.vsc-space-block-jumper"},"activationEvent":"onCommand:spaceBlockJumper.moveDown"}
+[2022-04-28 20:23:10.102] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/jmfirth.vsc-space-block-jumper-1.2.2/out/src/extension
+[2022-04-28 20:24:11.050] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:24:11.067] [exthost] [error] Error: The request (id: 252, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:24:22.359] [exthost] [error] [VisualStudioExptTeam.vscodeintellicode] provider FAILED
+[2022-04-28 20:24:22.359] [exthost] [error] Error: The request (id: 259, method: 'workspace/executeCommand') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:24:22.726] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:24:22.728] [exthost] [error] Error: busy
+	at Object.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:609565)
+	at Generator.next (<anonymous>)
+	at o (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:608335)
+[2022-04-28 20:24:26.496] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:24:26.496] [exthost] [error] Error: The request (id: 271, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:26:00.461] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:26:00.461] [exthost] [error] Error: busy
+	at Object.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:609565)
+	at Generator.next (<anonymous>)
+	at o (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:608335)

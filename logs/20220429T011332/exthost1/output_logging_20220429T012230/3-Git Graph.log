@@ -1,0 +1,9 @@
+[2022-04-29 01:22:30.553] Starting Git Graph ...
+[2022-04-29 01:22:30.707] Using git (version: 2.27.0)
+[2022-04-29 01:22:30.711] Started Git Graph - Ready to use!
+[2022-04-29 01:22:30.711] Searching workspace for new repos ...
+[2022-04-29 01:22:30.729] > git rev-parse --show-toplevel
+[2022-04-29 01:22:30.802] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2022-04-29 01:22:31.002] Added new repo: /mnt/hgfs/georgezhang/leetcode
+[2022-04-29 01:22:31.019] Completed searching workspace for new repos
+[2022-04-29 01:22:31.019] Showing "Git Graph" Status Bar Item

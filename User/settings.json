@@ -1,0 +1,21 @@
+{
+    "C_Cpp.clang_format_fallbackStyle": "LLVM",
+    "C_Cpp.vcFormat.newLine.beforeElse": false,
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "Github Light Theme - Gray",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/home/georgezhang/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+    "workbench.activityBar.visible": false,
+    "window.zoomLevel": 0,
+    "workbench.statusBar.visible": false,
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "editor.fontSize": 16,
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#e9f2fa",
+        // "editor.lineHighlightBackground": "#171a1a",
+        "editor.lineHighlightBorder": "#9292ac"
+    }
+}

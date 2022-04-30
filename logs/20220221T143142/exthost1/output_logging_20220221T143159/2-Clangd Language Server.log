@@ -1,0 +1,452 @@
+I[14:32:01.686] clangd version 11.0.1 (Red Hat 11.0.1-1.module_el8.4.0+966+2995ef20)
+I[14:32:01.687] PID: 104340
+I[14:32:01.687] Working directory: /home/georgezhang/Shared/leetcode
+I[14:32:01.687] argv[0]: /usr/bin/clangd
+I[14:32:01.687] Starting LSP over stdin/stdout
+I[14:32:01.889] <-- initialize(0)
+I[14:32:01.890] Client supports legacy semanticHighlights notification and standard semanticTokens request, choosing the latter (no notifications).
+I[14:32:01.893] --> reply:initialize(0) 3 ms
+I[14:32:02.490] <-- initialized
+I[14:32:02.490] <-- textDocument/didOpen
+I[14:32:02.611] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:02.611] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 14 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:02.618] --> textDocument/clangd.fileStatus
+I[14:32:03.839] <-- textDocument/didChange
+I[14:32:03.854] <-- textDocument/completion(1)
+I[14:32:03.854] <-- textDocument/documentSymbol(2)
+I[14:32:03.854] <-- textDocument/codeAction(3)
+I[14:32:03.865] <-- textDocument/documentLink(4)
+I[14:32:03.865] <-- textDocument/didChange
+I[14:32:03.880] <-- $/cancelRequest
+I[14:32:03.880] <-- textDocument/didChange
+I[14:32:03.905] Code complete: 0 results from Sema, 0 from Index, 0 matched, 1 from identifiers, 1 returned.
+I[14:32:03.905] --> reply:textDocument/completion(1) 51 ms
+I[14:32:03.909] <-- $/cancelRequest
+I[14:32:03.909] <-- textDocument/completion(5)
+I[14:32:04.030] Code complete: 0 results from Sema, 0 from Index, 0 matched, 54 from identifiers, 54 returned.
+I[14:32:04.033] --> reply:textDocument/completion(5) 123 ms
+I[14:32:04.397] <-- textDocument/codeAction(6)
+I[14:32:04.397] <-- textDocument/semanticTokens/full(7)
+I[14:32:04.397] <-- $/cancelRequest
+I[14:32:04.397] <-- textDocument/documentSymbol(8)
+I[14:32:04.398] <-- $/cancelRequest
+I[14:32:04.398] <-- textDocument/codeAction(9)
+I[14:32:04.398] <-- textDocument/documentLink(10)
+I[14:32:04.645] <-- $/cancelRequest
+I[14:32:04.645] <-- textDocument/documentSymbol(11)
+I[14:32:04.645] <-- $/cancelRequest
+I[14:32:04.651] <-- textDocument/codeAction(12)
+I[14:32:10.110] <-- textDocument/codeAction(13)
+I[14:32:10.110] <-- $/cancelRequest
+I[14:32:10.110] <-- $/cancelRequest
+I[14:32:10.110] <-- textDocument/documentLink(14)
+I[14:32:10.110] <-- textDocument/completion(15)
+I[14:32:10.260] Code complete: 0 results from Sema, 0 from Index, 0 matched, 54 from identifiers, 54 returned.
+I[14:32:10.264] --> reply:textDocument/completion(15) 153 ms
+I[14:32:12.444] --> textDocument/publishDiagnostics
+I[14:32:12.445] --> reply:textDocument/documentSymbol(2) 8590 ms, error: Task was cancelled.
+I[14:32:12.445] --> reply:textDocument/codeAction(3) 8590 ms, error: Task was cancelled.
+I[14:32:12.445] --> reply:textDocument/documentLink(4) 8580 ms, error: Task was cancelled.
+I[14:32:12.445] --> reply:textDocument/codeAction(6) 8047 ms, error: Task was cancelled.
+I[14:32:12.445] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:12.454] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 17 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:12.466] --> textDocument/clangd.fileStatus
+I[14:32:13.062] --> textDocument/publishDiagnostics
+I[14:32:13.096] --> reply:textDocument/semanticTokens/full(7) 8698 ms
+I[14:32:13.096] --> reply:textDocument/documentSymbol(8) 8698 ms, error: Task was cancelled.
+I[14:32:13.096] --> reply:textDocument/codeAction(9) 8698 ms, error: Task was cancelled.
+I[14:32:13.096] --> reply:textDocument/documentLink(10) 8698 ms, error: Task was cancelled.
+I[14:32:13.098] --> reply:textDocument/documentSymbol(11) 8453 ms
+I[14:32:13.099] --> reply:textDocument/codeAction(12) 8448 ms, error: Task was cancelled.
+I[14:32:13.099] --> reply:textDocument/codeAction(13) 2989 ms
+I[14:32:13.099] --> reply:textDocument/documentLink(14) 2989 ms
+I[14:32:13.099] --> textDocument/clangd.fileStatus
+I[14:32:25.754] <-- textDocument/didChange
+I[14:32:25.764] <-- $/cancelRequest
+I[14:32:25.764] <-- textDocument/codeAction(16)
+I[14:32:25.764] <-- $/cancelRequest
+I[14:32:25.764] <-- textDocument/documentSymbol(17)
+I[14:32:25.764] <-- textDocument/documentLink(18)
+I[14:32:25.776] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:25.777] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 18 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:25.782] --> textDocument/clangd.fileStatus
+I[14:32:26.107] --> reply:textDocument/codeAction(16) 342 ms
+I[14:32:26.107] Skipping rebuild of the AST for /mnt/hgfs/georgezhang/leetcode/unionFind.cc, inputs are the same.
+I[14:32:26.109] --> textDocument/publishDiagnostics
+I[14:32:26.111] --> reply:textDocument/documentSymbol(17) 346 ms
+I[14:32:26.112] --> reply:textDocument/documentLink(18) 347 ms
+I[14:32:26.112] --> textDocument/clangd.fileStatus
+I[14:32:26.948] <-- textDocument/didChange
+I[14:32:26.976] <-- $/cancelRequest
+I[14:32:26.976] <-- textDocument/completion(19)
+I[14:32:26.976] <-- textDocument/didChange
+I[14:32:26.979] --> textDocument/clangd.fileStatus
+I[14:32:26.995] <-- $/cancelRequest
+I[14:32:26.995] <-- textDocument/completion(20)
+I[14:32:26.998] --> textDocument/clangd.fileStatus
+I[14:32:27.039] --> reply:textDocument/completion(19) 62 ms, error: Task was cancelled.
+I[14:32:27.151] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[14:32:27.151] --> reply:textDocument/completion(20) 155 ms
+I[14:32:27.502] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:27.503] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 20 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:27.513] --> textDocument/clangd.fileStatus
+I[14:32:27.513] --> textDocument/clangd.fileStatus
+I[14:32:27.584] --> textDocument/clangd.fileStatus
+I[14:32:28.151] --> textDocument/publishDiagnostics
+I[14:32:28.151] --> textDocument/clangd.fileStatus
+I[14:32:28.359] <-- $/cancelRequest
+I[14:32:28.360] <-- textDocument/documentSymbol(21)
+I[14:32:28.360] <-- textDocument/codeAction(22)
+I[14:32:28.360] <-- textDocument/documentLink(23)
+I[14:32:28.360] <-- $/cancelRequest
+I[14:32:28.360] <-- textDocument/documentSymbol(24)
+I[14:32:28.360] --> reply:textDocument/documentSymbol(21) 0 ms, error: Task was cancelled.
+I[14:32:28.360] --> reply:textDocument/codeAction(22) 0 ms
+I[14:32:28.360] --> reply:textDocument/documentLink(23) 0 ms
+I[14:32:28.362] --> reply:textDocument/documentSymbol(24) 1 ms
+I[14:32:28.362] --> textDocument/clangd.fileStatus
+I[14:32:30.477] <-- textDocument/codeAction(25)
+I[14:32:30.477] <-- $/cancelRequest
+I[14:32:30.478] --> reply:textDocument/codeAction(25) 0 ms
+I[14:32:30.478] --> textDocument/clangd.fileStatus
+I[14:32:30.478] <-- $/cancelRequest
+I[14:32:30.479] <-- textDocument/completion(26)
+I[14:32:30.479] <-- $/cancelRequest
+I[14:32:30.493] --> reply:textDocument/completion(26) 14 ms, error: Task was cancelled.
+I[14:32:30.498] <-- textDocument/completion(27)
+I[14:32:30.498] <-- $/cancelRequest
+I[14:32:30.498] <-- textDocument/completion(28)
+I[14:32:30.499] <-- $/cancelRequest
+I[14:32:30.499] <-- textDocument/completion(29)
+I[14:32:30.499] <-- $/cancelRequest
+I[14:32:30.499] <-- textDocument/completion(30)
+I[14:32:30.499] <-- $/cancelRequest
+I[14:32:30.499] <-- textDocument/documentLink(31)
+I[14:32:30.499] --> reply:textDocument/documentLink(31) 0 ms
+I[14:32:30.499] --> textDocument/clangd.fileStatus
+I[14:32:30.513] --> reply:textDocument/completion(27) 14 ms, error: Task was cancelled.
+I[14:32:30.513] --> reply:textDocument/completion(28) 14 ms, error: Task was cancelled.
+I[14:32:30.513] --> reply:textDocument/completion(29) 14 ms, error: Task was cancelled.
+I[14:32:30.604] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[14:32:30.604] --> reply:textDocument/completion(30) 105 ms
+I[14:32:30.693] <-- textDocument/didChange
+I[14:32:30.715] <-- $/cancelRequest
+I[14:32:30.715] <-- $/cancelRequest
+I[14:32:30.715] --> textDocument/clangd.fileStatus
+I[14:32:31.049] <-- textDocument/codeAction(32)
+I[14:32:31.049] <-- $/cancelRequest
+I[14:32:31.050] <-- textDocument/documentSymbol(33)
+I[14:32:31.078] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:31.079] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 21 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:31.085] --> textDocument/clangd.fileStatus
+I[14:32:31.086] --> textDocument/clangd.fileStatus
+I[14:32:31.246] --> reply:textDocument/codeAction(32) 196 ms
+I[14:32:31.246] Skipping rebuild of the AST for /mnt/hgfs/georgezhang/leetcode/unionFind.cc, inputs are the same.
+I[14:32:31.249] --> textDocument/publishDiagnostics
+I[14:32:31.251] --> reply:textDocument/documentSymbol(33) 201 ms
+I[14:32:31.251] --> textDocument/clangd.fileStatus
+I[14:32:31.258] <-- textDocument/codeAction(34)
+I[14:32:31.258] <-- $/cancelRequest
+I[14:32:31.261] --> reply:textDocument/codeAction(34) 3 ms
+I[14:32:31.261] --> textDocument/clangd.fileStatus
+I[14:32:31.511] <-- textDocument/documentLink(35)
+I[14:32:31.512] --> reply:textDocument/documentLink(35) 1 ms
+I[14:32:31.512] --> textDocument/clangd.fileStatus
+I[14:32:31.826] <-- textDocument/codeAction(36)
+I[14:32:31.827] --> reply:textDocument/codeAction(36) 0 ms
+I[14:32:31.827] --> textDocument/clangd.fileStatus
+I[14:32:31.946] <-- textDocument/didChange
+I[14:32:31.952] --> textDocument/clangd.fileStatus
+I[14:32:32.110] <-- textDocument/completion(37)
+I[14:32:32.169] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[14:32:32.169] --> reply:textDocument/completion(37) 59 ms
+I[14:32:32.204] <-- textDocument/codeAction(38)
+I[14:32:32.206] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:32.208] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 22 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:32.220] --> textDocument/clangd.fileStatus
+I[14:32:32.418] --> reply:textDocument/codeAction(38) 214 ms
+I[14:32:32.419] Skipping rebuild of the AST for /mnt/hgfs/georgezhang/leetcode/unionFind.cc, inputs are the same.
+I[14:32:32.420] --> textDocument/publishDiagnostics
+I[14:32:32.421] --> textDocument/clangd.fileStatus
+I[14:32:32.741] <-- textDocument/codeAction(39)
+I[14:32:32.745] --> reply:textDocument/codeAction(39) 3 ms
+I[14:32:32.745] --> textDocument/clangd.fileStatus
+I[14:32:32.881] <-- textDocument/didChange
+I[14:32:32.905] --> textDocument/clangd.fileStatus
+I[14:32:33.116] <-- textDocument/documentLink(40)
+I[14:32:33.116] <-- textDocument/codeAction(41)
+I[14:32:33.116] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:33.118] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 23 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:33.123] --> textDocument/clangd.fileStatus
+I[14:32:33.281] --> reply:textDocument/documentLink(40) 165 ms
+I[14:32:33.281] Skipping rebuild of the AST for /mnt/hgfs/georgezhang/leetcode/unionFind.cc, inputs are the same.
+I[14:32:33.283] --> textDocument/publishDiagnostics
+I[14:32:33.284] --> reply:textDocument/codeAction(41) 168 ms
+I[14:32:33.284] --> textDocument/clangd.fileStatus
+I[14:32:33.555] <-- textDocument/codeAction(42)
+I[14:32:33.557] --> reply:textDocument/codeAction(42) 1 ms
+I[14:32:33.557] --> textDocument/clangd.fileStatus
+I[14:32:35.292] <-- textDocument/didChange
+I[14:32:35.303] --> textDocument/clangd.fileStatus
+I[14:32:35.398] <-- textDocument/codeAction(43)
+I[14:32:35.398] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:35.400] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 24 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:35.406] --> textDocument/clangd.fileStatus
+I[14:32:35.489] --> reply:textDocument/codeAction(43) 91 ms
+I[14:32:35.490] Skipping rebuild of the AST for /mnt/hgfs/georgezhang/leetcode/unionFind.cc, inputs are the same.
+I[14:32:35.494] --> textDocument/publishDiagnostics
+I[14:32:35.495] --> textDocument/clangd.fileStatus
+I[14:32:35.759] <-- textDocument/codeAction(44)
+I[14:32:35.759] --> reply:textDocument/codeAction(44) 0 ms
+I[14:32:35.760] --> textDocument/clangd.fileStatus
+I[14:32:36.092] <-- textDocument/didChange
+I[14:32:36.104] --> textDocument/clangd.fileStatus
+I[14:32:36.224] <-- textDocument/documentLink(45)
+I[14:32:36.241] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:36.243] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 25 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:36.248] --> textDocument/clangd.fileStatus
+I[14:32:36.367] --> reply:textDocument/documentLink(45) 143 ms
+I[14:32:36.367] Skipping rebuild of the AST for /mnt/hgfs/georgezhang/leetcode/unionFind.cc, inputs are the same.
+I[14:32:36.369] --> textDocument/publishDiagnostics
+I[14:32:36.369] --> textDocument/clangd.fileStatus
+I[14:32:36.415] <-- textDocument/didChange
+I[14:32:36.429] <-- textDocument/completion(46)
+I[14:32:36.429] --> reply:textDocument/completion(46) 0 ms
+I[14:32:36.429] --> textDocument/clangd.fileStatus
+I[14:32:36.545] <-- textDocument/didChange
+I[14:32:36.553] <-- textDocument/completion(47)
+I[14:32:36.553] --> reply:textDocument/completion(47) 0 ms
+I[14:32:36.554] --> textDocument/clangd.fileStatus
+I[14:32:36.656] <-- textDocument/signatureHelp(48)
+I[14:32:36.793] <-- textDocument/codeAction(49)
+I[14:32:36.793] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:36.794] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 27 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:36.800] --> textDocument/clangd.fileStatus
+I[14:32:36.895] --> reply:textDocument/signatureHelp(48) 238 ms
+I[14:32:36.955] <-- textDocument/didChange
+I[14:32:36.957] <-- $/cancelRequest
+I[14:32:37.089] <-- textDocument/signatureHelp(50)
+I[14:32:37.102] --> reply:textDocument/codeAction(49) 309 ms
+I[14:32:37.103] Skipping rebuild of the AST for /mnt/hgfs/georgezhang/leetcode/unionFind.cc, inputs are the same.
+I[14:32:37.104] --> textDocument/publishDiagnostics
+I[14:32:37.105] --> textDocument/clangd.fileStatus
+I[14:32:37.263] --> reply:textDocument/signatureHelp(50) 174 ms
+I[14:32:37.316] <-- textDocument/didChange
+I[14:32:37.333] --> textDocument/clangd.fileStatus
+I[14:32:37.539] <-- textDocument/completion(51)
+I[14:32:37.658] Code complete: sema context Expression, query scopes [,std::] (AnyScope=true), expected type <none>
+I[14:32:37.659] Code complete: 1 results from Sema, 1 from Index, 0 matched, 0 from identifiers, 2 returned (incomplete).
+I[14:32:37.659] --> reply:textDocument/completion(51) 120 ms
+I[14:32:37.659] <-- textDocument/documentLink(52)
+I[14:32:37.660] <-- textDocument/codeAction(53)
+I[14:32:37.661] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:37.662] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 29 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:37.669] --> textDocument/clangd.fileStatus
+I[14:32:38.029] --> reply:textDocument/documentLink(52) 369 ms
+I[14:32:38.029] Skipping rebuild of the AST for /mnt/hgfs/georgezhang/leetcode/unionFind.cc, inputs are the same.
+I[14:32:38.044] --> textDocument/publishDiagnostics
+I[14:32:38.044] --> reply:textDocument/codeAction(53) 384 ms
+I[14:32:38.045] --> textDocument/clangd.fileStatus
+I[14:32:38.124] <-- textDocument/didChange
+I[14:32:38.146] <-- $/cancelRequest
+I[14:32:38.146] <-- textDocument/codeAction(54)
+I[14:32:38.146] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:38.148] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 30 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:38.154] --> textDocument/clangd.fileStatus
+I[14:32:38.437] <-- textDocument/didChange
+I[14:32:38.470] <-- $/cancelRequest
+I[14:32:38.470] <-- textDocument/completion(55)
+I[14:32:38.481] <-- textDocument/codeAction(56)
+I[14:32:38.557] --> reply:textDocument/codeAction(54) 411 ms
+I[14:32:38.558] Skipping rebuild of the AST for /mnt/hgfs/georgezhang/leetcode/unionFind.cc, inputs are the same.
+I[14:32:38.560] --> textDocument/publishDiagnostics
+I[14:32:38.569] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[14:32:38.569] --> reply:textDocument/completion(55) 98 ms
+I[14:32:38.571] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:38.573] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 31 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:38.576] --> textDocument/clangd.fileStatus
+I[14:32:38.704] <-- textDocument/documentLink(57)
+I[14:32:38.855] <-- textDocument/codeAction(58)
+I[14:32:38.855] <-- $/cancelRequest
+I[14:32:38.959] --> reply:textDocument/codeAction(56) 478 ms
+I[14:32:38.960] Skipping rebuild of the AST for /mnt/hgfs/georgezhang/leetcode/unionFind.cc, inputs are the same.
+I[14:32:38.962] --> textDocument/publishDiagnostics
+I[14:32:38.963] --> reply:textDocument/documentLink(57) 258 ms
+I[14:32:38.963] --> reply:textDocument/codeAction(58) 107 ms
+I[14:32:38.963] --> textDocument/clangd.fileStatus
+I[14:32:39.234] <-- textDocument/codeAction(59)
+I[14:32:39.234] --> reply:textDocument/codeAction(59) 0 ms
+I[14:32:39.234] --> textDocument/clangd.fileStatus
+I[14:32:41.479] <-- textDocument/codeAction(60)
+I[14:32:41.488] --> reply:textDocument/codeAction(60) 8 ms
+I[14:32:41.488] --> textDocument/clangd.fileStatus
+I[14:32:44.276] <-- textDocument/didChange
+I[14:32:44.278] --> textDocument/clangd.fileStatus
+I[14:32:44.360] <-- textDocument/codeAction(61)
+I[14:32:44.360] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:44.362] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 32 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:44.369] --> textDocument/clangd.fileStatus
+I[14:32:44.482] --> reply:textDocument/codeAction(61) 121 ms
+I[14:32:44.482] Skipping rebuild of the AST for /mnt/hgfs/georgezhang/leetcode/unionFind.cc, inputs are the same.
+I[14:32:44.485] --> textDocument/publishDiagnostics
+I[14:32:44.486] --> textDocument/clangd.fileStatus
+I[14:32:44.753] <-- textDocument/codeAction(62)
+I[14:32:44.753] --> reply:textDocument/codeAction(62) 0 ms
+I[14:32:44.754] --> textDocument/clangd.fileStatus
+I[14:32:45.076] <-- textDocument/documentLink(63)
+I[14:32:45.076] --> reply:textDocument/documentLink(63) 0 ms
+I[14:32:45.076] --> textDocument/clangd.fileStatus
+I[14:32:46.061] <-- textDocument/codeAction(64)
+I[14:32:46.062] --> reply:textDocument/codeAction(64) 1 ms
+I[14:32:46.062] --> textDocument/clangd.fileStatus
+I[14:32:47.396] <-- textDocument/didChange
+I[14:32:47.403] --> textDocument/clangd.fileStatus
+I[14:32:47.606] <-- textDocument/codeAction(65)
+I[14:32:47.609] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:47.610] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 33 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:47.617] --> textDocument/clangd.fileStatus
+I[14:32:47.750] --> reply:textDocument/codeAction(65) 143 ms
+I[14:32:47.750] Skipping rebuild of the AST for /mnt/hgfs/georgezhang/leetcode/unionFind.cc, inputs are the same.
+I[14:32:47.759] --> textDocument/publishDiagnostics
+I[14:32:47.760] --> textDocument/clangd.fileStatus
+I[14:32:48.028] <-- textDocument/codeAction(66)
+I[14:32:48.029] --> reply:textDocument/codeAction(66) 0 ms
+I[14:32:48.029] --> textDocument/clangd.fileStatus
+I[14:32:48.363] <-- textDocument/documentLink(67)
+I[14:32:48.364] --> reply:textDocument/documentLink(67) 0 ms
+I[14:32:48.364] --> textDocument/clangd.fileStatus
+I[14:32:49.265] <-- textDocument/codeAction(68)
+I[14:32:49.265] --> reply:textDocument/codeAction(68) 0 ms
+I[14:32:49.265] --> textDocument/clangd.fileStatus
+I[14:32:50.634] <-- textDocument/didChange
+I[14:32:50.652] --> textDocument/clangd.fileStatus
+I[14:32:51.157] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:51.158] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 34 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:51.161] --> textDocument/clangd.fileStatus
+I[14:32:51.164] --> textDocument/clangd.fileStatus
+I[14:32:51.170] --> textDocument/clangd.fileStatus
+I[14:32:51.366] <-- textDocument/didChange
+I[14:32:51.384] --> textDocument/publishDiagnostics
+I[14:32:51.384] --> textDocument/clangd.fileStatus
+I[14:32:51.597] <-- textDocument/completion(69)
+I[14:32:51.611] <-- textDocument/documentLink(70)
+I[14:32:51.617] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:51.618] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 35 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:51.625] --> textDocument/clangd.fileStatus
+I[14:32:51.672] Code complete: sema context Statement, query scopes [,std::] (AnyScope=true), expected type <none>
+I[14:32:51.672] Code complete: 15 results from Sema, 98 from Index, 0 matched, 0 from identifiers, 100 returned (incomplete).
+I[14:32:51.689] --> reply:textDocument/completion(69) 91 ms
+I[14:32:51.946] --> reply:textDocument/documentLink(70) 335 ms
+I[14:32:51.946] Skipping rebuild of the AST for /mnt/hgfs/georgezhang/leetcode/unionFind.cc, inputs are the same.
+I[14:32:51.953] --> textDocument/publishDiagnostics
+I[14:32:51.954] --> textDocument/clangd.fileStatus
+I[14:32:52.322] <-- textDocument/didChange
+I[14:32:52.336] <-- textDocument/codeAction(71)
+I[14:32:52.339] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:52.340] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 36 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:52.346] --> textDocument/clangd.fileStatus
+I[14:32:52.540] <-- textDocument/didChange
+I[14:32:52.561] <-- $/cancelRequest
+I[14:32:52.561] <-- textDocument/didChange
+I[14:32:52.658] <-- textDocument/documentLink(72)
+I[14:32:52.659] --> reply:textDocument/codeAction(71) 322 ms
+I[14:32:52.669] Skipping rebuild of the AST for /mnt/hgfs/georgezhang/leetcode/unionFind.cc, inputs are the same.
+I[14:32:52.670] --> textDocument/publishDiagnostics
+I[14:32:52.671] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:52.672] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 38 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:52.686] --> textDocument/clangd.fileStatus
+I[14:32:52.801] --> reply:textDocument/documentLink(72) 143 ms
+I[14:32:52.802] Skipping rebuild of the AST for /mnt/hgfs/georgezhang/leetcode/unionFind.cc, inputs are the same.
+I[14:32:52.805] --> textDocument/publishDiagnostics
+I[14:32:52.806] --> textDocument/clangd.fileStatus
+I[14:32:53.156] <-- textDocument/codeAction(73)
+I[14:32:53.156] --> reply:textDocument/codeAction(73) 0 ms
+I[14:32:53.156] --> textDocument/clangd.fileStatus
+I[14:32:53.308] <-- textDocument/completion(74)
+I[14:32:53.507] Code complete: sema context Statement, query scopes [,std::] (AnyScope=true), expected type <none>
+I[14:32:53.508] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[14:32:53.508] --> reply:textDocument/completion(74) 200 ms
+I[14:32:55.292] <-- textDocument/didChange
+I[14:32:55.307] <-- textDocument/completion(75)
+I[14:32:55.308] --> textDocument/clangd.fileStatus
+I[14:32:55.397] Code complete: sema context Statement, query scopes [,std::] (AnyScope=true), expected type <none>
+I[14:32:55.398] Code complete: 0 results from Sema, 4 from Index, 0 matched, 0 from identifiers, 4 returned.
+I[14:32:55.398] --> reply:textDocument/completion(75) 91 ms
+I[14:32:55.574] <-- textDocument/didChange
+I[14:32:55.594] <-- $/cancelRequest
+I[14:32:55.594] <-- textDocument/completion(76)
+I[14:32:55.599] --> textDocument/clangd.fileStatus
+I[14:32:55.690] Code complete: sema context Statement, query scopes [,std::] (AnyScope=true), expected type <none>
+I[14:32:55.691] Code complete: 5 results from Sema, 23 from Index, 0 matched, 0 from identifiers, 28 returned (incomplete).
+I[14:32:55.703] --> reply:textDocument/completion(76) 109 ms
+I[14:32:56.095] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:56.096] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 40 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:56.104] --> textDocument/clangd.fileStatus
+I[14:32:56.111] --> textDocument/clangd.fileStatus
+I[14:32:56.129] --> textDocument/clangd.fileStatus
+I[14:32:56.197] <-- textDocument/didChange
+I[14:32:56.222] <-- $/cancelRequest
+I[14:32:56.222] <-- textDocument/completion(77)
+I[14:32:56.222] <-- textDocument/didChange
+I[14:32:56.233] <-- $/cancelRequest
+I[14:32:56.233] <-- textDocument/documentLink(78)
+I[14:32:56.254] --> reply:textDocument/completion(77) 31 ms, error: Task was cancelled.
+I[14:32:56.319] --> textDocument/publishDiagnostics
+I[14:32:56.319] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:32:56.322] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 42 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:32:56.331] --> textDocument/clangd.fileStatus
+I[14:32:56.562] --> reply:textDocument/documentLink(78) 328 ms
+I[14:32:56.562] Skipping rebuild of the AST for /mnt/hgfs/georgezhang/leetcode/unionFind.cc, inputs are the same.
+I[14:32:56.571] --> textDocument/publishDiagnostics
+I[14:32:56.572] --> textDocument/clangd.fileStatus
+I[14:33:02.027] <-- textDocument/hover(79)
+I[14:33:02.041] --> reply:textDocument/hover(79) 14 ms
+I[14:33:02.041] --> textDocument/clangd.fileStatus
+I[14:33:03.155] <-- textDocument/hover(80)
+I[14:33:03.160] --> reply:textDocument/hover(80) 5 ms
+I[14:33:03.161] --> textDocument/clangd.fileStatus
+I[14:33:19.171] <-- textDocument/documentSymbol(81)
+I[14:33:19.182] --> reply:textDocument/documentSymbol(81) 11 ms
+I[14:33:19.183] --> textDocument/clangd.fileStatus

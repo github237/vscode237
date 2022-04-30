@@ -1,0 +1,324 @@
+[2022-04-28 20:56:54.451] [exthost] [info] extension host started
+[2022-04-28 20:56:54.739] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2022-04-28 20:56:54.740] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2022-04-28 20:56:54.767] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onDebugDynamicConfigurations"}
+[2022-04-28 20:56:54.767] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2022-04-28 20:56:55.159] [exthost] [info] ExtensionService#_doActivateExtension georgewfraser.vscode-javac {"startup":false,"extensionId":{"value":"georgewfraser.vscode-javac","_lower":"georgewfraser.vscode-javac"},"activationEvent":"onDebug"}
+[2022-04-28 20:56:55.159] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/georgewfraser.vscode-javac-0.2.39/out/lib/extension
+[2022-04-28 20:56:55.308] [exthost] [info] ExtensionService#_doActivateExtension GabrielBB.vscode-lombok {"startup":false,"extensionId":{"value":"GabrielBB.vscode-lombok","_lower":"gabrielbb.vscode-lombok"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:56:55.312] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/out/index
+[2022-04-28 20:56:55.317] [exthost] [info] ExtensionService#_doActivateExtension redhat.java {"startup":false,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:56:55.318] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension
+[2022-04-28 20:56:55.396] [exthost] [info] ExtensionService#_doActivateExtension Rectcircle.vscode-p3c {"startup":false,"extensionId":{"value":"Rectcircle.vscode-p3c","_lower":"rectcircle.vscode-p3c"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:56:55.397] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/rectcircle.vscode-p3c-0.1.2/out/src/extension
+[2022-04-28 20:56:55.410] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"SonarSource.sonarlint-vscode","_lower":"sonarsource.sonarlint-vscode"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:56:55.410] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2022-04-28 20:56:55.507] [exthost] [info] ExtensionService#_doActivateExtension thomdabeast.java-checkstyle {"startup":false,"extensionId":{"value":"thomdabeast.java-checkstyle","_lower":"thomdabeast.java-checkstyle"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:56:55.507] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/thomdabeast.java-checkstyle-1.1.1/client/src/extension
+[2022-04-28 20:56:55.656] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"extensionId":{"value":"VisualStudioExptTeam.vscodeintellicode","_lower":"visualstudioexptteam.vscodeintellicode"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:56:55.656] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.14/dist/intellicode
+[2022-04-28 20:56:55.750] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug {"startup":false,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:56:55.750] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/vscjava.vscode-java-debug-0.31.0/dist/extension
+[2022-04-28 20:56:55.807] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack {"startup":false,"extensionId":{"value":"vscjava.vscode-java-pack","_lower":"vscjava.vscode-java-pack"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:56:55.807] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/vscjava.vscode-java-pack-0.12.1/out/extension
+[2022-04-28 20:56:56.068] [exthost] [info] ExtensionService#_doActivateExtension wx-chevalier.google-java-format {"startup":false,"extensionId":{"value":"wx-chevalier.google-java-format","_lower":"wx-chevalier.google-java-format"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:56:56.068] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/wx-chevalier.google-java-format-0.0.1/out/src/extension
+[2022-04-28 20:56:56.072] [exthost] [info] ExtensionService#_doActivateExtension yangbaopan.vscode-java-p3c {"startup":false,"extensionId":{"value":"yangbaopan.vscode-java-p3c","_lower":"yangbaopan.vscode-java-p3c"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:56:56.072] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/yangbaopan.vscode-java-p3c-1.5.4/out/src/extension
+[2022-04-28 20:56:56.188] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2022-04-28 20:56:56.189] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2022-04-28 20:56:56.198] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2022-04-28 20:56:56.198] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2022-04-28 20:56:56.221] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2022-04-28 20:56:56.222] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2022-04-28 20:56:56.256] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2022-04-28 20:56:56.256] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2022-04-28 20:56:56.261] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2022-04-28 20:56:56.261] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2022-04-28 20:56:56.263] [exthost] [info] ExtensionService#_doActivateExtension byi8220.indented-block-highlighting {"startup":true,"extensionId":{"value":"byi8220.indented-block-highlighting","_lower":"byi8220.indented-block-highlighting"},"activationEvent":"*"}
+[2022-04-28 20:56:56.263] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/byi8220.indented-block-highlighting-1.0.7/out/extension
+[2022-04-28 20:56:56.300] [exthost] [info] ExtensionService#_doActivateExtension Durzn.brackethighlighter {"startup":true,"extensionId":{"value":"Durzn.brackethighlighter","_lower":"durzn.brackethighlighter"},"activationEvent":"*"}
+[2022-04-28 20:56:56.300] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/durzn.brackethighlighter-2.2.4/out/extension.js
+[2022-04-28 20:56:56.322] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"extensionId":{"value":"Equinusocio.vsc-material-theme","_lower":"equinusocio.vsc-material-theme"},"activationEvent":"*"}
+[2022-04-28 20:56:56.323] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/equinusocio.vsc-material-theme-33.0.0/build/material.theme.config
+[2022-04-28 20:56:56.339] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons {"startup":true,"extensionId":{"value":"equinusocio.vsc-material-theme-icons","_lower":"equinusocio.vsc-material-theme-icons"},"activationEvent":"*"}
+[2022-04-28 20:56:56.339] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/equinusocio.vsc-material-theme-icons-1.2.2/out/src/extension
+[2022-04-28 20:56:56.359] [exthost] [info] ExtensionService#_doActivateExtension hiro-sun.vscode-emacs {"startup":true,"extensionId":{"value":"hiro-sun.vscode-emacs","_lower":"hiro-sun.vscode-emacs"},"activationEvent":"*"}
+[2022-04-28 20:56:56.359] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/hiro-sun.vscode-emacs-0.1.1/out/src/extension
+[2022-04-28 20:56:56.365] [exthost] [info] ExtensionService#_doActivateExtension imagio.vscode-dimmer-block {"startup":true,"extensionId":{"value":"imagio.vscode-dimmer-block","_lower":"imagio.vscode-dimmer-block"},"activationEvent":"*"}
+[2022-04-28 20:56:56.366] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/imagio.vscode-dimmer-block-2.2.0/out/src/extension
+[2022-04-28 20:56:56.370] [exthost] [info] ExtensionService#_doActivateExtension lfs.vscode-emacs-friendly {"startup":true,"extensionId":{"value":"lfs.vscode-emacs-friendly","_lower":"lfs.vscode-emacs-friendly"},"activationEvent":"*"}
+[2022-04-28 20:56:56.370] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/lfs.vscode-emacs-friendly-0.9.0/out/src/extension
+[2022-04-28 20:56:56.374] [exthost] [info] ExtensionService#_doActivateExtension mhutchie.git-graph {"startup":true,"extensionId":{"value":"mhutchie.git-graph","_lower":"mhutchie.git-graph"},"activationEvent":"*"}
+[2022-04-28 20:56:56.375] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/mhutchie.git-graph-1.30.0/out/extension.js
+[2022-04-28 20:56:56.450] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2022-04-28 20:56:56.450] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/pkief.material-icon-theme-4.4.0/dist/extension
+[2022-04-28 20:56:56.469] [exthost] [info] ExtensionService#_doActivateExtension rafaelmaiolla.remote-vscode {"startup":true,"extensionId":{"value":"rafaelmaiolla.remote-vscode","_lower":"rafaelmaiolla.remote-vscode"},"activationEvent":"*"}
+[2022-04-28 20:56:56.469] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/rafaelmaiolla.remote-vscode-1.1.0/out/src/extension
+[2022-04-28 20:56:56.599] [exthost] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"extensionId":{"value":"Shan.code-settings-sync","_lower":"shan.code-settings-sync"},"activationEvent":"*"}
+[2022-04-28 20:56:56.599] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/shan.code-settings-sync-3.4.3/out/extension.js
+[2022-04-28 20:56:56.748] [exthost] [info] ExtensionService#_doActivateExtension shardulm94.trailing-spaces {"startup":true,"extensionId":{"value":"shardulm94.trailing-spaces","_lower":"shardulm94.trailing-spaces"},"activationEvent":"*"}
+[2022-04-28 20:56:56.748] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/shardulm94.trailing-spaces-0.3.1/out/src/extension
+[2022-04-28 20:56:56.793] [exthost] [info] ExtensionService#_doActivateExtension SirTori.indenticator {"startup":true,"extensionId":{"value":"SirTori.indenticator","_lower":"sirtori.indenticator"},"activationEvent":"*"}
+[2022-04-28 20:56:56.794] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/sirtori.indenticator-0.7.0/out/src/extension
+[2022-04-28 20:56:56.797] [exthost] [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight {"startup":true,"extensionId":{"value":"wayou.vscode-todo-highlight","_lower":"wayou.vscode-todo-highlight"},"activationEvent":"*"}
+[2022-04-28 20:56:56.797] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/wayou.vscode-todo-highlight-1.0.5/src/extension
+[2022-04-28 20:56:56.802] [exthost] [info] ExtensionService#_doActivateExtension xulion.codescope {"startup":true,"extensionId":{"value":"xulion.codescope","_lower":"xulion.codescope"},"activationEvent":"*"}
+[2022-04-28 20:56:56.802] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/xulion.codescope-0.2.0/out/extension
+[2022-04-28 20:56:56.822] [exthost] [info] ExtensionService#_doActivateExtension ybaumes.highlight-trailing-white-spaces {"startup":true,"extensionId":{"value":"ybaumes.highlight-trailing-white-spaces","_lower":"ybaumes.highlight-trailing-white-spaces"},"activationEvent":"*"}
+[2022-04-28 20:56:56.822] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/ybaumes.highlight-trailing-white-spaces-0.0.2/out/src/extension
+[2022-04-28 20:56:56.825] [exthost] [error] Activating extension wx-chevalier.google-java-format failed due to an error:
+[2022-04-28 20:56:56.827] [exthost] [error] Error: Cannot find module 'sax'
+Require stack:
+- /home/georgezhang/.vscode/extensions/wx-chevalier.google-java-format-0.0.1/out/src/extension.js
+- /usr/share/code/resources/app/out/vs/loader.js
+- /usr/share/code/resources/app/out/bootstrap-amd.js
+- /usr/share/code/resources/app/out/bootstrap-fork.js
+	at Function.Module._resolveFilename (internal/modules/cjs/loader.js:844:17)
+	at Module._load (internal/modules/cjs/loader.js:737:27)
+	at Function.Module._load (electron/js2c/asar.js:769:28)
+	at Function.t._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:1057:776)
+	at Function.i._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:1027:486)
+	at Function.n._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:1023:767)
+	at Module.require (internal/modules/cjs/loader.js:899:19)
+	at r (/usr/share/code/resources/app/out/vs/loader.js:17:346)
+	at Object.<anonymous> (/home/georgezhang/.vscode/extensions/wx-chevalier.google-java-format-0.0.1/out/src/extension.js:6:13)
+	at Module.i._compile (/usr/share/code/resources/app/out/vs/loader.js:17:571)
+	at Object.Module._extensions..js (internal/modules/cjs/loader.js:1051:10)
+	at Module.load (internal/modules/cjs/loader.js:862:32)
+	at Module._load (internal/modules/cjs/loader.js:774:14)
+	at Function.Module._load (electron/js2c/asar.js:769:28)
+	at Function.t._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:1057:776)
+	at Function.i._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:1027:486)
+	at Function.n._load (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:1023:767)
+	at Module.require (internal/modules/cjs/loader.js:899:19)
+	at require (internal/modules/cjs/helpers.js:74:18)
+	at Function.s [as __$__nodeRequire] (/usr/share/code/resources/app/out/vs/loader.js:34:963)
+	at p._loadCommonJSModule (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:1028:771)
+	at p._doActivateExtension (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:925:742)
+	at p._activateExtension (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:924:822)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+	at async Promise.all (index 9)
+[2022-04-28 20:56:57.497] [exthost] [error] Activating extension lfs.vscode-emacs-friendly failed due to an error:
+[2022-04-28 20:56:57.498] [exthost] [error] Error: command 'emacs.C-g' already exists
+	at _.registerCommand (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:693:559)
+	at Object.registerCommand (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:988:219)
+	at registerCommand (/home/georgezhang/.vscode/extensions/lfs.vscode-emacs-friendly-0.9.0/out/src/extension.js:78:28)
+	at /home/georgezhang/.vscode/extensions/lfs.vscode-emacs-friendly-0.9.0/out/src/extension.js:23:36
+	at Array.forEach (<anonymous>)
+	at activate (/home/georgezhang/.vscode/extensions/lfs.vscode-emacs-friendly-0.9.0/out/src/extension.js:22:17)
+	at Function._callActivateOptional (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:927:841)
+	at Function._callActivate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:927:492)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:925:841
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+	at async Promise.all (index 11)
+	at async Promise.all (index 0)
+[2022-04-28 20:57:00.892] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2022-04-28 20:57:00.892] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2022-04-28 20:57:02.193] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2022-04-28 20:57:02.193] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2022-04-28 20:57:02.317] [exthost] [info] eager extensions activated
+[2022-04-28 20:57:02.356] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2 {"startup":false,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer-2","_lower":"coenraads.bracket-pair-colorizer-2"},"activationEvent":"onStartupFinished"}
+[2022-04-28 20:57:02.357] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.4/out/src/extension
+[2022-04-28 20:57:02.609] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers {"startup":false,"extensionId":{"value":"ms-vscode-remote.remote-containers","_lower":"ms-vscode-remote.remote-containers"},"activationEvent":"onStartupFinished"}
+[2022-04-28 20:57:02.609] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/ms-vscode-remote.remote-containers-0.145.1/dist/extension
+[2022-04-28 20:57:03.413] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl {"startup":false,"extensionId":{"value":"ms-vscode-remote.remote-wsl","_lower":"ms-vscode-remote.remote-wsl"},"activationEvent":"onStartupFinished"}
+[2022-04-28 20:57:03.413] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/ms-vscode-remote.remote-wsl-0.50.1/dist/extension
+[2022-04-28 20:57:04.780] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2022-04-28 20:57:04.780] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2022-04-28 20:57:04.901] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2022-04-28 20:57:04.901] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2022-04-28 20:57:06.773] [exthost] [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+[2022-04-28 20:57:07.263] [exthost] [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+[2022-04-28 20:57:35.191] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:35.197] [exthost] [error] Error: The request (id: 2, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.198] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:35.198] [exthost] [error] Error: The request (id: 3, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.198] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:35.198] [exthost] [error] Error: The request (id: 4, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.199] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:35.199] [exthost] [error] Error: The request (id: 5, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.199] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:35.199] [exthost] [error] Error: The request (id: 6, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.199] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:35.199] [exthost] [error] Error: The request (id: 7, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.200] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:35.200] [exthost] [error] Error: The request (id: 8, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.218] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:35.218] [exthost] [error] Error: The request (id: 9, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.218] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:35.219] [exthost] [error] Error: The request (id: 10, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.219] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:35.219] [exthost] [error] Error: The request (id: 11, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.220] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:35.220] [exthost] [error] Error: The request (id: 12, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.469] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:35.469] [exthost] [error] Error: The request (id: 13, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.516] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:35.516] [exthost] [error] Error: The request (id: 14, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.675] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:35.676] [exthost] [error] Error: The request (id: 16, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:35.918] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:35.918] [exthost] [error] Error: The request (id: 17, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:36.037] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:36.037] [exthost] [error] Error: The request (id: 18, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:36.063] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:36.063] [exthost] [error] Error: The request (id: 19, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:39.162] [exthost] [info] ExtensionService#_doActivateExtension Pivotal.vscode-spring-boot {"startup":false,"extensionId":{"value":"Pivotal.vscode-spring-boot","_lower":"pivotal.vscode-spring-boot"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:57:39.163] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/pivotal.vscode-spring-boot-1.25.0/out/lib/Main
+[2022-04-28 20:57:39.665] [exthost] [info] ExtensionService#_doActivateExtension shengchen.vscode-checkstyle {"startup":false,"extensionId":{"value":"shengchen.vscode-checkstyle","_lower":"shengchen.vscode-checkstyle"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:57:39.665] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/shengchen.vscode-checkstyle-1.4.1/dist/extension
+[2022-04-28 20:57:39.754] [exthost] [info] ExtensionService#_doActivateExtension SonarSource.sonarlint-vscode {"startup":false,"extensionId":{"value":"SonarSource.sonarlint-vscode","_lower":"sonarsource.sonarlint-vscode"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:57:39.755] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/sonarsource.sonarlint-vscode-1.21.0/dist/extension
+[2022-04-28 20:57:39.885] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test {"startup":false,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"onLanguage:java"}
+[2022-04-28 20:57:39.886] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/vscjava.vscode-java-test-0.26.0/main.js
+[2022-04-28 20:57:44.020] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:44.020] [exthost] [error] Error: The request (id: 14, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:44.220] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:44.220] [exthost] [error] Error: The request (id: 16, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:49.227] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:49.228] [exthost] [error] Error: The request (id: 22, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:57:49.439] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:57:49.439] [exthost] [error] Error: The request (id: 27, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:58:00.234] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:58:00.234] [exthost] [error] Error: The request (id: 32, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:58:04.971] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready {"startup":false,"extensionId":{"value":"vscode.debug-server-ready","_lower":"vscode.debug-server-ready"},"activationEvent":"onDebugResolve"}
+[2022-04-28 20:58:04.971] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-server-ready/dist/extension
+[2022-04-28 20:58:51.347] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:58:51.347] [exthost] [error] Error: The request (id: 60, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:58:52.004] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:58:52.004] [exthost] [error] Error: The request (id: 62, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 20:59:48.521] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 20:59:48.521] [exthost] [error] Error: The request (id: 104, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 21:01:14.383] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 21:01:14.383] [exthost] [error] Error: The request (id: 239, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 21:01:48.609] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 21:01:48.609] [exthost] [error] Error: The request (id: 271, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 21:02:36.388] [exthost] [error] [VisualStudioExptTeam.vscodeintellicode] provider FAILED
+[2022-04-28 21:02:36.388] [exthost] [error] Error: The request (id: 327, method: 'workspace/executeCommand') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 21:02:48.286] [exthost] [error] [redhat.java] provider FAILED
+[2022-04-28 21:02:48.286] [exthost] [error] Error: The request (id: 352, method: 'textDocument/hover') has been cancelled
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:803967
+	at /home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804261
+	at Immediate.<anonymous> (/home/georgezhang/.vscode/extensions/redhat.java-0.78.0/dist/extension.js:2:804622)
+	at processImmediate (internal/timers.js:439:21)
+[2022-04-28 21:03:26.253] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:json"}
+[2022-04-28 21:03:26.253] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extensionEditingMain
+[2022-04-28 21:03:26.300] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"onLanguage:json"}
+[2022-04-28 21:03:26.300] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2022-04-28 21:03:44.341] [exthost] [info] ExtensionService#_doActivateExtension mgmcdermott.vscode-language-babel {"startup":false,"extensionId":{"value":"mgmcdermott.vscode-language-babel","_lower":"mgmcdermott.vscode-language-babel"},"activationEvent":"onLanguage:javascript"}
+[2022-04-28 21:03:44.341] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/mgmcdermott.vscode-language-babel-0.0.36/dist/extension
+[2022-04-28 21:03:44.365] [exthost] [info] ExtensionService#_doActivateExtension Wscats.eno {"startup":false,"extensionId":{"value":"Wscats.eno","_lower":"wscats.eno"},"activationEvent":"onLanguage:javascript"}
+[2022-04-28 21:03:44.365] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/georgezhang/.vscode/extensions/wscats.eno-2.3.53/out/extension.js

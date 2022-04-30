@@ -1,0 +1,259 @@
+I[14:33:54.654] clangd version 11.0.1 (Red Hat 11.0.1-1.module_el8.4.0+966+2995ef20)
+I[14:33:54.654] PID: 104754
+I[14:33:54.654] Working directory: /home/georgezhang/src/linux/mm
+I[14:33:54.654] argv[0]: /usr/bin/clangd
+I[14:33:54.654] Starting LSP over stdin/stdout
+I[14:33:54.655] <-- initialize(0)
+I[14:33:54.655] Client supports legacy semanticHighlights notification and standard semanticTokens request, choosing the latter (no notifications).
+I[14:33:54.748] --> reply:initialize(0) 93 ms
+I[14:33:55.446] <-- initialized
+I[14:33:55.449] <-- textDocument/didOpen
+I[14:33:55.451] <-- textDocument/didOpen
+I[14:33:55.465] Failed to find compilation database for /home/georgezhang/src/linux/mm/slub.c
+I[14:33:55.465] ASTWorker building file /home/georgezhang/src/linux/mm/slub.c version 1 with command clangd fallback
+[/home/georgezhang/src/linux/mm]
+/usr/bin/clang /home/georgezhang/src/linux/mm/slub.c -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:33:55.522] --> textDocument/clangd.fileStatus
+I[14:33:55.541] Failed to find compilation database for /mnt/hgfs/georgezhang/leetcode/unionFind.cc
+I[14:33:55.541] ASTWorker building file /mnt/hgfs/georgezhang/leetcode/unionFind.cc version 1 with command clangd fallback
+[/mnt/hgfs/georgezhang/leetcode]
+/usr/bin/clang /mnt/hgfs/georgezhang/leetcode/unionFind.cc -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:33:55.545] --> textDocument/clangd.fileStatus
+I[14:33:55.800] <-- textDocument/documentSymbol(1)
+I[14:33:55.800] <-- textDocument/codeAction(2)
+I[14:33:55.800] <-- textDocument/documentLink(3)
+I[14:33:56.133] <-- textDocument/semanticTokens/full(4)
+I[14:33:56.133] <-- textDocument/semanticTokens/full(5)
+I[14:33:56.390] --> textDocument/publishDiagnostics
+I[14:33:56.435] --> reply:textDocument/documentSymbol(1) 635 ms
+I[14:33:56.441] --> reply:textDocument/codeAction(2) 640 ms
+I[14:33:56.443] --> reply:textDocument/documentLink(3) 643 ms
+I[14:33:56.456] --> reply:textDocument/semanticTokens/full(4) 323 ms
+I[14:33:56.457] --> textDocument/clangd.fileStatus
+I[14:33:57.781] <-- textDocument/documentSymbol(6)
+I[14:33:57.781] <-- $/cancelRequest
+I[14:33:57.781] <-- textDocument/codeAction(7)
+I[14:33:57.827] --> reply:textDocument/documentSymbol(6) 46 ms
+I[14:33:57.832] --> reply:textDocument/codeAction(7) 50 ms
+I[14:33:57.832] --> textDocument/clangd.fileStatus
+I[14:33:58.499] <-- textDocument/codeAction(8)
+I[14:33:58.500] <-- $/cancelRequest
+I[14:33:58.501] --> reply:textDocument/codeAction(8) 2 ms
+I[14:33:58.502] --> textDocument/clangd.fileStatus
+I[14:33:59.292] <-- textDocument/documentSymbol(9)
+I[14:33:59.349] --> reply:textDocument/documentSymbol(9) 57 ms
+I[14:33:59.364] --> textDocument/clangd.fileStatus
+I[14:34:00.676] --> textDocument/publishDiagnostics
+I[14:34:00.693] --> reply:textDocument/semanticTokens/full(5) 4559 ms
+I[14:34:00.693] --> textDocument/clangd.fileStatus
+I[14:34:03.739] <-- textDocument/documentLink(10)
+I[14:34:03.739] <-- $/cancelRequest
+I[14:34:03.739] <-- textDocument/documentLink(11)
+I[14:34:03.739] --> reply:textDocument/documentLink(10) 0 ms, error: Task was cancelled.
+I[14:34:03.740] --> reply:textDocument/documentLink(11) 0 ms
+I[14:34:03.740] --> textDocument/clangd.fileStatus
+I[14:34:03.919] <-- $/cancelRequest
+I[14:34:03.919] <-- textDocument/documentSymbol(12)
+I[14:34:03.985] --> reply:textDocument/documentSymbol(12) 65 ms
+I[14:34:04.053] --> textDocument/clangd.fileStatus
+I[14:34:04.560] <-- textDocument/codeAction(13)
+I[14:34:04.562] --> reply:textDocument/codeAction(13) 2 ms
+I[14:34:04.562] --> textDocument/clangd.fileStatus
+I[14:34:04.901] <-- textDocument/codeAction(14)
+I[14:34:04.904] --> reply:textDocument/codeAction(14) 2 ms
+I[14:34:04.904] --> textDocument/clangd.fileStatus
+I[14:34:53.718] <-- textDocument/codeAction(15)
+I[14:34:53.719] --> reply:textDocument/codeAction(15) 1 ms
+I[14:34:53.720] --> textDocument/clangd.fileStatus
+I[14:35:02.870] <-- textDocument/codeAction(16)
+I[14:35:02.870] --> reply:textDocument/codeAction(16) 0 ms
+I[14:35:02.870] --> textDocument/clangd.fileStatus
+I[14:35:04.526] <-- textDocument/hover(17)
+I[14:35:04.527] --> reply:textDocument/hover(17) 1 ms
+I[14:35:04.527] --> textDocument/clangd.fileStatus
+I[14:35:05.112] <-- textDocument/documentHighlight(18)
+I[14:35:05.112] --> reply:textDocument/documentHighlight(18) 0 ms
+I[14:35:05.112] --> textDocument/clangd.fileStatus
+I[14:35:05.332] <-- textDocument/codeAction(19)
+I[14:35:05.335] --> reply:textDocument/codeAction(19) 2 ms
+I[14:35:05.335] --> textDocument/clangd.fileStatus
+I[14:35:11.012] <-- textDocument/didChange
+I[14:35:11.013] --> textDocument/clangd.fileStatus
+I[14:35:11.303] Failed to find compilation database for /home/georgezhang/src/linux/mm/slub.c
+I[14:35:11.303] ASTWorker building file /home/georgezhang/src/linux/mm/slub.c version 2 with command clangd fallback
+[/home/georgezhang/src/linux/mm]
+/usr/bin/clang /home/georgezhang/src/linux/mm/slub.c -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:35:11.306] --> textDocument/clangd.fileStatus
+I[14:35:11.307] --> textDocument/clangd.fileStatus
+I[14:35:11.308] --> textDocument/clangd.fileStatus
+I[14:35:11.403] --> textDocument/publishDiagnostics
+I[14:35:11.404] --> textDocument/clangd.fileStatus
+I[14:35:11.907] <-- textDocument/documentLink(20)
+I[14:35:11.908] --> reply:textDocument/documentLink(20) 0 ms
+I[14:35:11.908] --> textDocument/clangd.fileStatus
+I[14:35:16.914] <-- textDocument/didChange
+I[14:35:16.916] --> textDocument/clangd.fileStatus
+I[14:35:17.207] Failed to find compilation database for /home/georgezhang/src/linux/mm/slub.c
+I[14:35:17.207] ASTWorker building file /home/georgezhang/src/linux/mm/slub.c version 3 with command clangd fallback
+[/home/georgezhang/src/linux/mm]
+/usr/bin/clang /home/georgezhang/src/linux/mm/slub.c -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:35:17.211] --> textDocument/clangd.fileStatus
+I[14:35:17.211] --> textDocument/clangd.fileStatus
+I[14:35:17.211] --> textDocument/clangd.fileStatus
+I[14:35:17.497] --> textDocument/publishDiagnostics
+I[14:35:17.498] --> textDocument/clangd.fileStatus
+I[14:35:19.013] <-- textDocument/documentLink(21)
+I[14:35:19.013] <-- textDocument/didChange
+I[14:35:19.013] --> reply:textDocument/documentLink(21) 0 ms
+I[14:35:19.014] --> textDocument/clangd.fileStatus
+I[14:35:19.014] <-- textDocument/codeAction(22)
+I[14:35:19.026] Failed to find compilation database for /home/georgezhang/src/linux/mm/slub.c
+I[14:35:19.026] ASTWorker building file /home/georgezhang/src/linux/mm/slub.c version 4 with command clangd fallback
+[/home/georgezhang/src/linux/mm]
+/usr/bin/clang /home/georgezhang/src/linux/mm/slub.c -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:35:19.030] --> textDocument/clangd.fileStatus
+I[14:35:19.073] <-- textDocument/documentLink(23)
+I[14:35:19.146] --> reply:textDocument/codeAction(22) 131 ms
+I[14:35:19.146] Skipping rebuild of the AST for /home/georgezhang/src/linux/mm/slub.c, inputs are the same.
+I[14:35:19.157] --> textDocument/publishDiagnostics
+I[14:35:19.158] --> reply:textDocument/documentLink(23) 84 ms
+I[14:35:19.158] --> textDocument/clangd.fileStatus
+I[14:35:22.553] <-- textDocument/didChange
+I[14:35:22.554] <-- textDocument/didChange
+I[14:35:22.560] --> textDocument/clangd.fileStatus
+I[14:35:22.673] <-- textDocument/documentLink(24)
+I[14:35:22.673] Failed to find compilation database for /home/georgezhang/src/linux/mm/slub.c
+I[14:35:22.674] ASTWorker building file /home/georgezhang/src/linux/mm/slub.c version 6 with command clangd fallback
+[/home/georgezhang/src/linux/mm]
+/usr/bin/clang /home/georgezhang/src/linux/mm/slub.c -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:35:22.684] --> textDocument/clangd.fileStatus
+I[14:35:22.870] --> reply:textDocument/documentLink(24) 197 ms
+I[14:35:22.870] Skipping rebuild of the AST for /home/georgezhang/src/linux/mm/slub.c, inputs are the same.
+I[14:35:22.893] --> textDocument/publishDiagnostics
+I[14:35:22.894] --> textDocument/clangd.fileStatus
+I[14:35:23.298] <-- textDocument/didChange
+I[14:35:23.299] <-- textDocument/didChange
+I[14:35:23.309] --> textDocument/clangd.fileStatus
+I[14:35:23.570] Failed to find compilation database for /home/georgezhang/src/linux/mm/slub.c
+I[14:35:23.571] ASTWorker building file /home/georgezhang/src/linux/mm/slub.c version 8 with command clangd fallback
+[/home/georgezhang/src/linux/mm]
+/usr/bin/clang /home/georgezhang/src/linux/mm/slub.c -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:35:23.575] --> textDocument/clangd.fileStatus
+I[14:35:23.575] --> textDocument/clangd.fileStatus
+I[14:35:23.576] --> textDocument/clangd.fileStatus
+I[14:35:23.794] --> textDocument/publishDiagnostics
+I[14:35:23.795] --> textDocument/clangd.fileStatus
+I[14:35:23.810] <-- textDocument/didChange
+I[14:35:23.811] <-- textDocument/completion(25)
+I[14:35:23.811] --> textDocument/clangd.fileStatus
+I[14:35:23.871] Code complete: Ignoring sema code complete callback with Recovery context.
+I[14:35:23.872] Code complete: 0 results from Sema, 0 from Index, 0 matched, 0 from identifiers, 0 returned.
+I[14:35:23.872] --> reply:textDocument/completion(25) 61 ms
+I[14:35:24.082] Failed to find compilation database for /home/georgezhang/src/linux/mm/slub.c
+I[14:35:24.082] ASTWorker building file /home/georgezhang/src/linux/mm/slub.c version 9 with command clangd fallback
+[/home/georgezhang/src/linux/mm]
+/usr/bin/clang /home/georgezhang/src/linux/mm/slub.c -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:35:24.086] --> textDocument/clangd.fileStatus
+I[14:35:24.089] --> textDocument/clangd.fileStatus
+I[14:35:24.090] --> textDocument/clangd.fileStatus
+I[14:35:24.420] <-- textDocument/codeAction(26)
+I[14:35:24.420] <-- textDocument/documentLink(27)
+I[14:35:24.462] --> textDocument/publishDiagnostics
+I[14:35:24.463] --> reply:textDocument/codeAction(26) 43 ms
+I[14:35:24.463] --> reply:textDocument/documentLink(27) 43 ms
+I[14:35:24.464] --> textDocument/clangd.fileStatus
+I[14:35:24.821] <-- textDocument/codeAction(28)
+I[14:35:24.822] --> reply:textDocument/codeAction(28) 0 ms
+I[14:35:24.822] --> textDocument/clangd.fileStatus
+I[14:35:26.156] <-- textDocument/codeAction(29)
+I[14:35:26.157] --> reply:textDocument/codeAction(29) 0 ms
+I[14:35:26.157] --> textDocument/clangd.fileStatus
+I[14:35:28.708] <-- textDocument/documentSymbol(30)
+I[14:35:28.729] --> reply:textDocument/documentSymbol(30) 21 ms
+I[14:35:28.732] --> textDocument/clangd.fileStatus
+I[14:35:48.497] <-- textDocument/didChange
+I[14:35:48.498] --> textDocument/clangd.fileStatus
+I[14:35:48.608] <-- textDocument/codeAction(31)
+I[14:35:48.608] <-- textDocument/documentLink(32)
+I[14:35:48.608] <-- textDocument/hover(33)
+I[14:35:48.608] <-- $/cancelRequest
+I[14:35:48.609] Failed to find compilation database for /home/georgezhang/src/linux/mm/slub.c
+I[14:35:48.610] ASTWorker building file /home/georgezhang/src/linux/mm/slub.c version 10 with command clangd fallback
+[/home/georgezhang/src/linux/mm]
+/usr/bin/clang /home/georgezhang/src/linux/mm/slub.c -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:35:48.616] --> textDocument/clangd.fileStatus
+I[14:35:48.850] --> reply:textDocument/codeAction(31) 242 ms
+I[14:35:48.850] Skipping rebuild of the AST for /home/georgezhang/src/linux/mm/slub.c, inputs are the same.
+I[14:35:48.874] --> textDocument/publishDiagnostics
+I[14:35:48.875] --> reply:textDocument/documentLink(32) 267 ms
+I[14:35:48.876] --> reply:textDocument/hover(33) 267 ms, error: Task was cancelled.
+I[14:35:48.876] --> textDocument/clangd.fileStatus
+I[14:35:49.033] <-- textDocument/hover(34)
+I[14:35:49.035] --> reply:textDocument/hover(34) 2 ms
+I[14:35:49.035] --> textDocument/clangd.fileStatus
+I[14:35:49.163] <-- textDocument/codeAction(35)
+I[14:35:49.164] --> reply:textDocument/codeAction(35) 0 ms
+I[14:35:49.164] --> textDocument/clangd.fileStatus
+I[14:35:50.131] <-- textDocument/documentSymbol(36)
+I[14:35:50.149] --> reply:textDocument/documentSymbol(36) 17 ms
+I[14:35:50.151] --> textDocument/clangd.fileStatus
+I[14:35:51.290] <-- textDocument/hover(37)
+I[14:35:51.292] --> reply:textDocument/hover(37) 1 ms
+I[14:35:51.292] --> textDocument/clangd.fileStatus
+I[14:35:51.452] <-- textDocument/documentHighlight(38)
+I[14:35:51.453] --> reply:textDocument/documentHighlight(38) 0 ms
+I[14:35:51.453] --> textDocument/clangd.fileStatus
+I[14:35:51.676] <-- textDocument/codeAction(39)
+I[14:35:51.677] --> reply:textDocument/codeAction(39) 1 ms
+I[14:35:51.677] --> textDocument/clangd.fileStatus
+I[14:35:52.494] <-- textDocument/didChange
+I[14:35:52.495] <-- textDocument/completion(40)
+I[14:35:52.496] --> reply:textDocument/completion(40) 0 ms
+I[14:35:52.496] --> textDocument/clangd.fileStatus
+I[14:35:52.659] <-- textDocument/didChange
+I[14:35:52.659] <-- textDocument/completion(41)
+I[14:35:52.659] --> reply:textDocument/completion(41) 0 ms
+I[14:35:52.659] --> textDocument/clangd.fileStatus
+I[14:35:52.846] <-- textDocument/codeAction(42)
+I[14:35:52.846] Failed to find compilation database for /home/georgezhang/src/linux/mm/slub.c
+I[14:35:52.848] ASTWorker building file /home/georgezhang/src/linux/mm/slub.c version 12 with command clangd fallback
+[/home/georgezhang/src/linux/mm]
+/usr/bin/clang /home/georgezhang/src/linux/mm/slub.c -fsyntax-only -resource-dir=/usr/lib64/clang/11.0.1
+I[14:35:52.855] --> textDocument/clangd.fileStatus
+I[14:35:52.944] --> reply:textDocument/codeAction(42) 97 ms
+I[14:35:52.944] Skipping rebuild of the AST for /home/georgezhang/src/linux/mm/slub.c, inputs are the same.
+I[14:35:52.954] --> textDocument/publishDiagnostics
+I[14:35:52.955] --> textDocument/clangd.fileStatus
+I[14:35:53.236] <-- textDocument/codeAction(43)
+I[14:35:53.237] --> reply:textDocument/codeAction(43) 0 ms
+I[14:35:53.237] --> textDocument/clangd.fileStatus
+I[14:35:53.441] <-- textDocument/documentLink(44)
+I[14:35:53.441] --> reply:textDocument/documentLink(44) 0 ms
+I[14:35:53.442] --> textDocument/clangd.fileStatus
+I[14:35:53.641] <-- textDocument/codeAction(45)
+I[14:35:53.644] --> reply:textDocument/codeAction(45) 2 ms
+I[14:35:53.644] --> textDocument/clangd.fileStatus
+I[14:35:54.021] <-- textDocument/codeAction(46)
+I[14:35:54.021] --> reply:textDocument/codeAction(46) 0 ms
+I[14:35:54.022] --> textDocument/clangd.fileStatus
+I[14:35:55.254] <-- textDocument/codeAction(47)
+I[14:35:55.255] --> reply:textDocument/codeAction(47) 0 ms
+I[14:35:55.255] --> textDocument/clangd.fileStatus
+I[14:35:56.193] <-- textDocument/documentSymbol(48)
+I[14:35:56.213] --> reply:textDocument/documentSymbol(48) 20 ms
+I[14:35:56.216] --> textDocument/clangd.fileStatus
+I[14:36:07.236] <-- textDocument/hover(49)
+I[14:36:07.239] --> reply:textDocument/hover(49) 3 ms
+I[14:36:07.239] --> textDocument/clangd.fileStatus
+I[14:36:07.972] <-- textDocument/documentHighlight(50)
+I[14:36:07.972] --> reply:textDocument/documentHighlight(50) 0 ms
+I[14:36:07.972] --> textDocument/clangd.fileStatus
+I[14:36:08.185] <-- textDocument/hover(51)
+I[14:36:08.189] --> reply:textDocument/hover(51) 3 ms
+I[14:36:08.189] --> textDocument/clangd.fileStatus
+I[14:36:08.196] <-- textDocument/codeAction(52)
+I[14:36:08.197] --> reply:textDocument/codeAction(52) 0 ms
+I[14:36:08.197] --> textDocument/clangd.fileStatus
+I[14:36:10.791] <-- textDocument/codeAction(53)
+I[14:36:10.792] --> reply:textDocument/codeAction(53) 1 ms
+I[14:36:10.793] --> textDocument/clangd.fileStatus
